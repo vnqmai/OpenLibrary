@@ -7,6 +7,7 @@ namespace RavenDB_Embedded.Models
 {
     public class PhanBoSach
     {
+        public string Id { get; set; }
         public string MaSach { get; set; }
         public string MaChiNhanh { get; set; }
         public int SoLuongGoc { get; set; }

@@ -182,15 +182,14 @@ namespace RavenDB_Embedded
         }
 
         //store
-        public static void AddPhieuMuon(Object x)
+        public static void Add(Object x)
         {
             using (var session = store.OpenSession())
             {
                 session.Store(x);
                 session.SaveChanges();                
             }
-           // store.Dispose();
-            
+           // store.Dispose();            
         }
         public static PhanBoSach TimPhanBoSach(string masach, string macn)
         {

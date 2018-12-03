@@ -49,7 +49,7 @@ namespace RavenDB_Embedded.Controllers
                 if (dg.DangKyMuon(new List<PMSItem>(), null, null) != null)//kiểm tra đăng ký được
                 {
                     // tạo phiếu mới trống
-                    RavenDBHelper.AddPhieuMuon(new PhieuMuonSachGV());
+                    RavenDBHelper.Add(new PhieuMuonSachGV());
                     PhieuMuonSachGV pmsgv = new PhieuMuonSachGV();
                     do
                     {
@@ -63,14 +63,20 @@ namespace RavenDB_Embedded.Controllers
                     List<PMSItem> listsach = HttpContext.Session.Get<List<PMSItem>>("PMSItems");
                     foreach (PMSItem p in listsach)
                     {
+                        //gán id cho các chi tiết mượn
                         p.PMSID = pmsid;
+
+                        //cập nhật số lượng còn kho sách
+                        PhanBoSach pb = RavenDBHelper.TimPhanBoSach(p.SachId,maCN);
+                        pb.SoLuongCon -= p.SoLuong;                        
+                        RavenDBHelper.Add(pb);
                     }
 
                     //Add nội dung vào phiếu mượn sách đã tạo
                     if (pmsgv != null)
                     {
-                        RavenDBHelper.AddPhieuMuon(dg.DangKyMuon(listsach, maCN, ngay));                        
-                    }
+                        RavenDBHelper.Add(dg.DangKyMuon(listsach, maCN, ngay));                        
+                    }                    
                     ViewBag.Status = "Đăng ký thành công!";
                 }                
                 else ViewBag.Status = "Không thể mượn sách!";

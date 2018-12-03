@@ -13422,11 +13422,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Hoc Tap\\Chuyen Nganh\\Nam 3\\Co So Du Lieu Nang Cao\\CuoiKy_RavenDB\\CSDLNC_Demo\\RavenDB_Embedded\\RavenDB_Embedded\\RavenDB_Embedded.csproj",
+      "projectUniqueName": "C:\\Users\\vnqma\\OneDrive\\Documents\\GitHub\\OpenLibrary\\RavenDB_Embedded\\RavenDB_Embedded\\RavenDB_Embedded.csproj",
       "projectName": "RavenDB_Embedded",
-      "projectPath": "F:\\Hoc Tap\\Chuyen Nganh\\Nam 3\\Co So Du Lieu Nang Cao\\CuoiKy_RavenDB\\CSDLNC_Demo\\RavenDB_Embedded\\RavenDB_Embedded\\RavenDB_Embedded.csproj",
+      "projectPath": "C:\\Users\\vnqma\\OneDrive\\Documents\\GitHub\\OpenLibrary\\RavenDB_Embedded\\RavenDB_Embedded\\RavenDB_Embedded.csproj",
       "packagesPath": "C:\\Users\\vnqma\\.nuget\\packages\\",
-      "outputPath": "F:\\Hoc Tap\\Chuyen Nganh\\Nam 3\\Co So Du Lieu Nang Cao\\CuoiKy_RavenDB\\CSDLNC_Demo\\RavenDB_Embedded\\RavenDB_Embedded\\obj\\",
+      "outputPath": "C:\\Users\\vnqma\\OneDrive\\Documents\\GitHub\\OpenLibrary\\RavenDB_Embedded\\RavenDB_Embedded\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
