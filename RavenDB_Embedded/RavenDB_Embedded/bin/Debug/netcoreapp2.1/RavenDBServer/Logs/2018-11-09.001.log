@@ -1,0 +1,565 @@
+Time,	Thread,	Level,	Source,	Logger,	Message,	Exception
+2018-11-09T08:12:30.2907830Z, 1, Operations, Server, Raven.Server.Program,  Build 41004, Version 4.1, SemVer 4.1.2, Commit 95419d2
+ PID 13288, 64 bits, 4 Cores, Arch: X64
+ 3.936 GBytes Physical Memory, 715.23 MBytes Available Memory, 741.67 MBytes Calculated Available Memory
+ Using GC in server concurrent mode retaining memory from the OS.
+2018-11-09T08:12:32.8300734Z, 1, Operations, Server, Raven.Server.ServerWide.SecretProtection, Server certificate CN=admin.client.certificate.nhom85from C:/Users/vnqma/source/repos/RavenDB_Embedded/RavenDB_Embedded/nhom85.Cluster.Settings/Cer/admin.client.certificate.nhom85.pfx must be defined with the following 'Enhanced Key Usages': Client Authentication (Oid 1.3.6.1.5.5.7.3.2) & Server Authentication (Oid 1.3.6.1.5.5.7.3.1)
+2018-11-09T08:12:32.8402810Z, 1, Operations, Server, Raven.Server.Program, Failed to initialize the server, EXCEPTION: System.InvalidOperationException: Unable to start the server due to invalid certificate configuration! Admin assistance required. ---> System.InvalidOperationException: Could not load certificate file C:/Users/vnqma/source/repos/RavenDB_Embedded/RavenDB_Embedded/nhom85.Cluster.Settings/Cer/admin.client.certificate.nhom85.pfx ---> Org.BouncyCastle.Security.EncryptionException: Server certificate CN=admin.client.certificate.nhom85from C:/Users/vnqma/source/repos/RavenDB_Embedded/RavenDB_Embedded/nhom85.Cluster.Settings/Cer/admin.client.certificate.nhom85.pfx must be defined with the following 'Enhanced Key Usages': Client Authentication (Oid 1.3.6.1.5.5.7.3.2) & Server Authentication (Oid 1.3.6.1.5.5.7.3.1)
+   at Raven.Server.ServerWide.SecretProtection.ValidateKeyUsages(String source, X509Certificate2 loadedCertificate) in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\ServerWide\SecretProtection.cs:line 694
+   at Raven.Server.ServerWide.SecretProtection.LoadCertificateFromPath(String path, String password, ServerStore serverStore) in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\ServerWide\SecretProtection.cs:line 572
+   --- End of inner exception stack trace ---
+   at Raven.Server.ServerWide.SecretProtection.LoadCertificateFromPath(String path, String password, ServerStore serverStore) in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\ServerWide\SecretProtection.cs:line 581
+   at Raven.Server.RavenServer.LoadCertificate() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 796
+   --- End of inner exception stack trace ---
+   at Raven.Server.RavenServer.LoadCertificate() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 804
+   at Raven.Server.RavenServer.Initialize() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 120
+   at Raven.Server.Program.Main(String[] args) in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\Program.cs:line 149
+2018-11-09T08:12:32.9170911Z, 1, Operations, Server, Raven.Server.Program, 
+2018-11-09T08:12:33.1396639Z, 1, Operations, Server, Raven.Server.Program, Server has shut down
+Time,	Thread,	Level,	Source,	Logger,	Message,	Exception
+2018-11-09T08:14:09.1695681Z, 1, Operations, Server, Raven.Server.Program,  Build 41004, Version 4.1, SemVer 4.1.2, Commit 95419d2
+ PID 8644, 64 bits, 4 Cores, Arch: X64
+ 3.936 GBytes Physical Memory, 729.03 MBytes Available Memory, 755.45 MBytes Calculated Available Memory
+ Using GC in server concurrent mode retaining memory from the OS.
+2018-11-09T08:14:09.7684137Z, 1, Operations, Server, Raven.Server.ServerWide.SecretProtection, Server certificate CN=cluster.server.certificate.nhom85from C:/Users/vnqma/source/repos/RavenDB_Embedded/RavenDB_Embedded/nhom85.Cluster.Settings/Cer/cluster.server.certificate.nhom85.pfx must be defined with the following 'Enhanced Key Usages': Client Authentication (Oid 1.3.6.1.5.5.7.3.2) & Server Authentication (Oid 1.3.6.1.5.5.7.3.1)
+2018-11-09T08:14:09.7688384Z, 1, Operations, Server, Raven.Server.Program, Failed to initialize the server, EXCEPTION: System.InvalidOperationException: Unable to start the server due to invalid certificate configuration! Admin assistance required. ---> System.InvalidOperationException: Could not load certificate file C:/Users/vnqma/source/repos/RavenDB_Embedded/RavenDB_Embedded/nhom85.Cluster.Settings/Cer/cluster.server.certificate.nhom85.pfx ---> Org.BouncyCastle.Security.EncryptionException: Server certificate CN=cluster.server.certificate.nhom85from C:/Users/vnqma/source/repos/RavenDB_Embedded/RavenDB_Embedded/nhom85.Cluster.Settings/Cer/cluster.server.certificate.nhom85.pfx must be defined with the following 'Enhanced Key Usages': Client Authentication (Oid 1.3.6.1.5.5.7.3.2) & Server Authentication (Oid 1.3.6.1.5.5.7.3.1)
+   at Raven.Server.ServerWide.SecretProtection.ValidateKeyUsages(String source, X509Certificate2 loadedCertificate) in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\ServerWide\SecretProtection.cs:line 694
+   at Raven.Server.ServerWide.SecretProtection.LoadCertificateFromPath(String path, String password, ServerStore serverStore) in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\ServerWide\SecretProtection.cs:line 572
+   --- End of inner exception stack trace ---
+   at Raven.Server.ServerWide.SecretProtection.LoadCertificateFromPath(String path, String password, ServerStore serverStore) in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\ServerWide\SecretProtection.cs:line 581
+   at Raven.Server.RavenServer.LoadCertificate() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 796
+   --- End of inner exception stack trace ---
+   at Raven.Server.RavenServer.LoadCertificate() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 804
+   at Raven.Server.RavenServer.Initialize() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 120
+   at Raven.Server.Program.Main(String[] args) in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\Program.cs:line 149
+2018-11-09T08:14:09.8274445Z, 1, Operations, Server, Raven.Server.Program, 
+2018-11-09T08:14:09.8618479Z, 1, Operations, Server, Raven.Server.Program, Server has shut down
+Time,	Thread,	Level,	Source,	Logger,	Message,	Exception
+2018-11-09T08:22:16.7646491Z, 1, Operations, Server, Raven.Server.Program,  Build 41004, Version 4.1, SemVer 4.1.2, Commit 95419d2
+ PID 9840, 64 bits, 4 Cores, Arch: X64
+ 3.936 GBytes Physical Memory, 658.88 MBytes Available Memory, 685.32 MBytes Calculated Available Memory
+ Using GC in server concurrent mode retaining memory from the OS.
+2018-11-09T08:22:17.4030654Z, 1, Operations, Server, Raven.Server.ServerWide.SecretProtection, Server certificate CN=cluster.server.certificate.nhom85from C:/Users/vnqma/source/repos/RavenDB_Embedded/RavenDB_Embedded/nhom85.Cluster.Settings/Cer/cluster.server.certificate.nhom85.pfx must be defined with the following 'Enhanced Key Usages': Client Authentication (Oid 1.3.6.1.5.5.7.3.2) & Server Authentication (Oid 1.3.6.1.5.5.7.3.1)
+2018-11-09T08:22:17.4034857Z, 1, Operations, Server, Raven.Server.Program, Failed to initialize the server, EXCEPTION: System.InvalidOperationException: Unable to start the server due to invalid certificate configuration! Admin assistance required. ---> System.InvalidOperationException: Could not load certificate file C:/Users/vnqma/source/repos/RavenDB_Embedded/RavenDB_Embedded/nhom85.Cluster.Settings/Cer/cluster.server.certificate.nhom85.pfx ---> Org.BouncyCastle.Security.EncryptionException: Server certificate CN=cluster.server.certificate.nhom85from C:/Users/vnqma/source/repos/RavenDB_Embedded/RavenDB_Embedded/nhom85.Cluster.Settings/Cer/cluster.server.certificate.nhom85.pfx must be defined with the following 'Enhanced Key Usages': Client Authentication (Oid 1.3.6.1.5.5.7.3.2) & Server Authentication (Oid 1.3.6.1.5.5.7.3.1)
+   at Raven.Server.ServerWide.SecretProtection.ValidateKeyUsages(String source, X509Certificate2 loadedCertificate) in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\ServerWide\SecretProtection.cs:line 694
+   at Raven.Server.ServerWide.SecretProtection.LoadCertificateFromPath(String path, String password, ServerStore serverStore) in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\ServerWide\SecretProtection.cs:line 572
+   --- End of inner exception stack trace ---
+   at Raven.Server.ServerWide.SecretProtection.LoadCertificateFromPath(String path, String password, ServerStore serverStore) in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\ServerWide\SecretProtection.cs:line 581
+   at Raven.Server.RavenServer.LoadCertificate() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 796
+   --- End of inner exception stack trace ---
+   at Raven.Server.RavenServer.LoadCertificate() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 804
+   at Raven.Server.RavenServer.Initialize() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 120
+   at Raven.Server.Program.Main(String[] args) in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\Program.cs:line 149
+2018-11-09T08:22:17.4703000Z, 1, Operations, Server, Raven.Server.Program, 
+2018-11-09T08:22:17.5125724Z, 1, Operations, Server, Raven.Server.Program, Server has shut down
+Time,	Thread,	Level,	Source,	Logger,	Message,	Exception
+2018-11-09T08:25:42.0015567Z, 1, Operations, Server, Raven.Server.Program,  Build 41004, Version 4.1, SemVer 4.1.2, Commit 95419d2
+ PID 6120, 64 bits, 4 Cores, Arch: X64
+ 3.936 GBytes Physical Memory, 695.03 MBytes Available Memory, 721.38 MBytes Calculated Available Memory
+ Using GC in server concurrent mode retaining memory from the OS.
+2018-11-09T08:25:42.6170963Z, 1, Operations, Server, Raven.Server.ServerWide.SecretProtection, Server certificate CN=cluster.server.certificate.nhom85from C:/Users/vnqma/source/repos/RavenDB_Embedded/RavenDB_Embedded/nhom85.Cluster.Settings/Cer/cluster.server.certificate.nhom85.pfx must be defined with the following 'Enhanced Key Usages': Client Authentication (Oid 1.3.6.1.5.5.7.3.2) & Server Authentication (Oid 1.3.6.1.5.5.7.3.1)
+2018-11-09T08:25:42.6175850Z, 1, Operations, Server, Raven.Server.Program, Failed to initialize the server, EXCEPTION: System.InvalidOperationException: Unable to start the server due to invalid certificate configuration! Admin assistance required. ---> System.InvalidOperationException: Could not load certificate file C:/Users/vnqma/source/repos/RavenDB_Embedded/RavenDB_Embedded/nhom85.Cluster.Settings/Cer/cluster.server.certificate.nhom85.pfx ---> Org.BouncyCastle.Security.EncryptionException: Server certificate CN=cluster.server.certificate.nhom85from C:/Users/vnqma/source/repos/RavenDB_Embedded/RavenDB_Embedded/nhom85.Cluster.Settings/Cer/cluster.server.certificate.nhom85.pfx must be defined with the following 'Enhanced Key Usages': Client Authentication (Oid 1.3.6.1.5.5.7.3.2) & Server Authentication (Oid 1.3.6.1.5.5.7.3.1)
+   at Raven.Server.ServerWide.SecretProtection.ValidateKeyUsages(String source, X509Certificate2 loadedCertificate) in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\ServerWide\SecretProtection.cs:line 694
+   at Raven.Server.ServerWide.SecretProtection.LoadCertificateFromPath(String path, String password, ServerStore serverStore) in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\ServerWide\SecretProtection.cs:line 572
+   --- End of inner exception stack trace ---
+   at Raven.Server.ServerWide.SecretProtection.LoadCertificateFromPath(String path, String password, ServerStore serverStore) in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\ServerWide\SecretProtection.cs:line 581
+   at Raven.Server.RavenServer.LoadCertificate() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 796
+   --- End of inner exception stack trace ---
+   at Raven.Server.RavenServer.LoadCertificate() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 804
+   at Raven.Server.RavenServer.Initialize() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 120
+   at Raven.Server.Program.Main(String[] args) in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\Program.cs:line 149
+2018-11-09T08:25:42.6816335Z, 1, Operations, Server, Raven.Server.Program, 
+2018-11-09T08:25:42.7167441Z, 1, Operations, Server, Raven.Server.Program, Server has shut down
+Time,	Thread,	Level,	Source,	Logger,	Message,	Exception
+2018-11-09T08:27:17.0251954Z, 1, Operations, Server, Raven.Server.Program,  Build 41004, Version 4.1, SemVer 4.1.2, Commit 95419d2
+ PID 7784, 64 bits, 4 Cores, Arch: X64
+ 3.936 GBytes Physical Memory, 671.09 MBytes Available Memory, 697.43 MBytes Calculated Available Memory
+ Using GC in server concurrent mode retaining memory from the OS.
+2018-11-09T08:27:17.7550447Z, 1, Operations, Server, Raven.Server.ServerWide.SecretProtection, Server certificate CN=admin.client.certificate.nhom85from C:/Users/vnqma/source/repos/RavenDB_Embedded/RavenDB_Embedded/nhom85.Cluster.Settings/Cer/admin.client.certificate.nhom85.pfx must be defined with the following 'Enhanced Key Usages': Client Authentication (Oid 1.3.6.1.5.5.7.3.2) & Server Authentication (Oid 1.3.6.1.5.5.7.3.1)
+2018-11-09T08:27:17.7560225Z, 1, Operations, Server, Raven.Server.Program, Failed to initialize the server, EXCEPTION: System.InvalidOperationException: Unable to start the server due to invalid certificate configuration! Admin assistance required. ---> System.InvalidOperationException: Could not load certificate file C:/Users/vnqma/source/repos/RavenDB_Embedded/RavenDB_Embedded/nhom85.Cluster.Settings/Cer/admin.client.certificate.nhom85.pfx ---> Org.BouncyCastle.Security.EncryptionException: Server certificate CN=admin.client.certificate.nhom85from C:/Users/vnqma/source/repos/RavenDB_Embedded/RavenDB_Embedded/nhom85.Cluster.Settings/Cer/admin.client.certificate.nhom85.pfx must be defined with the following 'Enhanced Key Usages': Client Authentication (Oid 1.3.6.1.5.5.7.3.2) & Server Authentication (Oid 1.3.6.1.5.5.7.3.1)
+   at Raven.Server.ServerWide.SecretProtection.ValidateKeyUsages(String source, X509Certificate2 loadedCertificate) in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\ServerWide\SecretProtection.cs:line 694
+   at Raven.Server.ServerWide.SecretProtection.LoadCertificateFromPath(String path, String password, ServerStore serverStore) in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\ServerWide\SecretProtection.cs:line 572
+   --- End of inner exception stack trace ---
+   at Raven.Server.ServerWide.SecretProtection.LoadCertificateFromPath(String path, String password, ServerStore serverStore) in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\ServerWide\SecretProtection.cs:line 581
+   at Raven.Server.RavenServer.LoadCertificate() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 796
+   --- End of inner exception stack trace ---
+   at Raven.Server.RavenServer.LoadCertificate() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 804
+   at Raven.Server.RavenServer.Initialize() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 120
+   at Raven.Server.Program.Main(String[] args) in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\Program.cs:line 149
+2018-11-09T08:27:17.8348400Z, 1, Operations, Server, Raven.Server.Program, 
+2018-11-09T08:27:17.8776768Z, 1, Operations, Server, Raven.Server.Program, Server has shut down
+Time,	Thread,	Level,	Source,	Logger,	Message,	Exception
+2018-11-09T08:27:59.4379336Z, 1, Operations, Server, Raven.Server.Program,  Build 41004, Version 4.1, SemVer 4.1.2, Commit 95419d2
+ PID 7124, 64 bits, 4 Cores, Arch: X64
+ 3.936 GBytes Physical Memory, 786.13 MBytes Available Memory, 812.49 MBytes Calculated Available Memory
+ Using GC in server concurrent mode retaining memory from the OS.
+2018-11-09T08:28:00.1654608Z, 1, Operations, Server, Raven.Server.ServerWide.SecretProtection, Server certificate CN=cluster.server.certificate.nhom85from C:/Users/vnqma/source/repos/RavenDB_Embedded/RavenDB_Embedded/nhom85.Cluster.Settings/Cer/cluster.server.certificate.nhom85.pfx must be defined with the following 'Enhanced Key Usages': Client Authentication (Oid 1.3.6.1.5.5.7.3.2) & Server Authentication (Oid 1.3.6.1.5.5.7.3.1)
+2018-11-09T08:28:00.1658689Z, 1, Operations, Server, Raven.Server.Program, Failed to initialize the server, EXCEPTION: System.InvalidOperationException: Unable to start the server due to invalid certificate configuration! Admin assistance required. ---> System.InvalidOperationException: Could not load certificate file C:/Users/vnqma/source/repos/RavenDB_Embedded/RavenDB_Embedded/nhom85.Cluster.Settings/Cer/cluster.server.certificate.nhom85.pfx ---> Org.BouncyCastle.Security.EncryptionException: Server certificate CN=cluster.server.certificate.nhom85from C:/Users/vnqma/source/repos/RavenDB_Embedded/RavenDB_Embedded/nhom85.Cluster.Settings/Cer/cluster.server.certificate.nhom85.pfx must be defined with the following 'Enhanced Key Usages': Client Authentication (Oid 1.3.6.1.5.5.7.3.2) & Server Authentication (Oid 1.3.6.1.5.5.7.3.1)
+   at Raven.Server.ServerWide.SecretProtection.ValidateKeyUsages(String source, X509Certificate2 loadedCertificate) in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\ServerWide\SecretProtection.cs:line 694
+   at Raven.Server.ServerWide.SecretProtection.LoadCertificateFromPath(String path, String password, ServerStore serverStore) in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\ServerWide\SecretProtection.cs:line 572
+   --- End of inner exception stack trace ---
+   at Raven.Server.ServerWide.SecretProtection.LoadCertificateFromPath(String path, String password, ServerStore serverStore) in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\ServerWide\SecretProtection.cs:line 581
+   at Raven.Server.RavenServer.LoadCertificate() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 796
+   --- End of inner exception stack trace ---
+   at Raven.Server.RavenServer.LoadCertificate() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 804
+   at Raven.Server.RavenServer.Initialize() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 120
+   at Raven.Server.Program.Main(String[] args) in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\Program.cs:line 149
+2018-11-09T08:28:00.2302522Z, 1, Operations, Server, Raven.Server.Program, 
+2018-11-09T08:28:00.2690283Z, 1, Operations, Server, Raven.Server.Program, Server has shut down
+Time,	Thread,	Level,	Source,	Logger,	Message,	Exception
+2018-11-09T08:40:43.7939291Z, 1, Operations, Server, Raven.Server.Program,  Build 41004, Version 4.1, SemVer 4.1.2, Commit 95419d2
+ PID 13684, 64 bits, 4 Cores, Arch: X64
+ 3.936 GBytes Physical Memory, 574.22 MBytes Available Memory, 600.75 MBytes Calculated Available Memory
+ Using GC in server concurrent mode retaining memory from the OS.
+2018-11-09T08:40:44.5225815Z, 1, Operations, Server, Raven.Server.ServerWide.SecretProtection, Server certificate CN=cluster.server.certificate.nhom85from C:/Users/vnqma/source/repos/RavenDB_Embedded/RavenDB_Embedded/nhom85.Cluster.Settings/Cer/cluster.server.certificate.nhom85.pfx must be defined with the following 'Enhanced Key Usages': Client Authentication (Oid 1.3.6.1.5.5.7.3.2) & Server Authentication (Oid 1.3.6.1.5.5.7.3.1)
+2018-11-09T08:40:44.5238395Z, 1, Operations, Server, Raven.Server.Program, Failed to initialize the server, EXCEPTION: System.InvalidOperationException: Unable to start the server due to invalid certificate configuration! Admin assistance required. ---> System.InvalidOperationException: Could not load certificate file C:/Users/vnqma/source/repos/RavenDB_Embedded/RavenDB_Embedded/nhom85.Cluster.Settings/Cer/cluster.server.certificate.nhom85.pfx ---> Org.BouncyCastle.Security.EncryptionException: Server certificate CN=cluster.server.certificate.nhom85from C:/Users/vnqma/source/repos/RavenDB_Embedded/RavenDB_Embedded/nhom85.Cluster.Settings/Cer/cluster.server.certificate.nhom85.pfx must be defined with the following 'Enhanced Key Usages': Client Authentication (Oid 1.3.6.1.5.5.7.3.2) & Server Authentication (Oid 1.3.6.1.5.5.7.3.1)
+   at Raven.Server.ServerWide.SecretProtection.ValidateKeyUsages(String source, X509Certificate2 loadedCertificate) in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\ServerWide\SecretProtection.cs:line 694
+   at Raven.Server.ServerWide.SecretProtection.LoadCertificateFromPath(String path, String password, ServerStore serverStore) in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\ServerWide\SecretProtection.cs:line 572
+   --- End of inner exception stack trace ---
+   at Raven.Server.ServerWide.SecretProtection.LoadCertificateFromPath(String path, String password, ServerStore serverStore) in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\ServerWide\SecretProtection.cs:line 581
+   at Raven.Server.RavenServer.LoadCertificate() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 796
+   --- End of inner exception stack trace ---
+   at Raven.Server.RavenServer.LoadCertificate() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 804
+   at Raven.Server.RavenServer.Initialize() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 120
+   at Raven.Server.Program.Main(String[] args) in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\Program.cs:line 149
+2018-11-09T08:40:44.5987079Z, 1, Operations, Server, Raven.Server.Program, 
+2018-11-09T08:40:44.6511076Z, 1, Operations, Server, Raven.Server.Program, Server has shut down
+Time,	Thread,	Level,	Source,	Logger,	Message,	Exception
+2018-11-09T08:45:42.1670487Z, 1, Operations, Server, Raven.Server.Program,  Build 41004, Version 4.1, SemVer 4.1.2, Commit 95419d2
+ PID 11168, 64 bits, 4 Cores, Arch: X64
+ 3.936 GBytes Physical Memory, 341.94 MBytes Available Memory, 368.09 MBytes Calculated Available Memory
+ Using GC in server concurrent mode retaining memory from the OS.
+2018-11-09T08:45:52.1019103Z, 1, Operations, Server, Raven.Server.ServerWide.SecretProtection, Server certificate CN=cluster.server.certificate.nhom85from C:/Users/vnqma/source/repos/RavenDB_Embedded/RavenDB_Embedded/nhom85.Cluster.Settings/Cer/cluster.server.certificate.nhom85.pfx must be defined with the following 'Enhanced Key Usages': Client Authentication (Oid 1.3.6.1.5.5.7.3.2) & Server Authentication (Oid 1.3.6.1.5.5.7.3.1)
+2018-11-09T08:45:52.6607468Z, 1, Operations, Server, Raven.Server.Program, Failed to initialize the server, EXCEPTION: System.InvalidOperationException: Unable to start the server due to invalid certificate configuration! Admin assistance required. ---> System.InvalidOperationException: Could not load certificate file C:/Users/vnqma/source/repos/RavenDB_Embedded/RavenDB_Embedded/nhom85.Cluster.Settings/Cer/cluster.server.certificate.nhom85.pfx ---> Org.BouncyCastle.Security.EncryptionException: Server certificate CN=cluster.server.certificate.nhom85from C:/Users/vnqma/source/repos/RavenDB_Embedded/RavenDB_Embedded/nhom85.Cluster.Settings/Cer/cluster.server.certificate.nhom85.pfx must be defined with the following 'Enhanced Key Usages': Client Authentication (Oid 1.3.6.1.5.5.7.3.2) & Server Authentication (Oid 1.3.6.1.5.5.7.3.1)
+   at Raven.Server.ServerWide.SecretProtection.ValidateKeyUsages(String source, X509Certificate2 loadedCertificate) in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\ServerWide\SecretProtection.cs:line 694
+   at Raven.Server.ServerWide.SecretProtection.LoadCertificateFromPath(String path, String password, ServerStore serverStore) in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\ServerWide\SecretProtection.cs:line 572
+   --- End of inner exception stack trace ---
+   at Raven.Server.ServerWide.SecretProtection.LoadCertificateFromPath(String path, String password, ServerStore serverStore) in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\ServerWide\SecretProtection.cs:line 581
+   at Raven.Server.RavenServer.LoadCertificate() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 796
+   --- End of inner exception stack trace ---
+   at Raven.Server.RavenServer.LoadCertificate() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 804
+   at Raven.Server.RavenServer.Initialize() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 120
+   at Raven.Server.Program.Main(String[] args) in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\Program.cs:line 149
+2018-11-09T08:45:56.1237651Z, 1, Operations, Server, Raven.Server.Program, 
+2018-11-09T08:45:56.3878557Z, 1, Operations, Server, Raven.Server.Program, Server has shut down
+Time,	Thread,	Level,	Source,	Logger,	Message,	Exception
+2018-11-09T08:50:10.8843318Z, 1, Operations, Server, Raven.Server.Program,  Build 41004, Version 4.1, SemVer 4.1.2, Commit 95419d2
+ PID 8124, 64 bits, 4 Cores, Arch: X64
+ 3.936 GBytes Physical Memory, 468 MBytes Available Memory, 494.44 MBytes Calculated Available Memory
+ Using GC in server concurrent mode retaining memory from the OS.
+2018-11-09T08:50:16.8176617Z, 1, Operations, Server, Raven.Server.RavenServer, Could not start server, EXCEPTION: System.IO.IOException: Failed to bind to address https://127.0.0.1:443: address already in use. ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted ---> System.Net.Sockets.SocketException: Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransport.BindAsync()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransport.BindAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass22_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.EndpointsStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.Start()
+   at Raven.Server.RavenServer.Initialize() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 215
+2018-11-09T08:50:17.4705141Z, 1, Operations, Server, Raven.Server.Program, Failed to initialize the server, EXCEPTION: System.IO.IOException: Failed to bind to address https://127.0.0.1:443: address already in use. ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted ---> System.Net.Sockets.SocketException: Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransport.BindAsync()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransport.BindAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass22_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.EndpointsStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.Start()
+   at Raven.Server.RavenServer.Initialize() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 215
+   at Raven.Server.Program.Main(String[] args) in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\Program.cs:line 149
+2018-11-09T08:50:17.4714416Z, 1, Operations, Server, Raven.Server.Program, 
+Port might be already in use.
+Try running with an unused port.
+You can change the port using one of the following options:
+1) Change the ServerUrl property in setting.json file.
+2) Run the server from the command line with --ServerUrl option.
+3) Add RAVEN_ServerUrl to the Environment Variables.
+For more information go to https://ravendb.net/l/EJS81M/4.1
+2018-11-09T08:50:17.5487151Z, 1, Operations, Server, Raven.Server.Program, Server has shut down
+Time,	Thread,	Level,	Source,	Logger,	Message,	Exception
+2018-11-09T09:14:48.8259612Z, 1, Operations, Server, Raven.Server.Program,  Build 41004, Version 4.1, SemVer 4.1.2, Commit 95419d2
+ PID 12624, 64 bits, 4 Cores, Arch: X64
+ 3.936 GBytes Physical Memory, 678.07 MBytes Available Memory, 704.74 MBytes Calculated Available Memory
+ Using GC in server concurrent mode retaining memory from the OS.
+2018-11-09T09:14:55.2812342Z, 1, Operations, Server, Raven.Server.RavenServer, During server initialization, validating that the server can authenticate with itself using https://doan.nhom85.ravendb.community.
+2018-11-09T09:14:55.8016701Z, 1, Operations, Server, Raven.Server.RavenServer, HTTPS is on. Setting up a new web host to redirect incoming HTTP traffic on port 80 to HTTPS on port 443. The new web host is listening to http://doan.nhom85.ravendb.community/
+2018-11-09T09:14:56.2317077Z, 1, Operations, Server, Raven.Server.RavenServer, Failed to create a webhost to redirect HTTP traffic to HTTPS, EXCEPTION: System.Net.Sockets.SocketException (10013): An attempt was made to access a socket in a way forbidden by its access permissions
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransport.BindAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass22_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.AnyIPListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.Start()
+   at Raven.Server.RavenServer.RedirectsHttpTrafficToHttps() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 323
+2018-11-09T09:14:57.9879119Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive C is SSD or HDD
+2018-11-09T09:14:57.9881309Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive D is SSD or HDD
+2018-11-09T09:14:57.9882745Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive E is SSD or HDD
+2018-11-09T09:14:57.9884261Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive F is SSD or HDD
+2018-11-09T09:14:57.9885653Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive G is SSD or HDD
+2018-11-09T09:15:11.0113214Z, 14, Operations, ?, Raven.Server.Rachis.RachisConsensus, Took way too much time (00:00:00.1804201) to change the state to LeaderElect in term 1. (Election timeout:00:00:00.3000000)
+2018-11-09T09:15:16.7344307Z, 20, Information, A, Raven.Server.ServerWide.Maintenance.ClusterObserver, We give more time for the 'Northwind' stats to become stable, so we skip analyzing it for now.
+Time,	Thread,	Level,	Source,	Logger,	Message,	Exception
+2018-11-09T10:16:00.2792413Z, 1, Operations, Server, Raven.Server.Program,  Build 41004, Version 4.1, SemVer 4.1.2, Commit 95419d2
+ PID 6796, 64 bits, 4 Cores, Arch: X64
+ 3.936 GBytes Physical Memory, 647.95 MBytes Available Memory, 674.46 MBytes Calculated Available Memory
+ Using GC in server concurrent mode retaining memory from the OS.
+2018-11-09T10:16:05.2974532Z, 1, Operations, Server, Raven.Server.RavenServer, During server initialization, validating that the server can authenticate with itself using https://doan.nhom85.ravendb.community.
+2018-11-09T10:16:05.7145663Z, 1, Operations, Server, Raven.Server.RavenServer, HTTPS is on. Setting up a new web host to redirect incoming HTTP traffic on port 80 to HTTPS on port 443. The new web host is listening to http://doan.nhom85.ravendb.community/
+2018-11-09T10:16:05.8878408Z, 1, Operations, Server, Raven.Server.RavenServer, Failed to create a webhost to redirect HTTP traffic to HTTPS, EXCEPTION: System.Net.Sockets.SocketException (10013): An attempt was made to access a socket in a way forbidden by its access permissions
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransport.BindAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass22_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.AnyIPListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.Start()
+   at Raven.Server.RavenServer.RedirectsHttpTrafficToHttps() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 323
+2018-11-09T10:16:07.2074689Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive C is SSD or HDD
+2018-11-09T10:16:07.2076355Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive D is SSD or HDD
+2018-11-09T10:16:07.2077611Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive E is SSD or HDD
+2018-11-09T10:16:07.2078760Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive F is SSD or HDD
+2018-11-09T10:16:07.2079874Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive G is SSD or HDD
+2018-11-09T10:16:09.5118207Z, 1, Operations, A, Raven.Server.Rachis.RachisConsensus, Took way too much time (00:00:00.1583991) to change the state to LeaderElect in term 2. (Election timeout:00:00:00.3000000)
+Time,	Thread,	Level,	Source,	Logger,	Message,	Exception
+2018-11-09T10:19:06.1292409Z, 1, Operations, Server, Raven.Server.Program,  Build 41004, Version 4.1, SemVer 4.1.2, Commit 95419d2
+ PID 11812, 64 bits, 4 Cores, Arch: X64
+ 3.936 GBytes Physical Memory, 622.03 MBytes Available Memory, 648.56 MBytes Calculated Available Memory
+ Using GC in server concurrent mode retaining memory from the OS.
+2018-11-09T10:19:07.8887352Z, 1, Operations, Server, Raven.Server.RavenServer, During server initialization, validating that the server can authenticate with itself using https://doan.nhom85.ravendb.community.
+2018-11-09T10:19:08.2531433Z, 1, Operations, Server, Raven.Server.RavenServer, HTTPS is on. Setting up a new web host to redirect incoming HTTP traffic on port 80 to HTTPS on port 443. The new web host is listening to http://doan.nhom85.ravendb.community/
+2018-11-09T10:19:08.3245432Z, 1, Operations, Server, Raven.Server.RavenServer, Failed to create a webhost to redirect HTTP traffic to HTTPS, EXCEPTION: System.Net.Sockets.SocketException (10013): An attempt was made to access a socket in a way forbidden by its access permissions
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransport.BindAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass22_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.AnyIPListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.Start()
+   at Raven.Server.RavenServer.RedirectsHttpTrafficToHttps() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 323
+2018-11-09T10:19:08.5858676Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive C is SSD or HDD
+2018-11-09T10:19:08.5860841Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive D is SSD or HDD
+2018-11-09T10:19:08.5862571Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive E is SSD or HDD
+2018-11-09T10:19:08.5864370Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive F is SSD or HDD
+2018-11-09T10:19:08.5866041Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive G is SSD or HDD
+Time,	Thread,	Level,	Source,	Logger,	Message,	Exception
+2018-11-09T10:21:15.0126342Z, 1, Operations, Server, Raven.Server.Program,  Build 41004, Version 4.1, SemVer 4.1.2, Commit 95419d2
+ PID 3300, 64 bits, 4 Cores, Arch: X64
+ 3.936 GBytes Physical Memory, 704.4 MBytes Available Memory, 730.85 MBytes Calculated Available Memory
+ Using GC in server concurrent mode retaining memory from the OS.
+2018-11-09T10:21:17.3716374Z, 1, Operations, Server, Raven.Server.RavenServer, During server initialization, validating that the server can authenticate with itself using https://doan.nhom85.ravendb.community.
+2018-11-09T10:21:17.7956572Z, 1, Operations, Server, Raven.Server.RavenServer, HTTPS is on. Setting up a new web host to redirect incoming HTTP traffic on port 80 to HTTPS on port 443. The new web host is listening to http://doan.nhom85.ravendb.community/
+2018-11-09T10:21:17.9177347Z, 1, Operations, Server, Raven.Server.RavenServer, Failed to create a webhost to redirect HTTP traffic to HTTPS, EXCEPTION: System.Net.Sockets.SocketException (10013): An attempt was made to access a socket in a way forbidden by its access permissions
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransport.BindAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass22_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.AnyIPListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.Start()
+   at Raven.Server.RavenServer.RedirectsHttpTrafficToHttps() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 323
+2018-11-09T10:21:18.2086017Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive C is SSD or HDD
+2018-11-09T10:21:18.2088534Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive D is SSD or HDD
+2018-11-09T10:21:18.2090162Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive E is SSD or HDD
+2018-11-09T10:21:18.2094086Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive F is SSD or HDD
+2018-11-09T10:21:18.2097018Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive G is SSD or HDD
+2018-11-09T10:21:20.6670617Z, 1, Operations, A, Raven.Server.Rachis.RachisConsensus, Took way too much time (00:00:00.4814027) to change the state to LeaderElect in term 4. (Election timeout:00:00:00.3000000)
+Time,	Thread,	Level,	Source,	Logger,	Message,	Exception
+2018-11-09T10:23:36.2041313Z, 1, Operations, Server, Raven.Server.Program,  Build 41004, Version 4.1, SemVer 4.1.2, Commit 95419d2
+ PID 8648, 64 bits, 4 Cores, Arch: X64
+ 3.936 GBytes Physical Memory, 677.09 MBytes Available Memory, 703.47 MBytes Calculated Available Memory
+ Using GC in server concurrent mode retaining memory from the OS.
+2018-11-09T10:23:38.2130965Z, 1, Operations, Server, Raven.Server.RavenServer, During server initialization, validating that the server can authenticate with itself using https://doan.nhom85.ravendb.community.
+2018-11-09T10:23:38.5725180Z, 1, Operations, Server, Raven.Server.RavenServer, HTTPS is on. Setting up a new web host to redirect incoming HTTP traffic on port 80 to HTTPS on port 443. The new web host is listening to http://doan.nhom85.ravendb.community/
+2018-11-09T10:23:38.6551665Z, 1, Operations, Server, Raven.Server.RavenServer, Failed to create a webhost to redirect HTTP traffic to HTTPS, EXCEPTION: System.Net.Sockets.SocketException (10013): An attempt was made to access a socket in a way forbidden by its access permissions
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransport.BindAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass22_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.AnyIPListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.Start()
+   at Raven.Server.RavenServer.RedirectsHttpTrafficToHttps() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 323
+2018-11-09T10:23:38.9466976Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive C is SSD or HDD
+2018-11-09T10:23:38.9469259Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive D is SSD or HDD
+2018-11-09T10:23:38.9470818Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive E is SSD or HDD
+2018-11-09T10:23:38.9472421Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive F is SSD or HDD
+2018-11-09T10:23:38.9474171Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive G is SSD or HDD
+Time,	Thread,	Level,	Source,	Logger,	Message,	Exception
+2018-11-09T12:54:55.5394426Z, 1, Operations, Server, Raven.Server.Program,  Build 41004, Version 4.1, SemVer 4.1.2, Commit 95419d2
+ PID 13092, 64 bits, 4 Cores, Arch: X64
+ 3.936 GBytes Physical Memory, 940.44 MBytes Available Memory, 966.81 MBytes Calculated Available Memory
+ Using GC in server concurrent mode retaining memory from the OS.
+2018-11-09T12:55:00.6752180Z, 1, Operations, Server, Raven.Server.RavenServer, During server initialization, validating that the server can authenticate with itself using https://doan.nhom85.ravendb.community.
+2018-11-09T12:55:01.0629192Z, 1, Operations, Server, Raven.Server.RavenServer, HTTPS is on. Setting up a new web host to redirect incoming HTTP traffic on port 80 to HTTPS on port 443. The new web host is listening to http://doan.nhom85.ravendb.community/
+2018-11-09T12:55:01.2475160Z, 1, Operations, Server, Raven.Server.RavenServer, Failed to create a webhost to redirect HTTP traffic to HTTPS, EXCEPTION: System.Net.Sockets.SocketException (10013): An attempt was made to access a socket in a way forbidden by its access permissions
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransport.BindAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass22_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.AnyIPListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.Start()
+   at Raven.Server.RavenServer.RedirectsHttpTrafficToHttps() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 323
+2018-11-09T12:55:02.4655422Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive C is SSD or HDD
+2018-11-09T12:55:02.4657319Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive D is SSD or HDD
+2018-11-09T12:55:02.4658799Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive E is SSD or HDD
+2018-11-09T12:55:02.4660256Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive F is SSD or HDD
+2018-11-09T12:55:02.4661917Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive G is SSD or HDD
+2018-11-09T12:55:05.3642606Z, 1, Operations, A, Raven.Server.Rachis.RachisConsensus, Took way too much time (00:00:00.1835768) to change the state to LeaderElect in term 6. (Election timeout:00:00:00.3000000)
+Time,	Thread,	Level,	Source,	Logger,	Message,	Exception
+2018-11-09T12:59:54.3780070Z, 1, Operations, Server, Raven.Server.Program,  Build 41004, Version 4.1, SemVer 4.1.2, Commit 95419d2
+ PID 12104, 64 bits, 4 Cores, Arch: X64
+ 3.936 GBytes Physical Memory, 566.16 MBytes Available Memory, 592.53 MBytes Calculated Available Memory
+ Using GC in server concurrent mode retaining memory from the OS.
+2018-11-09T12:59:56.0397062Z, 1, Operations, Server, Raven.Server.RavenServer, During server initialization, validating that the server can authenticate with itself using https://doan.nhom85.ravendb.community.
+2018-11-09T12:59:56.4185625Z, 1, Operations, Server, Raven.Server.RavenServer, HTTPS is on. Setting up a new web host to redirect incoming HTTP traffic on port 80 to HTTPS on port 443. The new web host is listening to http://doan.nhom85.ravendb.community/
+2018-11-09T12:59:56.4751995Z, 1, Operations, Server, Raven.Server.RavenServer, Failed to create a webhost to redirect HTTP traffic to HTTPS, EXCEPTION: System.Net.Sockets.SocketException (10013): An attempt was made to access a socket in a way forbidden by its access permissions
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransport.BindAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass22_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.AnyIPListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.Start()
+   at Raven.Server.RavenServer.RedirectsHttpTrafficToHttps() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 323
+2018-11-09T12:59:56.6960309Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive C is SSD or HDD
+2018-11-09T12:59:56.6962479Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive D is SSD or HDD
+2018-11-09T12:59:56.6964292Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive E is SSD or HDD
+2018-11-09T12:59:56.6965959Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive F is SSD or HDD
+2018-11-09T12:59:56.6967552Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive G is SSD or HDD
+Time,	Thread,	Level,	Source,	Logger,	Message,	Exception
+2018-11-09T13:01:03.4842663Z, 1, Operations, Server, Raven.Server.Program,  Build 41004, Version 4.1, SemVer 4.1.2, Commit 95419d2
+ PID 4616, 64 bits, 4 Cores, Arch: X64
+ 3.936 GBytes Physical Memory, 488.7 MBytes Available Memory, 515.09 MBytes Calculated Available Memory
+ Using GC in server concurrent mode retaining memory from the OS.
+2018-11-09T13:01:05.1410759Z, 1, Operations, Server, Raven.Server.RavenServer, During server initialization, validating that the server can authenticate with itself using https://doan.nhom85.ravendb.community.
+2018-11-09T13:01:05.5125817Z, 1, Operations, Server, Raven.Server.RavenServer, HTTPS is on. Setting up a new web host to redirect incoming HTTP traffic on port 80 to HTTPS on port 443. The new web host is listening to http://doan.nhom85.ravendb.community/
+2018-11-09T13:01:05.5640846Z, 1, Operations, Server, Raven.Server.RavenServer, Failed to create a webhost to redirect HTTP traffic to HTTPS, EXCEPTION: System.Net.Sockets.SocketException (10013): An attempt was made to access a socket in a way forbidden by its access permissions
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransport.BindAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass22_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.AnyIPListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.Start()
+   at Raven.Server.RavenServer.RedirectsHttpTrafficToHttps() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 323
+2018-11-09T13:01:05.8228207Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive C is SSD or HDD
+2018-11-09T13:01:05.8230275Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive D is SSD or HDD
+2018-11-09T13:01:05.8231868Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive E is SSD or HDD
+2018-11-09T13:01:05.8233280Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive F is SSD or HDD
+2018-11-09T13:01:05.8234859Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive G is SSD or HDD
+Time,	Thread,	Level,	Source,	Logger,	Message,	Exception
+2018-11-09T13:14:26.7839719Z, 1, Operations, Server, Raven.Server.Program,  Build 41004, Version 4.1, SemVer 4.1.2, Commit 95419d2
+ PID 9672, 64 bits, 4 Cores, Arch: X64
+ 3.936 GBytes Physical Memory, 561.5 MBytes Available Memory, 587.88 MBytes Calculated Available Memory
+ Using GC in server concurrent mode retaining memory from the OS.
+2018-11-09T13:14:28.3862244Z, 1, Operations, Server, Raven.Server.RavenServer, During server initialization, validating that the server can authenticate with itself using https://doan.nhom85.ravendb.community.
+2018-11-09T13:14:28.7379471Z, 1, Operations, Server, Raven.Server.RavenServer, HTTPS is on. Setting up a new web host to redirect incoming HTTP traffic on port 80 to HTTPS on port 443. The new web host is listening to http://doan.nhom85.ravendb.community/
+2018-11-09T13:14:28.7915506Z, 1, Operations, Server, Raven.Server.RavenServer, Failed to create a webhost to redirect HTTP traffic to HTTPS, EXCEPTION: System.Net.Sockets.SocketException (10013): An attempt was made to access a socket in a way forbidden by its access permissions
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransport.BindAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass22_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.AnyIPListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.Start()
+   at Raven.Server.RavenServer.RedirectsHttpTrafficToHttps() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 323
+2018-11-09T13:14:29.0380211Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive C is SSD or HDD
+2018-11-09T13:14:29.0382318Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive D is SSD or HDD
+2018-11-09T13:14:29.0383823Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive E is SSD or HDD
+2018-11-09T13:14:29.0385259Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive F is SSD or HDD
+2018-11-09T13:14:29.0386657Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive G is SSD or HDD
+2018-11-09T13:14:30.5625163Z, 1, Operations, A, Raven.Server.Rachis.RachisConsensus, Took way too much time (00:00:00.1861514) to change the state to LeaderElect in term 9. (Election timeout:00:00:00.3000000)
+Time,	Thread,	Level,	Source,	Logger,	Message,	Exception
+2018-11-09T13:16:38.2768318Z, 1, Operations, Server, Raven.Server.Program,  Build 41004, Version 4.1, SemVer 4.1.2, Commit 95419d2
+ PID 8012, 64 bits, 4 Cores, Arch: X64
+ 3.936 GBytes Physical Memory, 436.44 MBytes Available Memory, 462.79 MBytes Calculated Available Memory
+ Using GC in server concurrent mode retaining memory from the OS.
+2018-11-09T13:16:40.2285197Z, 1, Operations, Server, Raven.Server.RavenServer, During server initialization, validating that the server can authenticate with itself using https://doan.nhom85.ravendb.community.
+2018-11-09T13:16:40.5987691Z, 1, Operations, Server, Raven.Server.RavenServer, HTTPS is on. Setting up a new web host to redirect incoming HTTP traffic on port 80 to HTTPS on port 443. The new web host is listening to http://doan.nhom85.ravendb.community/
+2018-11-09T13:16:40.6508658Z, 1, Operations, Server, Raven.Server.RavenServer, Failed to create a webhost to redirect HTTP traffic to HTTPS, EXCEPTION: System.Net.Sockets.SocketException (10013): An attempt was made to access a socket in a way forbidden by its access permissions
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransport.BindAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass22_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.AnyIPListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.Start()
+   at Raven.Server.RavenServer.RedirectsHttpTrafficToHttps() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 323
+2018-11-09T13:16:40.8347344Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive C is SSD or HDD
+2018-11-09T13:16:40.8349607Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive D is SSD or HDD
+2018-11-09T13:16:40.8351259Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive E is SSD or HDD
+2018-11-09T13:16:40.8354949Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive F is SSD or HDD
+2018-11-09T13:16:40.8356659Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive G is SSD or HDD
+Time,	Thread,	Level,	Source,	Logger,	Message,	Exception
+2018-11-09T13:20:13.6115972Z, 1, Operations, Server, Raven.Server.Program,  Build 41004, Version 4.1, SemVer 4.1.2, Commit 95419d2
+ PID 12200, 64 bits, 4 Cores, Arch: X64
+ 3.936 GBytes Physical Memory, 515.72 MBytes Available Memory, 542.07 MBytes Calculated Available Memory
+ Using GC in server concurrent mode retaining memory from the OS.
+2018-11-09T13:20:14.2329197Z, 1, Operations, Server, Raven.Server.ServerWide.SecretProtection, Server certificate CN=nhom85.client.certificatefrom C:/Users/vnqma/source/repos/RavenDB_Embedded/RavenDB_Embedded/nhom85.Cluster.Settings/admin.client.certificate.nhom85.pfx must be defined with the following 'Enhanced Key Usages': Client Authentication (Oid 1.3.6.1.5.5.7.3.2) & Server Authentication (Oid 1.3.6.1.5.5.7.3.1)
+2018-11-09T13:20:14.2334163Z, 1, Operations, Server, Raven.Server.Program, Failed to initialize the server, EXCEPTION: System.InvalidOperationException: Unable to start the server due to invalid certificate configuration! Admin assistance required. ---> System.InvalidOperationException: Could not load certificate file C:/Users/vnqma/source/repos/RavenDB_Embedded/RavenDB_Embedded/nhom85.Cluster.Settings/admin.client.certificate.nhom85.pfx ---> Org.BouncyCastle.Security.EncryptionException: Server certificate CN=nhom85.client.certificatefrom C:/Users/vnqma/source/repos/RavenDB_Embedded/RavenDB_Embedded/nhom85.Cluster.Settings/admin.client.certificate.nhom85.pfx must be defined with the following 'Enhanced Key Usages': Client Authentication (Oid 1.3.6.1.5.5.7.3.2) & Server Authentication (Oid 1.3.6.1.5.5.7.3.1)
+   at Raven.Server.ServerWide.SecretProtection.ValidateKeyUsages(String source, X509Certificate2 loadedCertificate) in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\ServerWide\SecretProtection.cs:line 694
+   at Raven.Server.ServerWide.SecretProtection.LoadCertificateFromPath(String path, String password, ServerStore serverStore) in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\ServerWide\SecretProtection.cs:line 572
+   --- End of inner exception stack trace ---
+   at Raven.Server.ServerWide.SecretProtection.LoadCertificateFromPath(String path, String password, ServerStore serverStore) in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\ServerWide\SecretProtection.cs:line 581
+   at Raven.Server.RavenServer.LoadCertificate() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 796
+   --- End of inner exception stack trace ---
+   at Raven.Server.RavenServer.LoadCertificate() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 804
+   at Raven.Server.RavenServer.Initialize() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 120
+   at Raven.Server.Program.Main(String[] args) in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\Program.cs:line 149
+2018-11-09T13:20:14.2994716Z, 1, Operations, Server, Raven.Server.Program, 
+2018-11-09T13:20:14.3583098Z, 1, Operations, Server, Raven.Server.Program, Server has shut down
+Time,	Thread,	Level,	Source,	Logger,	Message,	Exception
+2018-11-09T13:22:48.7537822Z, 1, Operations, Server, Raven.Server.Program,  Build 41004, Version 4.1, SemVer 4.1.2, Commit 95419d2
+ PID 13416, 64 bits, 4 Cores, Arch: X64
+ 3.936 GBytes Physical Memory, 513.37 MBytes Available Memory, 539.73 MBytes Calculated Available Memory
+ Using GC in server concurrent mode retaining memory from the OS.
+2018-11-09T13:22:50.3777323Z, 1, Operations, Server, Raven.Server.RavenServer, During server initialization, validating that the server can authenticate with itself using https://doan.nhom85.ravendb.community.
+2018-11-09T13:22:50.7485769Z, 1, Operations, Server, Raven.Server.RavenServer, HTTPS is on. Setting up a new web host to redirect incoming HTTP traffic on port 80 to HTTPS on port 443. The new web host is listening to http://doan.nhom85.ravendb.community/
+2018-11-09T13:22:50.8106808Z, 1, Operations, Server, Raven.Server.RavenServer, Failed to create a webhost to redirect HTTP traffic to HTTPS, EXCEPTION: System.Net.Sockets.SocketException (10013): An attempt was made to access a socket in a way forbidden by its access permissions
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransport.BindAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass22_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.AnyIPListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.Start()
+   at Raven.Server.RavenServer.RedirectsHttpTrafficToHttps() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 323
+2018-11-09T13:22:51.0594010Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive C is SSD or HDD
+2018-11-09T13:22:51.0596346Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive D is SSD or HDD
+2018-11-09T13:22:51.0598076Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive E is SSD or HDD
+2018-11-09T13:22:51.0599659Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive F is SSD or HDD
+2018-11-09T13:22:51.0601218Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive G is SSD or HDD
+Time,	Thread,	Level,	Source,	Logger,	Message,	Exception
+2018-11-09T13:26:08.9013370Z, 1, Operations, Server, Raven.Server.Program,  Build 41004, Version 4.1, SemVer 4.1.2, Commit 95419d2
+ PID 12056, 64 bits, 4 Cores, Arch: X64
+ 3.936 GBytes Physical Memory, 657.32 MBytes Available Memory, 683.76 MBytes Calculated Available Memory
+ Using GC in server concurrent mode retaining memory from the OS.
+2018-11-09T13:26:10.4853865Z, 1, Operations, Server, Raven.Server.RavenServer, During server initialization, validating that the server can authenticate with itself using https://doan.nhom85.ravendb.community.
+2018-11-09T13:26:10.8452411Z, 1, Operations, Server, Raven.Server.RavenServer, HTTPS is on. Setting up a new web host to redirect incoming HTTP traffic on port 80 to HTTPS on port 443. The new web host is listening to http://doan.nhom85.ravendb.community/
+2018-11-09T13:26:10.9275655Z, 1, Operations, Server, Raven.Server.RavenServer, Failed to create a webhost to redirect HTTP traffic to HTTPS, EXCEPTION: System.Net.Sockets.SocketException (10013): An attempt was made to access a socket in a way forbidden by its access permissions
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransport.BindAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass22_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.AnyIPListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.Start()
+   at Raven.Server.RavenServer.RedirectsHttpTrafficToHttps() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 323
+2018-11-09T13:26:11.1656525Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive C is SSD or HDD
+2018-11-09T13:26:11.1658626Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive D is SSD or HDD
+2018-11-09T13:26:11.1660117Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive E is SSD or HDD
+2018-11-09T13:26:11.1661691Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive F is SSD or HDD
+2018-11-09T13:26:11.1663093Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive G is SSD or HDD
+2018-11-09T13:54:37.6411690Z, 20, Operations, System, Voron.Impl.Journal.WriteAheadJournal, Compression buffer: compression.0000000000.buffers has reached size 128 KBytes which is more than the initial size of 64 KBytes. Will trim it now to the max size allowed. If this is happen on a regular basis, consider raising the limit (MaxScratchBufferSize option control it), since it can cause performance issues
+2018-11-09T13:54:38.1761127Z, 20, Operations, A, Raven.Server.ServerWide.Maintenance.ClusterObserver, None of 'Northwind' database nodes are responding to the supervisor, the database is unreachable.
+2018-11-09T13:54:43.1885381Z, 20, Operations, A, Raven.Server.ServerWide.Maintenance.ClusterObserver, None of 'Northwind' database nodes are responding to the supervisor, the database is unreachable.
+2018-11-09T13:54:48.2012083Z, 20, Operations, A, Raven.Server.ServerWide.Maintenance.ClusterObserver, None of 'Northwind' database nodes are responding to the supervisor, the database is unreachable.
+2018-11-09T13:54:53.2075641Z, 20, Operations, A, Raven.Server.ServerWide.Maintenance.ClusterObserver, None of 'Northwind' database nodes are responding to the supervisor, the database is unreachable.
+2018-11-09T13:54:58.2124983Z, 20, Operations, A, Raven.Server.ServerWide.Maintenance.ClusterObserver, None of 'Northwind' database nodes are responding to the supervisor, the database is unreachable.
+2018-11-09T13:55:03.2170019Z, 20, Operations, A, Raven.Server.ServerWide.Maintenance.ClusterObserver, None of 'Northwind' database nodes are responding to the supervisor, the database is unreachable.
+2018-11-09T13:55:08.2210720Z, 20, Operations, A, Raven.Server.ServerWide.Maintenance.ClusterObserver, None of 'Northwind' database nodes are responding to the supervisor, the database is unreachable.

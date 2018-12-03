@@ -1,0 +1,20 @@
+﻿using Raven.Client.Documents.Indexes;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace RavenDB_Embedded.Models
+{
+    public class DocGia
+    {        
+        public string Id { get; set; }
+        public string MaLoaiDG { get; set; }
+        public string MaDG { get; set; }
+        public string TenDG { get; set; }
+        public string SoDienThoai { get; set; }
+
+        //public abstract PhieuMuonSach DangKyMuon(Sach s, ChiNhanh cn, int sl, string ngaymuon);  
+                
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "DataDir": "RavenData",
+  "License.Eula.Accepted": true,
+  "Security.Certificate.LetsEncrypt.Email": "grisha@ayende.com",
+  "Setup.Mode": "LetsEncrypt",
+  "Security.Certificate.Path": "cluster.server.certificate.nhom85.pfx",
+  "ServerUrl": "http://127.0.0.1:68888",
+  "ServerUrl.Tcp": "tcp://127.0.0.1:68888",
+  "PublicServerUrl": "https://doan.nhom85.ravendb.community:68888",
+  "PublicServerUrl.Tcp": "tcp://doan.nhom85.ravendb.community:68888"
+}

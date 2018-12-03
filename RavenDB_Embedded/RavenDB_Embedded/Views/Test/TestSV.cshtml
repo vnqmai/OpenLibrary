@@ -1,0 +1,59 @@
+﻿@model IEnumerable<RavenDB_Embedded.Models.DocGia>
+
+@{
+    ViewData["Title"] = "TestSV";
+}
+
+<h2>TestSV</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MaLoaiDG)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MaDG)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TenDG)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SoDienThoai)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaLoaiDG)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaDG)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenDG)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SoDienThoai)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,54 @@
+﻿@model IEnumerable<RavenDB_Embedded.Models.SearchSachView>
+@using RavenDB_Embedded.Models
+@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+@{
+    ViewData["Title"] = "SearchSach";
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th></th>
+            <th>Tên sách</th>
+            <th>Tác Giả</th>
+            <th>Giới thiệu</th>
+            <th>SL còn</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td><img src="~/images/@item.Hinh" width="80px" height="80px" /></td>
+                <td>@item.TenSach</td>
+                <td>@item.TacGia</td>
+                <td>@item.GioiThieu</td>
+                <td>@item.SoLuongCon</td>
+                <td>
+                    <a id="@item.MaSach" class="masach btn btn-default">Mượn</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script>
+    $(function () {
+        $("tr td a").on("click", function () {
+            //if ($("this").attr("id"))
+            var sl = prompt("Nhập số lượng: ");
+            $.ajax({
+                url: "/Test/AddPMSItem",
+                data: { sach_sl: $(this).attr("id") + "-" + sl },
+                success: function (response) {
+                    if (response.message !== "Failed") {
+                        $("#giosach").html(response);
+                    }
+                }
+            });
+            $(".popup").removeClass("hidden");
+        });
+    })
+</script>
