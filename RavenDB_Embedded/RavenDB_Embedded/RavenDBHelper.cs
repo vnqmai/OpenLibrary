@@ -1,4 +1,5 @@
-﻿using Raven.Client.Documents;
+﻿using Microsoft.AspNetCore.Http;
+using Raven.Client.Documents;
 using Raven.Client.Documents.Conventions;
 using Raven.Client.Documents.Indexes;
 using Raven.Client.Documents.Operations.Indexes;
@@ -28,7 +29,8 @@ namespace RavenDB_Embedded
             List<PhieuMuonSach> pms = new List<PhieuMuonSach>();
             using (IDocumentSession session = store.OpenSession())
             {
-                pms = session.Query<PhieuMuonSach,PhieuMuonSaches_ByMaPhieu>().Where(x => x.DocGia == docgiaid).OrderByDescending(x => x.NgayMuon).ToList();
+                pms = session.Query<PhieuMuonSach,PhieuMuonSaches_ByMaPhieu>().Where(x => x.DocGia == docgiaid).ToList();
+                pms = SortByDateDesc(pms);
                 for (int i = 0;i<pms.Count;++i)
                 {
                     if (pms[i].NgayMuon != null)
@@ -82,11 +84,7 @@ namespace RavenDB_Embedded
                             .ToList();
                         foreach (var x in tmp)
                         {
-                            res.Add(x);
-                            //else if (x.MaLoaiDG == "SV")
-                            //    res.Add(new DocGiaSV { Id = x.Id, MaDG = x.MaDG, MaLoaiDG = x.MaLoaiDG, TenDG = x.TenDG, SoDienThoai = x.SoDienThoai});
-                            //if (x.MaLoaiDG == "T")
-                            //    res.Add(new DocGiaThuong { Id = x.Id, MaDG = x.MaDG, MaLoaiDG = x.MaLoaiDG, TenDG = x.TenDG, SoDienThoai = x.SoDienThoai});
+                            res.Add(x);                            
                         }
                     }                    
                 }
@@ -198,6 +196,35 @@ namespace RavenDB_Embedded
                 var pbs = session.Query<PhanBoSach>().Where(x=>x.MaSach==masach&&x.MaChiNhanh==macn).Select(x=>x).First();
                 return pbs;
             }            
+        }
+        public static TaiKhoan KiemTraTaiKhoan(string tendn, string matkhau)
+        {
+            using (var session = store.OpenSession())
+            {
+                TaiKhoan tk = session.Query<TaiKhoan>().Where(x=>x.TenDN==tendn&&x.MatKhau==matkhau).SingleOrDefault();
+                if (tk != null) {                    
+                    return tk;
+                }
+            }
+            return null;
+        }
+        public static List<PhieuMuonSach> SortByDateDesc(List<PhieuMuonSach> pms)
+        {
+            for (int i = 0;i<pms.Count-1;++i)
+            {
+                for (int j = i+1; j < pms.Count; ++j)
+                {
+                    DateTime pi = DateTime.ParseExact(pms[i].NgayMuon,"dd/MM/yyyy",CultureInfo.InvariantCulture);
+                    DateTime pj = DateTime.ParseExact(pms[j].NgayMuon, "dd/MM/yyyy", CultureInfo.InvariantCulture);
+                    if (pi < pj)
+                    {
+                        PhieuMuonSach tmp = pms[i];
+                        pms[i] = pms[j];
+                        pms[j] = tmp;
+                    }
+                }
+            }
+            return pms;
         }
     }
 }

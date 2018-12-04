@@ -27,15 +27,7 @@
     <div style="text-align:center"><a class="btn btn-primary" href='@Url.Action("XemTruocPMS","Test")' id="btnmuon">Đăng ký mượn</a></div>
 </div>
 <div>
-    <select class="form-control" id="slcn">
-        @{
-            List<ChiNhanh> cns = RavenDBHelper.ListChiNhanh();
-            foreach (ChiNhanh x in cns)
-            {
-                <option value="@x.Id">@x.TenChiNhanh</option>
-            }
-        }
-    </select>
+    <h3 id="slcn"></h3>
     <input class="form-control" type="text" id="txtSearch" />
     <input class="form-control" type="button" value="Tìm" id="btnSearch" />
     <div id="results">
@@ -48,25 +40,20 @@
 <script>
     $(function () {
         var a = '@HttpContextAccessor.HttpContext.Session.GetString("ChiNhanh")';
-        a = a.replace("&quot;", "").replace("&quot;", "");
-        if (a.length > 0) {
-            $("#slcn").val(a);
-            $("#slcn").prop("hidden");
-        }
+        a = a.replace("&quot;", "").replace("&quot;", "");        
+        //if (a.length > 0) {
+        //    $("#slcn").val(a);
+        //    $("#slcn").prop("hidden");
+        //}
         $("#btnSearch").on("click", function () {
             $.ajax({
                 url: "/Test/SearchSach",
-                data: { tensach: $("#txtSearch").val() + '-' + $("#slcn").val() },
+                data: { tensach: $("#txtSearch").val() + '-' +a },
                 success: function (response) {
                     $("#results").html(response);
                 }
             });
-        });
-        $("slcn").on("change", function () {
-            $.session.set("ChiNhanh", $(this).val());
-            $(this).attr("readonly");
-            alert($(this).attr("readonly"));
-        });
+        });        
         $.ajax({
             url: "/Test/AddPMSItem",
             data: { sach_sl: null },

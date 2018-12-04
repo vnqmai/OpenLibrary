@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewData["Title"] = "ChonChiNhanh";
+}
+
+<h2>Chọn chi nhánh mượn sách</h2>
+<hr />
+<select class="form-control" id="slcn" style="margin:auto">
+    @{
+        List<ChiNhanh> cns = RavenDBHelper.ListChiNhanh();
+        foreach (ChiNhanh x in cns)
+        {
+            <option value="@x.Id">@x.TenChiNhanh</option>
+        }
+    }
+</select>
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script>
+    $(function () {
+        $("#slcn").on("change", function () {
+            $.ajax({
+                url: "/Home/LuuChiNhanh",
+                data: {chinhanh: $(this).val() },
+                success: function (response) {
+                    if (response == true)
+                        location.href = "../Test";
+                }
+            });
+        });
+    })
+</script>

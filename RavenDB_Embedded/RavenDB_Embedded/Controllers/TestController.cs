@@ -13,9 +13,7 @@ namespace RavenDB_Embedded.Controllers
     public class TestController : Controller
     {
         public IActionResult Index()
-        {
-            HttpContext.Session.Set("DocGia", "DG01");
-            HttpContext.Session.Set("ChiNhanh", "CN02");
+        {          
             return View();
         }
         public IActionResult TestGV()
@@ -46,7 +44,10 @@ namespace RavenDB_Embedded.Controllers
                 DocGiaGV dg = new DocGiaGV();
                 dg.CastToGV(dgg);
 
-                if (dg.DangKyMuon(new List<PMSItem>(), null, null) != null)//kiểm tra đăng ký được
+                //Lấy các chi tiết phiếu mượn                
+                List<PMSItem> listsach = HttpContext.Session.Get<List<PMSItem>>("PMSItems");
+
+                if (dg.DangKyMuon(listsach, null, null) != null)//kiểm tra đăng ký được
                 {
                     // tạo phiếu mới trống
                     RavenDBHelper.Add(new PhieuMuonSachGV());
@@ -58,9 +59,7 @@ namespace RavenDB_Embedded.Controllers
                     pmsgv.CastToPMSGV(RavenDBHelper.ListPhieuMuon(null).First());//lấy pms vừa tạo
                     string pmsid = pmsgv.Id; //lấy id pms vừa tạo
 
-                    //Thêm chi tiết phiếu mượn
-                    //List<PMSItem> listsach = new List<PMSItem>();
-                    List<PMSItem> listsach = HttpContext.Session.Get<List<PMSItem>>("PMSItems");
+                    
                     foreach (PMSItem p in listsach)
                     {
                         //gán id cho các chi tiết mượn

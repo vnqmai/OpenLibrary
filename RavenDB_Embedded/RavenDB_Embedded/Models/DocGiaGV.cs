@@ -10,17 +10,19 @@ namespace RavenDB_Embedded.Models
         
         public PhieuMuonSachGV DangKyMuon(List<PMSItem> s, string cn,string ngaymuon)
         {
-            PhieuMuonSachGV pms = new PhieuMuonSachGV();            
-            if (pms.KiemTraDK(this))
+            PhieuMuonSachGV pms = new PhieuMuonSachGV();
+            int sldcmuonthem = pms.KiemTraDK(this);
+            if (sldcmuonthem>0)
             {                
                 if(s.Count!=0)
                     pms.Id = s[0].PMSID;
                 pms.DocGia = this.Id;
                 pms.PMSItem = s;                
                 pms.ChiNhanh = cn;
-                pms.NgayMuon = ngaymuon;               
-                return pms;
-            }
+                pms.NgayMuon = ngaymuon;
+                if (sldcmuonthem >= pms.SoLuongMuon) return pms;
+                else return null;
+            }            
             else return null;            
         }
         public void CastToGV(DocGia dg)

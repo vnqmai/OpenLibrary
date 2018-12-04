@@ -9,86 +9,32 @@ using RavenDB_Embedded.Models;
 namespace RavenDB_Embedded.Controllers
 {
     public class HomeController : Controller
-    {                
+    {
         public IActionResult Index()
+        {            
+            return View();
+        }        
+        public IActionResult ChonChiNhanh()
         {
-            //List<MuonSachView> li = DatabaseHelper.List(null);
-            //return View(li);
             return View();
         }
-
-        [HttpPost]
-        public IActionResult Search(string input)
-        {           
-            //List<MuonSachView> li = DatabaseHelper.TimKiemTheoMaPhieu(input);
-            //if (li.Capacity != 0)
-            //    return View("Search",li);
-            //else
-            //{
-            //    ViewBag.Null = "null";
-                return View();
-            }                
+        public bool LuuChiNhanh(string chinhanh)
+        {            
+            HttpContext.Session.Set("ChiNhanh", chinhanh);
+            return true;
         }
-        
-        //public IActionResult Add([Bind("MaPhieu,TenDG,TenSach,TenChiNhanh,SoLuongMuon,NgayMuon")] MuonSachView pms)
-        //{
-        ////if (ModelState.IsValid&&pms.MaPhieu!=null)
-        ////{
-        ////    T res = new T
-        ////    {                    
-        ////        MaPhieu = pms.MaPhieu,
-        ////        DocGia = pms.TenDG,
-        ////        Sach = pms.TenSach,
-        ////        ChiNhanh  = pms.TenChiNhanh,
-        ////        SoLuongMuon = pms.SoLuongMuon,
-        ////        NgayMuon = pms.NgayMuon
-        ////    };
-        ////    DatabaseHelper.Add(res);
-        ////    pms.Id = res.Id;
-        ////    RedirectToAction(nameof(Index));
-        ////}                        
-        ////return View(pms);
-        //return View();
-        //}
-
-        //Sửa Phiếu không sửa references
-        //public IActionResult Edit([Bind("Id,MaPhieu,TenDG,TenSach,TenChiNhanh,SoLuongMuon,NgayMuon")]MuonSachView pms)
-        //{
-        ////pms.Id = pms.Id.Replace("*", "/");
-        //////Xử lý sửa database
-        ////T res = new T
-        ////{
-        ////    Id = pms.Id,
-        ////    MaPhieu = pms.MaPhieu,
-        ////    DocGia = pms.TenDG,
-        ////    Sach = pms.TenSach,
-        ////    ChiNhanh = pms.TenChiNhanh,
-        ////    SoLuongMuon = pms.SoLuongMuon,
-        ////    NgayMuon = pms.NgayMuon
-        ////};
-        ////DatabaseHelper.Edit(res);                        
-        ////return View(pms);
-        //return View();
-        //}
-
-        ////Xóa Phiếu không xóa references
-        //public IActionResult Delete(string id)
-        //{
-        //    id = id.Replace("*", "/");
-
-        //    //load dữ liệu
-        //    MuonSachView pms = DatabaseHelper.List(id)[0];
-            
-        //    DatabaseHelper.Delete(id);
-            
-        //    return View(pms);
-        //}
-        
-
-        //[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        //public IActionResult Error()
-        //{
-        //    return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        //}
+        public bool DangNhap(string tendn_matkhau)
+        {
+            string[] p = tendn_matkhau.Split("-");
+            TaiKhoan tk = RavenDBHelper.KiemTraTaiKhoan(p[0], p[1]);
+            if (tk != null)
+            {
+                HttpContext.Session.Set("DocGia", tk.MaDG);
+                return true;
+            }
+            else
+                return false;
+        }
     }
+}
 
