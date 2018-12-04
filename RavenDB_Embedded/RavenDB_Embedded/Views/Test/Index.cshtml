@@ -35,7 +35,8 @@
     </div>
     <div style="text-align:center">
         <input value="Xem giỏ hàng" class="btn btn-primary" id="xemGioHang" />
-    </div>
+        <input value="Đăng xuất" class="btn btn-default" id="dangXuat" />
+    </div>    
 </div>
 <script>
     $(function () {
@@ -69,6 +70,9 @@
 
         $("#xemGioHang").on("click", function () {
             $(".popup").removeClass("hidden");
+        });
+        $("#dangXuat").on("click", function () {
+            location.href = "../Home";
         });
     });
 </script>

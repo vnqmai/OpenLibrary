@@ -14,14 +14,16 @@
         }
     }
 </select>
-
+<div style="text-align:center">
+    <input type="button" value="Chọn" class="btn btn-primary" id="btnChonCN"/>
+</div>
 <script src="~/lib/jquery/dist/jquery.js"></script>
 <script>
     $(function () {
-        $("#slcn").on("change", function () {
+        $("#btnChonCN").on("click", function () {
             $.ajax({
                 url: "/Home/LuuChiNhanh",
-                data: {chinhanh: $(this).val() },
+                data: {chinhanh: $("#slcn").val() },
                 success: function (response) {
                     if (response == true)
                         location.href = "../Test";

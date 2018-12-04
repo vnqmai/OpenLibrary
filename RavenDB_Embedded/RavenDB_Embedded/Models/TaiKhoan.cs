@@ -7,7 +7,7 @@ namespace RavenDB_Embedded.Models
 {
     public class TaiKhoan
     {
-        public string MaDG { get; set; }
+        public string MaDG { get; set; }        
         public string TenDN { get; set; }
         public string MatKhau { get; set; }
     }

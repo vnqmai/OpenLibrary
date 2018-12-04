@@ -11,7 +11,8 @@ namespace RavenDB_Embedded.Controllers
     public class HomeController : Controller
     {
         public IActionResult Index()
-        {            
+        {
+            HttpContext.Session.Clear();
             return View();
         }        
         public IActionResult ChonChiNhanh()
@@ -30,11 +31,12 @@ namespace RavenDB_Embedded.Controllers
             if (tk != null)
             {
                 HttpContext.Session.Set("DocGia", tk.MaDG);
+                HttpContext.Session.Set("LoaiDG", RavenDBHelper.LayMaLoaiDG(tk.MaDG));
                 return true;
             }
             else
                 return false;
-        }
+        }        
     }
 }
 

@@ -226,5 +226,17 @@ namespace RavenDB_Embedded
             }
             return pms;
         }
+        public static string LayMaLoaiDG(string MaDG)
+        {            
+            using (var session = store.OpenSession())
+            {
+                DocGia dg = session.Query<DocGia, DocGias_ByMaDG>().Where(x=>x.MaDG==MaDG).SingleOrDefault();
+                if (dg != null)
+                {
+                    return dg.MaLoaiDG;
+                }                    
+                else return null;
+            }                
+        }
     }
 }

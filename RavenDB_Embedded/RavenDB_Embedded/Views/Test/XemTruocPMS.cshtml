@@ -73,12 +73,33 @@
             }
         });
         $("#dangky").on("click", function () {
-            $.ajax({
-                url: "/Test/TestAddPMS",
-                success: function (response) {
-                    $("#status").html(response);
-                }
-            });
+            //if docgia == GV...
+            var docgia = '@HttpContextAccessor.HttpContext.Session.GetString("LoaiDG")';
+            docgia = docgia.replace("&quot;", "").replace("&quot;", "");
+            if (docgia == "GV") {
+                $.ajax({
+                    url: "/Test/AddPMSGV",
+                    success: function (response) {
+                        $("#status").html(response);
+                    }
+                });
+            }
+            else if (docgia == "SV") {
+                $.ajax({
+                    url: "/Test/AddPMSSV",
+                    success: function (response) {
+                        $("#status").html(response);
+                    }
+                });
+            }
+            else if (docgia=="T") {
+                $.ajax({
+                    url: "/Test/AddPMSThuong",
+                    success: function (response) {
+                        $("#status").html(response);
+                    }
+                });
+            }
         });
     });
 </script>

@@ -28,7 +28,7 @@ namespace RavenDB_Embedded.Controllers
         {
             return View();
         }
-        public IActionResult TestAddPMS()
+        public IActionResult AddPMSGV()
         {
             try
             {
@@ -59,30 +59,175 @@ namespace RavenDB_Embedded.Controllers
                     pmsgv.CastToPMSGV(RavenDBHelper.ListPhieuMuon(null).First());//lấy pms vừa tạo
                     string pmsid = pmsgv.Id; //lấy id pms vừa tạo
 
-                    
+
                     foreach (PMSItem p in listsach)
                     {
                         //gán id cho các chi tiết mượn
                         p.PMSID = pmsid;
 
                         //cập nhật số lượng còn kho sách
-                        PhanBoSach pb = RavenDBHelper.TimPhanBoSach(p.SachId,maCN);
-                        pb.SoLuongCon -= p.SoLuong;                        
+                        PhanBoSach pb = RavenDBHelper.TimPhanBoSach(p.SachId, maCN);
+                        pb.SoLuongCon -= p.SoLuong;
                         RavenDBHelper.Add(pb);
                     }
 
                     //Add nội dung vào phiếu mượn sách đã tạo
                     if (pmsgv != null)
                     {
-                        RavenDBHelper.Add(dg.DangKyMuon(listsach, maCN, ngay));                        
-                    }                    
+                        RavenDBHelper.Add(dg.DangKyMuon(listsach, maCN, ngay));
+                    }
                     ViewBag.Status = "Đăng ký thành công!";
+                }
+                else {
+                    PhieuMuonSachGV pms = new PhieuMuonSachGV();
+                    int sl = pms.KiemTraDK(dg);
+                    if(sl<0)
+                        ViewBag.Status = "Bạn đã mượn " + (-sl) + " quyển sách. Giáo viên chỉ được mượn tối đa 5 quyển/1 năm!";
+                    else if(sl>0)
+                        ViewBag.Status = "Bạn đã mượn "+(5-sl)+" quyển sách. Bạn chỉ được mượn thêm " + (sl) + " quyển sách. Giáo viên chỉ được mượn tối đa 5 quyển/1 năm!";
+                    else
+                        ViewBag.Status = "Giáo viên chỉ được mượn tối đa 5 quyển/1 năm!";
                 }                
-                else ViewBag.Status = "Không thể mượn sách!";
             }
             catch (Exception e)
             {
                 ViewBag.Status = "Đăng ký thất bại!";
+            }
+            return PartialView()
+;
+        }
+        public IActionResult AddPMSSV()
+        {
+            try
+            {
+                //Lấy ngày hiện tại
+                string ngay = DateTime.Now.ToString("dd/MM/yyyy");
+
+                //Lấy chi nhánh từ session
+                string maCN = CleanString(HttpContext.Session.GetString("ChiNhanh"));
+
+                //Lấy độc giả từ session
+                string maDG = CleanString(HttpContext.Session.GetString("DocGia"));
+                DocGia dgg = RavenDBHelper.ListDocGia(null, maDG)[0];
+                DocGiaSV dg = new DocGiaSV();
+                dg.CastToSV(dgg);
+
+                //Lấy các chi tiết phiếu mượn                
+                List<PMSItem> listsach = HttpContext.Session.Get<List<PMSItem>>("PMSItems");
+
+                if (dg.DangKyMuon(listsach, null, null) != null)//kiểm tra đăng ký được
+                {
+                    // tạo phiếu mới trống
+                    RavenDBHelper.Add(new PhieuMuonSachGV());
+                    PhieuMuonSachGV pmsgv = new PhieuMuonSachGV();
+                    do
+                    {
+
+                    } while (RavenDBHelper.ListPhieuMuon(null).Count == 0);
+                    pmsgv.CastToPMSGV(RavenDBHelper.ListPhieuMuon(null).First());//lấy pms vừa tạo
+                    string pmsid = pmsgv.Id; //lấy id pms vừa tạo
+
+
+                    foreach (PMSItem p in listsach)
+                    {
+                        //gán id cho các chi tiết mượn
+                        p.PMSID = pmsid;
+
+                        //cập nhật số lượng còn kho sách
+                        PhanBoSach pb = RavenDBHelper.TimPhanBoSach(p.SachId, maCN);
+                        pb.SoLuongCon -= p.SoLuong;
+                        RavenDBHelper.Add(pb);
+                    }
+
+                    //Add nội dung vào phiếu mượn sách đã tạo
+                    if (pmsgv != null)
+                    {
+                        RavenDBHelper.Add(dg.DangKyMuon(listsach, maCN, ngay));
+                    }
+                    ViewBag.Status = "Đăng ký thành công!";
+                }
+                else {
+                    PhieuMuonSachSV pms = new PhieuMuonSachSV();
+                    string nm = pms.KiemTraDK(dg);
+                    ViewBag.Status = "Ngày mượn sách gần nhất của bạn là "+nm+". Sinh viên không được mượn sách quá 7 ngày!";
+                } 
+            }
+            catch (Exception e)
+            {
+                ViewBag.Status = "Đăng ký thất bại!";
+            }
+            return PartialView();
+        }
+        public IActionResult AddPMSThuong()
+        {
+            //Lấy ngày hiện tại
+            string ngay = DateTime.Now.ToString("dd/MM/yyyy");
+
+            //Lấy chi nhánh từ session
+            string maCN = CleanString(HttpContext.Session.GetString("ChiNhanh"));
+
+            //Lấy độc giả từ session
+            string maDG = CleanString(HttpContext.Session.GetString("DocGia"));
+            DocGia dgg = RavenDBHelper.ListDocGia(null, maDG)[0];
+            DocGiaThuong dg = new DocGiaThuong();
+            dg.CastToThuong(dgg);
+
+            //Lấy các chi tiết phiếu mượn                
+            List<PMSItem> listsach = HttpContext.Session.Get<List<PMSItem>>("PMSItems");
+
+            if (dg.DangKyMuon(listsach, null, null) != null)//kiểm tra đăng ký được
+            {
+                // tạo phiếu mới trống
+                RavenDBHelper.Add(new PhieuMuonSachGV());
+                PhieuMuonSachGV pmsgv = new PhieuMuonSachGV();
+                do
+                {
+
+                } while (RavenDBHelper.ListPhieuMuon(null).Count == 0);
+                pmsgv.CastToPMSGV(RavenDBHelper.ListPhieuMuon(null).First());//lấy pms vừa tạo
+                string pmsid = pmsgv.Id; //lấy id pms vừa tạo
+
+
+                foreach (PMSItem p in listsach)
+                {
+                    //gán id cho các chi tiết mượn
+                    p.PMSID = pmsid;
+
+                    //cập nhật số lượng còn kho sách
+                    PhanBoSach pb = RavenDBHelper.TimPhanBoSach(p.SachId, maCN);
+                    pb.SoLuongCon -= p.SoLuong;
+                    RavenDBHelper.Add(pb);
+                }
+
+                //Add nội dung vào phiếu mượn sách đã tạo
+                if (pmsgv != null)
+                {
+                    RavenDBHelper.Add(dg.DangKyMuon(listsach, maCN, ngay));
+                }
+                ViewBag.Status = "Đăng ký thành công!";
+            }
+            else
+            {
+                PhieuMuonSachThuong pms = new PhieuMuonSachThuong();
+                try
+                {
+                    int sl = Int32.Parse(pms.KiemTraDK(dg));
+                    if (sl < 0)
+                        ViewBag.Status = "Bạn đã mượn " + (-sl) + " quyển sách. Độc giả thường không được mượn quá 3 quyển sách!";                    
+                }
+                catch (Exception e)
+                {
+                    string res = pms.KiemTraDK(dg);
+                    if (res.Contains("-"))
+                    {
+                        string[] p = res.Split("-");
+                        ViewBag.Status = "Bạn đã mượn " + (-Int32.Parse(p[0])) + " quyển sách VÀ mượn vào ngày " + p[1] + ". Độc giả thường không được mượn quá 3 quyển sách và mượn không quá 7 ngày!";
+                    }
+                    else
+                    {
+                        ViewBag.Status = "Bạn đã mượn sách vào ngày " + res + ". Độc giả không được mượn sách quá 7 ngày!";
+                    }
+                }
             }
             return PartialView();
         }

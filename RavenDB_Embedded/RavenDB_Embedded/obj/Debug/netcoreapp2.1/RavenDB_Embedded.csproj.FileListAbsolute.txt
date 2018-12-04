@@ -746,7 +746,6 @@ C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Em
 C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\ChooseDG.g.cshtml.cs
 C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\Index.g.cshtml.cs
 C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\SearchSach.g.cshtml.cs
-C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\TestAddPMS.g.cshtml.cs
 C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\TestGV.g.cshtml.cs
 C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\TestSV.g.cshtml.cs
 C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\XemTruocPMS.g.cshtml.cs
@@ -759,3 +758,6 @@ C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Em
 C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.pdb
 C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.csproj.CopyComplete
 C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Home\ChonChiNhanh.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\AddPMSGV.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\AddPMSSV.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\AddPMSThuong.g.cshtml.cs

@@ -10,7 +10,7 @@ namespace RavenDB_Embedded.Models
         public PhieuMuonSachSV DangKyMuon(List<PMSItem> s, string cn, string ngaymuon)
         {
             PhieuMuonSachSV pms = new PhieuMuonSachSV();
-            if (pms.KiemTraDK(this))
+            if (pms.KiemTraDK(this)==null)
             {
                 if (s.Count != 0)
                     pms.Id = s[0].PMSID;

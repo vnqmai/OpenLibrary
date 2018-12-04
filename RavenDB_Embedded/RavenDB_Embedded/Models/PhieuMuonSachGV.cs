@@ -18,7 +18,7 @@ namespace RavenDB_Embedded.Models
             else// nếu trong năm có mượn
             {
                 if (pms[0].SoLuongMuon > 5) //nếu phiếu mượn gần nhất có sl > 5 thì ko cho mượn
-                    return -1;
+                    return -pms[0].SoLuongMuon;
                 else//nếu phiếu mượn gần nhất có sl <= 5
                 {
                     int tong = 0;
@@ -26,7 +26,7 @@ namespace RavenDB_Embedded.Models
                     {
                         tong += p.SoLuongMuon;
                     }
-                    if (tong > 5) return -1;// nếu tổng sl mượn của các phiếu mượn > 5 thì ko cho mượn
+                    if (tong > 5) return -tong;// nếu tổng sl mượn của các phiếu mượn > 5 thì ko cho mượn
                     else return (5-tong); // ngược lại cho mượn
                 }
             }            
