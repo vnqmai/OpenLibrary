@@ -23,13 +23,13 @@ namespace RavenDB_Embedded
             Database = "QLTHUVIEN"
         }.Initialize();        
 
-    //load phiếu mượn
-    public static List<PhieuMuonSach> ListPhieuMuon(string docgiaid)
+    //load phiếu mượn của độc giả theo trạng thái (=đăng ký, đang mượn,đã trả)
+    public static List<PhieuMuonSach> ListPhieuMuon(string docgiaid, string trangthai)
         {
             List<PhieuMuonSach> pms = new List<PhieuMuonSach>();
             using (IDocumentSession session = store.OpenSession())
             {
-                pms = session.Query<PhieuMuonSach,PhieuMuonSaches_ByMaPhieu>().Where(x => x.DocGia == docgiaid).ToList();
+                pms = session.Query<PhieuMuonSach,PhieuMuonSaches_ByMaPhieu>().Where(x => x.DocGia == docgiaid&&x.TrangThai==trangthai).ToList();
                 pms = SortByDateDesc(pms);
                 for (int i = 0;i<pms.Count;++i)
                 {

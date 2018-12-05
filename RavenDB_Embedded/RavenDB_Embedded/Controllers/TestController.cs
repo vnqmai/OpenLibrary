@@ -12,40 +12,32 @@ namespace RavenDB_Embedded.Controllers
 {
     public class TestController : Controller
     {
+        public void LayThongTinTuSession(ref string ngay, ref string macn, ref string madg, ref List<PMSItem> pmsitems)
+        {
+            ngay = DateTime.Now.ToString("dd/MM/yyyy");                         //Lấy ngày hiện tại
+            macn = CleanString(HttpContext.Session.GetString("ChiNhanh"));      //Lấy chi nhánh từ session
+            madg = CleanString(HttpContext.Session.GetString("DocGia"));        //Lấy độc giả từ session
+            pmsitems = HttpContext.Session.Get<List<PMSItem>>("PMSItems");      //Lấy các chi tiết phiếu mượn
+        }
         public IActionResult Index()
         {          
             return View();
-        }
-        public IActionResult TestGV()
-        {            
-            return View(RavenDBHelper.ListDocGia("GV", null));
-        }
-        public IActionResult TestSV()
-        {
-            return View(RavenDBHelper.ListDocGia("SV", null));
-        }
+        }        
         public IActionResult XemTruocPMS()
         {
             return View();
-        }
+        }        
         public IActionResult AddPMSGV()
         {
             try
             {
-                //Lấy ngày hiện tại
-                string ngay = DateTime.Now.ToString("dd/MM/yyyy");
+                string ngay = "", maCN = "", maDG = "";
+                List<PMSItem> listsach = new List<PMSItem>();
+                LayThongTinTuSession(ref ngay,ref maCN,ref maDG,ref listsach);
 
-                //Lấy chi nhánh từ session
-                string maCN = CleanString(HttpContext.Session.GetString("ChiNhanh"));
-
-                //Lấy độc giả từ session
-                string maDG = CleanString(HttpContext.Session.GetString("DocGia"));
                 DocGia dgg = RavenDBHelper.ListDocGia(null, maDG)[0];                
                 DocGiaGV dg = new DocGiaGV();
-                dg.CastToGV(dgg);
-
-                //Lấy các chi tiết phiếu mượn                
-                List<PMSItem> listsach = HttpContext.Session.Get<List<PMSItem>>("PMSItems");
+                dg.CastToGV(dgg);                
 
                 if (dg.DangKyMuon(listsach, null, null) != null)//kiểm tra đăng ký được
                 {
@@ -55,11 +47,10 @@ namespace RavenDB_Embedded.Controllers
                     do
                     {
 
-                    } while (RavenDBHelper.ListPhieuMuon(null).Count == 0);
-                    pmsgv.CastToPMSGV(RavenDBHelper.ListPhieuMuon(null).First());//lấy pms vừa tạo
-                    string pmsid = pmsgv.Id; //lấy id pms vừa tạo
-
-
+                    } while (RavenDBHelper.ListPhieuMuon(null,null).Count == 0);
+                    pmsgv.CastToPMSGV(RavenDBHelper.ListPhieuMuon(null,null).First());   //lấy pms vừa tạo
+                    string pmsid = pmsgv.Id;                                        //lấy id pms vừa tạo
+                    
                     foreach (PMSItem p in listsach)
                     {
                         //gán id cho các chi tiết mượn
@@ -100,20 +91,13 @@ namespace RavenDB_Embedded.Controllers
         {
             try
             {
-                //Lấy ngày hiện tại
-                string ngay = DateTime.Now.ToString("dd/MM/yyyy");
+                string ngay = "", maCN = "", maDG = "";
+                List<PMSItem> listsach = new List<PMSItem>();
+                LayThongTinTuSession(ref ngay, ref maCN, ref maDG, ref listsach);
 
-                //Lấy chi nhánh từ session
-                string maCN = CleanString(HttpContext.Session.GetString("ChiNhanh"));
-
-                //Lấy độc giả từ session
-                string maDG = CleanString(HttpContext.Session.GetString("DocGia"));
                 DocGia dgg = RavenDBHelper.ListDocGia(null, maDG)[0];
                 DocGiaSV dg = new DocGiaSV();
-                dg.CastToSV(dgg);
-
-                //Lấy các chi tiết phiếu mượn                
-                List<PMSItem> listsach = HttpContext.Session.Get<List<PMSItem>>("PMSItems");
+                dg.CastToSV(dgg);                
 
                 if (dg.DangKyMuon(listsach, null, null) != null)//kiểm tra đăng ký được
                 {
@@ -123,8 +107,8 @@ namespace RavenDB_Embedded.Controllers
                     do
                     {
 
-                    } while (RavenDBHelper.ListPhieuMuon(null).Count == 0);
-                    pmssv.CastToPMSSV(RavenDBHelper.ListPhieuMuon(null).First());//lấy pms vừa tạo
+                    } while (RavenDBHelper.ListPhieuMuon(null, null).Count == 0);
+                    pmssv.CastToPMSSV(RavenDBHelper.ListPhieuMuon(null,null).First());//lấy pms vừa tạo
                     string pmsid = pmssv.Id; //lấy id pms vừa tạo
 
 
@@ -160,20 +144,13 @@ namespace RavenDB_Embedded.Controllers
         }
         public IActionResult AddPMSThuong()
         {
-            //Lấy ngày hiện tại
-            string ngay = DateTime.Now.ToString("dd/MM/yyyy");
+            string ngay = "", maCN = "", maDG = "";
+            List<PMSItem> listsach = new List<PMSItem>();
+            LayThongTinTuSession(ref ngay, ref maCN, ref maDG, ref listsach);
 
-            //Lấy chi nhánh từ session
-            string maCN = CleanString(HttpContext.Session.GetString("ChiNhanh"));
-
-            //Lấy độc giả từ session
-            string maDG = CleanString(HttpContext.Session.GetString("DocGia"));
             DocGia dgg = RavenDBHelper.ListDocGia(null, maDG)[0];
             DocGiaThuong dg = new DocGiaThuong();
-            dg.CastToThuong(dgg);
-
-            //Lấy các chi tiết phiếu mượn                
-            List<PMSItem> listsach = HttpContext.Session.Get<List<PMSItem>>("PMSItems");
+            dg.CastToThuong(dgg);            
 
             if (dg.DangKyMuon(listsach, null, null) != null)//kiểm tra đăng ký được
             {
@@ -183,8 +160,8 @@ namespace RavenDB_Embedded.Controllers
                 do
                 {
 
-                } while (RavenDBHelper.ListPhieuMuon(null).Count == 0);
-                pmst.CastToPMSThuong(RavenDBHelper.ListPhieuMuon(null).First());//lấy pms vừa tạo
+                } while (RavenDBHelper.ListPhieuMuon(null,null).Count == 0);
+                pmst.CastToPMSThuong(RavenDBHelper.ListPhieuMuon(null,null).First());//lấy pms vừa tạo
                 string pmsid = pmst.Id; //lấy id pms vừa tạo
 
 

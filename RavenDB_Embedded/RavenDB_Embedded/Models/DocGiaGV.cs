@@ -20,6 +20,7 @@ namespace RavenDB_Embedded.Models
                 pms.PMSItem = s;                
                 pms.ChiNhanh = cn;
                 pms.NgayMuon = ngaymuon;
+                pms.TrangThai = "DangMuon";
                 if (sldcmuonthem >= pms.SoLuongMuon) return pms;
                 else return null;
             }            

@@ -746,8 +746,6 @@ C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Em
 C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\ChooseDG.g.cshtml.cs
 C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\Index.g.cshtml.cs
 C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\SearchSach.g.cshtml.cs
-C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\TestGV.g.cshtml.cs
-C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\TestSV.g.cshtml.cs
 C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\XemTruocPMS.g.cshtml.cs
 C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
 C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs

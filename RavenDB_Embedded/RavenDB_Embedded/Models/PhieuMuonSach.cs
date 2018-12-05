@@ -32,6 +32,7 @@ namespace RavenDB_Embedded.Models
             }
         }
         public string NgayMuon { get; set; }
+        public string TrangThai { get; set; } //DangKy, DangMuon, DaTra
 
         //public abstract bool KiemTraDK(DocGia dg);
     }

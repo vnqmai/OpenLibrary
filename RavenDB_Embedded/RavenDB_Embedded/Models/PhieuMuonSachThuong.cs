@@ -10,7 +10,7 @@ namespace RavenDB_Embedded.Models
     {
         public string KiemTraDK(DocGia dg)
         {
-            List<PhieuMuonSach> pms = RavenDBHelper.ListPhieuMuon(dg.Id);
+            List<PhieuMuonSach> pms = RavenDBHelper.ListPhieuMuon(dg.Id,"DangMuon");
             if (pms.Capacity == 0)//nếu trong năm không có mượn thì cho mượn (true)
             {
                 return "3";

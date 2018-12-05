@@ -75,7 +75,7 @@ using RavenDB_Embedded.Models;
             WriteLiteral("            ");
             EndContext();
             BeginContext(284, 45, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e85473c7b8c1431284635ee6b0ecbdf1", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "62f331a8f5504a53ab2f85a0d3d2f850", async() => {
                 BeginContext(307, 13, false);
 #line 13 "C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\Views\Home\ChonChiNhanh.cshtml"
                              Write(x.TenChiNhanh);
@@ -117,7 +117,7 @@ using RavenDB_Embedded.Models;
             WriteLiteral("</select>\r\n<div style=\"text-align:center\">\r\n    <input type=\"button\" value=\"Chọn\" class=\"btn btn-primary\" id=\"btnChonCN\"/>\r\n</div>\r\n");
             EndContext();
             BeginContext(481, 51, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1e423f1a148e4f07aa884d9e199c62ee", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a5123a343b37462391527a4f7b9880fc", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
