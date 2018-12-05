@@ -19,36 +19,65 @@ namespace RavenDB_Embedded.Models
             {
                 DateTime nm = DateTime.ParseExact(pms[0].NgayMuon, "dd/MM/yyyy", CultureInfo.InvariantCulture);
                 DateTime now = DateTime.Now;
-                if (pms[0].SoLuongMuon > 3 || now.DayOfYear - nm.DayOfYear > 7) //nếu phiếu mượn gần nhất có sl > 3 hoặc mượn nhiều hơn 7 ngày thì ko cho mượn
+                string res = "";                
+                //xét số lượng mượn
+                if (pms[0].SoLuongMuon > 3)
                 {
-                    if(pms[0].SoLuongMuon > 3 && now.DayOfYear - nm.DayOfYear > 7)
-                    {
-                        int sl = -pms[0].SoLuongMuon;
-                        return sl.ToString() + "-" + nm.ToString("dd/MM/yyyy");
-                    }
-                    else
-                    {
-                        if (pms[0].SoLuongMuon > 3)
-                        {
-                            int sl = -pms[0].SoLuongMuon;
-                            return sl.ToString();
-                        }
-                        else if (now.DayOfYear - nm.DayOfYear > 7)
-                            return nm.ToString("dd/MM/yyyy");
-                        else
-                            return null;
-                    }                                                                
-                }                
-                else//ngược lại
-                {                    
+                    int sl = -pms[0].SoLuongMuon;
+                    if (res != "")
+                        res += sl.ToString();
+                }
+                else
+                {
                     int tong = 0;
                     foreach (PhieuMuonSach p in pms)
                     {
                         tong += p.SoLuongMuon;
                     }
-                    if (tong > 3) return (-tong).ToString();// nếu tổng sl mượn của các phiếu mượn > 3 thì ko cho mượn
-                    else return (3-tong).ToString(); // ngược lại cho mượn
+                    if (tong > 3)
+                        res += (-tong).ToString();
+                    else
+                        res += (3 - tong).ToString();
                 }
+                //xét ngày
+                if (now.DayOfYear - nm.DayOfYear > 7)
+                {
+                    if(res=="")
+                        res += nm.ToString("dd/MM/yyyy");
+                    else
+                        res = res+"-"+ nm.ToString("dd/MM/yyyy");
+                }
+                //if (pms[0].SoLuongMuon > 3 || now.DayOfYear - nm.DayOfYear > 7) //nếu phiếu mượn gần nhất có sl > 3 hoặc mượn nhiều hơn 7 ngày thì ko cho mượn
+                //{
+                //    if(pms[0].SoLuongMuon > 3 && now.DayOfYear - nm.DayOfYear > 7)
+                //    {
+                //        int sl = -pms[0].SoLuongMuon;
+                //        return sl.ToString() + "-" + nm.ToString("dd/MM/yyyy");
+                //    }
+                //    else
+                //    {
+                //        if (pms[0].SoLuongMuon > 3)
+                //        {
+                //            int sl = -pms[0].SoLuongMuon;
+                //            return sl.ToString();
+                //        }
+                //        else if (now.DayOfYear - nm.DayOfYear > 7)
+                //            return nm.ToString("dd/MM/yyyy");
+                //        else
+                //            return null;
+                //    }                                                                
+                //}                
+                //else//ngược lại
+                //{                    
+                //    int tong = 0;
+                //    foreach (PhieuMuonSach p in pms)
+                //    {
+                //        tong += p.SoLuongMuon;
+                //    }
+                //    if (tong > 3) return (-tong).ToString();// nếu tổng sl mượn của các phiếu mượn > 3 thì ko cho mượn
+                //    else return (3-tong).ToString(); // ngược lại cho mượn
+                //}
+                return res;
             }
         }
         public void CastToPMSThuong(PhieuMuonSach pms)

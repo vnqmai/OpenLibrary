@@ -118,14 +118,14 @@ namespace RavenDB_Embedded.Controllers
                 if (dg.DangKyMuon(listsach, null, null) != null)//kiểm tra đăng ký được
                 {
                     // tạo phiếu mới trống
-                    RavenDBHelper.Add(new PhieuMuonSachGV());
-                    PhieuMuonSachGV pmsgv = new PhieuMuonSachGV();
+                    RavenDBHelper.Add(new PhieuMuonSachSV());
+                    PhieuMuonSachSV pmssv = new PhieuMuonSachSV();
                     do
                     {
 
                     } while (RavenDBHelper.ListPhieuMuon(null).Count == 0);
-                    pmsgv.CastToPMSGV(RavenDBHelper.ListPhieuMuon(null).First());//lấy pms vừa tạo
-                    string pmsid = pmsgv.Id; //lấy id pms vừa tạo
+                    pmssv.CastToPMSSV(RavenDBHelper.ListPhieuMuon(null).First());//lấy pms vừa tạo
+                    string pmsid = pmssv.Id; //lấy id pms vừa tạo
 
 
                     foreach (PMSItem p in listsach)
@@ -140,7 +140,7 @@ namespace RavenDB_Embedded.Controllers
                     }
 
                     //Add nội dung vào phiếu mượn sách đã tạo
-                    if (pmsgv != null)
+                    if (pmssv != null)
                     {
                         RavenDBHelper.Add(dg.DangKyMuon(listsach, maCN, ngay));
                     }
@@ -178,14 +178,14 @@ namespace RavenDB_Embedded.Controllers
             if (dg.DangKyMuon(listsach, null, null) != null)//kiểm tra đăng ký được
             {
                 // tạo phiếu mới trống
-                RavenDBHelper.Add(new PhieuMuonSachGV());
-                PhieuMuonSachGV pmsgv = new PhieuMuonSachGV();
+                RavenDBHelper.Add(new PhieuMuonSachThuong());
+                PhieuMuonSachThuong pmst = new PhieuMuonSachThuong();
                 do
                 {
 
                 } while (RavenDBHelper.ListPhieuMuon(null).Count == 0);
-                pmsgv.CastToPMSGV(RavenDBHelper.ListPhieuMuon(null).First());//lấy pms vừa tạo
-                string pmsid = pmsgv.Id; //lấy id pms vừa tạo
+                pmst.CastToPMSThuong(RavenDBHelper.ListPhieuMuon(null).First());//lấy pms vừa tạo
+                string pmsid = pmst.Id; //lấy id pms vừa tạo
 
 
                 foreach (PMSItem p in listsach)
@@ -200,7 +200,7 @@ namespace RavenDB_Embedded.Controllers
                 }
 
                 //Add nội dung vào phiếu mượn sách đã tạo
-                if (pmsgv != null)
+                if (pmst != null)
                 {
                     RavenDBHelper.Add(dg.DangKyMuon(listsach, maCN, ngay));
                 }
@@ -209,25 +209,23 @@ namespace RavenDB_Embedded.Controllers
             else
             {
                 PhieuMuonSachThuong pms = new PhieuMuonSachThuong();
-                try
+                string res = pms.KiemTraDK(dg);
+                if (res.Contains("-"))
                 {
-                    int sl = Int32.Parse(pms.KiemTraDK(dg));
-                    if (sl < 0)
-                        ViewBag.Status = "Bạn đã mượn " + (-sl) + " quyển sách. Độc giả thường không được mượn quá 3 quyển sách!";                    
-                }
-                catch (Exception e)
-                {
-                    string res = pms.KiemTraDK(dg);
-                    if (res.Contains("-"))
-                    {
-                        string[] p = res.Split("-");
+                    string[] p = res.Split("-");
+                    if (Int32.Parse(p[0]) < 0)
                         ViewBag.Status = "Bạn đã mượn " + (-Int32.Parse(p[0])) + " quyển sách VÀ mượn vào ngày " + p[1] + ". Độc giả thường không được mượn quá 3 quyển sách và mượn không quá 7 ngày!";
-                    }
                     else
-                    {
-                        ViewBag.Status = "Bạn đã mượn sách vào ngày " + res + ". Độc giả không được mượn sách quá 7 ngày!";
-                    }
+                        ViewBag.Status = "Bạn đã mượn sách vào ngày " + p[1] + ". Độc giả thường không được mượn sách quá 7 ngày!";                    
                 }
+                else
+                {
+                    int sl = Int32.Parse(res);
+                    if (sl<0)
+                        ViewBag.Status = "Bạn đã mượn "+(-sl).ToString()+" quyển sách. Độc giả không được mượn quá 3 quyển sách!";
+                    else
+                        ViewBag.Status = "Bạn đã mượn " + (3-sl).ToString() + " quyển sách. Độc giả không được mượn quá 3 quyển sách!";
+                }                
             }
             return PartialView();
         }

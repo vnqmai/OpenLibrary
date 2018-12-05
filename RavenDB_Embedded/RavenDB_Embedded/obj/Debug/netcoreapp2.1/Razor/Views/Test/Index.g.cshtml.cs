@@ -66,7 +66,7 @@ using Microsoft.AspNetCore.Http;
             WriteLiteral("<script src=\"https://code.jquery.com/jquery-1.11.0.min.js\"></script>\r\n<h2>List sách</h2>\r\n");
             EndContext();
             BeginContext(362, 71, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "7eadd25074c848499642e9829d35da7a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "5427b724a4cd47a1bfa882c4c3f40f4b", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

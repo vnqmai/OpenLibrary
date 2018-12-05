@@ -14,7 +14,7 @@ namespace RavenDB_Embedded.Models
             try
             {
                 int sldcmuonthem = Int32.Parse(pms.KiemTraDK(this));
-                if (sldcmuonthem>0)
+                if (sldcmuonthem > 0)
                 {
                     if (s.Count != 0)
                         pms.Id = s[0].PMSID;
@@ -22,8 +22,9 @@ namespace RavenDB_Embedded.Models
                     pms.PMSItem = s;
                     pms.ChiNhanh = cn;
                     pms.NgayMuon = ngaymuon;
+                    if (pms.SoLuongMuon <= sldcmuonthem) return pms;
+                    else return null;
                 }
-                if (pms.SoLuongMuon <= sldcmuonthem) return pms;
                 else return null;
             }
             catch (Exception e)
