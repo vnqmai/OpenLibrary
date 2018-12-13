@@ -31,6 +31,7 @@ namespace RavenDB_Embedded.Controllers
             if (tk != null)
             {
                 HttpContext.Session.Set("DocGia", tk.MaDG);
+                HttpContext.Session.Set("TenDN", tk.TenDN);
                 HttpContext.Session.Set("LoaiDG", RavenDBHelper.LayMaLoaiDG(tk.MaDG));
                 return true;
             }

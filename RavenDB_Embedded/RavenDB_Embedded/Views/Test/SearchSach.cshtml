@@ -29,6 +29,9 @@
                 <td>
                     <a id="@item.MaSach" class="masach btn btn-default">Mượn</a>
                 </td>
+                <td>
+                    <a id="@item.MaSach" class="xemct btn btn-default">Xem</a>
+                </td>
             </tr>
         }
     </tbody>
@@ -36,7 +39,7 @@
 
 <script>
     $(function () {
-        $("tr td a").on("click", function () {
+        $(".masach").on("click", function () {
             //if ($("this").attr("id"))
             var sl = prompt("Nhập số lượng: ");
             $.ajax({
@@ -49,6 +52,9 @@
                 }
             });
             $(".popup").removeClass("hidden");
+        });
+        $(".xemct").on("click", function () {
+            location.href = "../Test/XemChiTiet?id=" + $(this).attr("id");
         });
     })
 </script>

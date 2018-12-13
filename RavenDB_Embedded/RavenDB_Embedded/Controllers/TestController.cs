@@ -37,13 +37,14 @@ namespace RavenDB_Embedded.Controllers
 
                 DocGia dgg = RavenDBHelper.ListDocGia(null, maDG)[0];                
                 DocGiaGV dg = new DocGiaGV();
-                dg.CastToGV(dgg);                
+                dg.CastToGV(dgg);
 
-                if (dg.DangKyMuon(listsach, null, null) != null)//kiểm tra đăng ký được
+                PhieuMuonSachGV pmsgv = dg.DangKyMuon(listsach, null, null);
+                if (pmsgv != null)//kiểm tra đăng ký được
                 {
                     // tạo phiếu mới trống
                     RavenDBHelper.Add(new PhieuMuonSachGV());
-                    PhieuMuonSachGV pmsgv = new PhieuMuonSachGV();
+                    
                     do
                     {
 
@@ -65,13 +66,13 @@ namespace RavenDB_Embedded.Controllers
                     //Add nội dung vào phiếu mượn sách đã tạo
                     if (pmsgv != null)
                     {
-                        RavenDBHelper.Add(dg.DangKyMuon(listsach, maCN, ngay));
+                        RavenDBHelper.Add(dg.DangKyMuon(listsach,maCN,ngay));
                     }
                     ViewBag.Status = "Đăng ký thành công!";
                 }
                 else {
                     PhieuMuonSachGV pms = new PhieuMuonSachGV();
-                    int sl = pms.KiemTraDK(dg);
+                    int sl = pms.KiemTraDK(dg,listsach.Sum(x=>x.SoLuong));
                     if(sl<0)
                         ViewBag.Status = "Bạn đã mượn " + (-sl) + " quyển sách. Giáo viên chỉ được mượn tối đa 5 quyển/1 năm!";
                     else if(sl>0)
@@ -132,8 +133,17 @@ namespace RavenDB_Embedded.Controllers
                 }
                 else {
                     PhieuMuonSachSV pms = new PhieuMuonSachSV();
-                    string nm = pms.KiemTraDK(dg);
-                    ViewBag.Status = "Ngày mượn sách gần nhất của bạn là "+nm+". Sinh viên không được mượn sách quá 7 ngày!";
+                    string n = pms.KiemTraDK(dg);
+                    if (n == "DangMuon")
+                        ViewBag.Status = "Bạn đang mượn sách. Vui lòng trả sách trước khi mượn.";
+                    else
+                    {
+                        string[] p = n.Split('-');
+                        int so_ntre = Int32.Parse(p[1]);
+                        DateTime nthoa = DateTime.ParseExact(p[0], "dd/MM/yyyy", CultureInfo.InvariantCulture).AddDays(so_ntre);
+                        ViewBag.Status = "Bạn đã trả sách trễ " + so_ntre.ToString() + " ngày. Bạn được mượn sách lại vào ngày " + nthoa.ToString("dd/MM/yyyy") + ". Sinh viên không được mượn sách quá 7 ngày!";
+                    }
+                    
                 } 
             }
             catch (Exception e)
@@ -187,13 +197,20 @@ namespace RavenDB_Embedded.Controllers
             {
                 PhieuMuonSachThuong pms = new PhieuMuonSachThuong();
                 string res = pms.KiemTraDK(dg);
-                if (res.Contains("-"))
+                if(res == "DangMuon")
+                {
+                    ViewBag.Status = "Bạn đang mượn sách. Vui lòng trả sách trước khi mượn.";
+                }
+                else if (res.Contains("-"))
                 {
                     string[] p = res.Split("-");
+                    string[] p1 = p[1].Split('*');
+                    int so_ntre = Int32.Parse(p1[1]); 
+                    DateTime nthoa = DateTime.ParseExact(p1[0],"dd/MM/yyyy",CultureInfo.InvariantCulture).AddDays(so_ntre);
                     if (Int32.Parse(p[0]) < 0)
-                        ViewBag.Status = "Bạn đã mượn " + (-Int32.Parse(p[0])) + " quyển sách VÀ mượn vào ngày " + p[1] + ". Độc giả thường không được mượn quá 3 quyển sách và mượn không quá 7 ngày!";
+                        ViewBag.Status = "Bạn đã mượn " + (-Int32.Parse(p[0])) + " quyển sách VÀ trả sách trễ "+p1[1]+" ngày. Bạn được mượn lại vào ngày " + nthoa + ". Độc giả thường không được mượn quá 3 quyển sách và mượn không quá 7 ngày!";
                     else
-                        ViewBag.Status = "Bạn đã mượn sách vào ngày " + p[1] + ". Độc giả thường không được mượn sách quá 7 ngày!";                    
+                        ViewBag.Status = "Bạn đã trả sách trễ " + p1[1] + " ngày. Bạn được mượn lại vào ngày "+nthoa.ToString("dd/MM/yyyy")+". Độc giả thường không được mượn sách quá 7 ngày!";                    
                 }
                 else
                 {
@@ -274,6 +291,17 @@ namespace RavenDB_Embedded.Controllers
             }            
             HttpContext.Session.Set("PMSItems",items);
             return PartialView(items);
+        }
+
+        public IActionResult YeuCauMuaSach(YeuCauMuaSach yc)
+        {
+            RavenDBHelper.Add(yc);
+            return View();
+        }
+        public IActionResult XemChiTiet(string id)
+        {
+            Sach res = RavenDBHelper.ListSach_ByMaSach(id).SingleOrDefault();
+            return View(res);
         }
         public string CleanString(string input)
         {

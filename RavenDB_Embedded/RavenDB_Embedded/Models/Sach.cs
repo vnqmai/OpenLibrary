@@ -14,9 +14,18 @@ namespace RavenDB_Embedded.Models
         public string TenTacGia { get; set; }
         public string NhaXuatBan { get; set; }
         public int NamXuatBan { get; set; }
-        public string LoiGioiThieu { get; set; }
-        public int Rating { get; set; }
-        public List<string> BinhLuan { get; set; }
+        public string LoiGioiThieu { get; set; }        
+        public List<BinhLuan> BinhLuan { get; set; }
+        public int Rating
+        {
+            get
+            {
+                if (BinhLuan != null)
+                    return (int)BinhLuan.Average(x => x.Rating);
+                else
+                    return 0;
+            }            
+        }
         public string ChiNhanh { get; set; }//mã chi nhánh
     }
 }

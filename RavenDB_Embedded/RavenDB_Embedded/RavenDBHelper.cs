@@ -20,7 +20,7 @@ namespace RavenDB_Embedded
         public static IDocumentStore store = new DocumentStore {
             Urls = new[] { "https://doan.nhom85.ravendb.community" },
             Certificate = clientCertificate,
-            Database = "QLTHUVIEN"
+            Database = "QLTV"
         }.Initialize();        
 
     //load phiếu mượn của độc giả theo trạng thái (=đăng ký, đang mượn,đã trả)
@@ -28,8 +28,11 @@ namespace RavenDB_Embedded
         {
             List<PhieuMuonSach> pms = new List<PhieuMuonSach>();
             using (IDocumentSession session = store.OpenSession())
-            {
-                pms = session.Query<PhieuMuonSach,PhieuMuonSaches_ByMaPhieu>().Where(x => x.DocGia == docgiaid&&x.TrangThai==trangthai).ToList();
+            {   
+                if(trangthai!=null)
+                    pms = session.Query<PhieuMuonSach,PhieuMuonSaches_ByMaPhieu>().Where(x => x.DocGia == docgiaid&&x.TrangThai==trangthai).ToList();
+                else
+                    pms = session.Query<PhieuMuonSach, PhieuMuonSaches_ByMaPhieu>().Where(x => x.DocGia == docgiaid).ToList();
                 pms = SortByDateDesc(pms);
                 for (int i = 0;i<pms.Count;++i)
                 {

@@ -12,6 +12,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Raven.Client.ServerWide;
 using Raven.Embedded;
+using RavenDB_Embedded.Hubs;
 
 namespace RavenDB_Embedded
 {
@@ -41,7 +42,7 @@ namespace RavenDB_Embedded
             services.AddSession(opts=> {
                 opts.IdleTimeout = TimeSpan.FromMinutes(60);
             });
-
+            services.AddSignalR();
             //configure embedded RavenDB //(Embedded) Mở kết nối không cần run RavenDB 
             //DatabaseHelper.store= DatabaseHelper.EmbeddedDB();           
         }
@@ -63,6 +64,10 @@ namespace RavenDB_Embedded
             app.UseStaticFiles();
             app.UseCookiePolicy();
             app.UseSession();
+            app.UseSignalR(routes =>
+            {
+                routes.MapHub<ChatHub>("/ChatHub");
+            });
             app.UseMvc(routes =>
             {
                 routes.MapRoute(

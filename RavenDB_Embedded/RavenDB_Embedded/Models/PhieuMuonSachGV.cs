@@ -8,27 +8,39 @@ namespace RavenDB_Embedded.Models
 {
     public class PhieuMuonSachGV : PhieuMuonSach
     {        
-        public int KiemTraDK(DocGia dg)//trả về số lượng được mượn thêm
+        public int KiemTraDK(DocGia dg, int slmuon)//trả về số lượng được mượn thêm
         {
-            List<PhieuMuonSach> pms = RavenDBHelper.ListPhieuMuon(dg.Id,"DangMuon");
-            if (pms.Capacity==0)//nếu trong năm không có mượn thì cho mượn (true)
+            List<PhieuMuonSach> pms = RavenDBHelper.ListPhieuMuon(dg.Id,null);
+            if (pms.Count==0)//nếu trong năm không có mượn thì cho mượn (true)
             {
-                return 5;
+                if (slmuon <= 5)
+                    return slmuon;
+                else
+                    return -slmuon;
             }
             else// nếu trong năm có mượn
             {
-                if (pms[0].SoLuongMuon > 5) //nếu phiếu mượn gần nhất có sl > 5 thì ko cho mượn
-                    return -pms[0].SoLuongMuon;
-                else//nếu phiếu mượn gần nhất có sl <= 5
+                if (RavenDBHelper.ListPhieuMuon(dg.Id, "DangMuon").Count == 0)
                 {
-                    int tong = 0;
-                    foreach (PhieuMuonSach p in pms)
+                    if (slmuon > 5) //nếu phiếu mượn gần nhất có sl > 5 thì ko cho mượn
+                        return -slmuon;
+                    else//nếu phiếu mượn gần nhất có sl <= 5
                     {
-                        tong += p.SoLuongMuon;
+                        int tong = 0;
+                        foreach (PhieuMuonSach p in pms)
+                        {
+                            tong += p.SoLuongMuon;
+                        }
+                        if (tong > 5) return -tong;// nếu tổng sl mượn của các phiếu mượn > 5 thì ko cho mượn
+                        else {
+                            if (slmuon <= 5 - tong)
+                                return (5 - tong);
+                            else
+                                return -slmuon;
+                        } 
                     }
-                    if (tong > 5) return -tong;// nếu tổng sl mượn của các phiếu mượn > 5 thì ko cho mượn
-                    else return (5-tong); // ngược lại cho mượn
                 }
+                else return 0;
             }            
         }
         public void CastToPMSGV(PhieuMuonSach pms)

@@ -14,7 +14,17 @@ namespace RavenDB_Embedded.Models
         public string TenDG { get; set; }
         public string SoDienThoai { get; set; }
 
-        //public abstract PhieuMuonSach DangKyMuon(Sach s, ChiNhanh cn, int sl, string ngaymuon);  
+        public void BinhLuan(Sach s,string nhanxet,int rating)
+        {
+            BinhLuan bl = new BinhLuan
+            {
+                NhanXet = nhanxet,
+                MaDG = this.MaDG,
+                Rating = rating
+            };
+            s.BinhLuan.Add(bl);
+            RavenDBHelper.Add(s);
+        }
                 
     }
 }
