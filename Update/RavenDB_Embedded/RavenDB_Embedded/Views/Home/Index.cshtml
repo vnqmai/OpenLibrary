@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Đăng Nhập</h2>
+<table style="margin:auto">
+    <tr>
+        <td>Tên đăng nhập:</td>
+        <td><input type="text" class="form-control" id="tendn"/></td>
+    </tr>
+    <tr>
+        <td>Mật khẩu:</td>
+        <td><input type="password" class="form-control" id="matkhau" /></td>
+    </tr>
+    <tr>
+        <td colspan="2" style="text-align:center">
+            <input type="button" value="Đăng nhập" id="btnDN" class="btn btn-primary"/>
+        </td>
+    </tr>
+</table>
+<div style="text-align: center">
+    <h3 style="color:red" id="ketqua">@if (ViewBag.TrangThai != null) { @ViewBag.TrangThai; } </h3>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script>
+    $(function () {
+        $("#btnDN").on("click", function () {
+            $.ajax({
+                url: "/Home/DangNhap",
+                data: { tendn_matkhau: $("#tendn").val() + "-" + $("#matkhau").val() },
+                success: function (response) {                                        
+                    if (response==true)
+                        location.href = "Home/ChonChiNhanh";                        
+                    else
+                        $("#ketqua").html("Đăng nhập thất bại!");
+                }
+            });
+        });
+    });
+</script>

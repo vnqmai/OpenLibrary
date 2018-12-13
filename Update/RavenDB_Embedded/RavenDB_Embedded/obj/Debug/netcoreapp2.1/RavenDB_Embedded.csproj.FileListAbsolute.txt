@@ -1,0 +1,1149 @@
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.deps.json
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.runtimeconfig.json
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.runtimeconfig.dev.json
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.csprojAssemblyReference.cache
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.csproj.CoreCompileInputs.cache
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.RazorAssemblyInfo.cache
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.RazorAssemblyInfo.cs
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.AssemblyInfoInputs.cache
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.AssemblyInfo.cs
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.TagHelpers.input.cache
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.TagHelpers.output.cache
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.RazorCoreGenerate.cache
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.RazorTargetAssemblyInfo.cache
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.RazorTargetAssemblyInfo.cs
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\BouncyCastle.Crypto.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\CsvHelper.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\DasMulli.Win32.ServiceUtils.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Esprima.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\GeoAPI.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Google.Protobuf.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Jint.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Lambda2Js.Signed.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Lucene.Net.Contrib.Spatial.NTS.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Lucene.Net.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Hosting.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Http.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.ResponseCompression.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Https.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.WebSockets.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.CodeAnalysis.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.CommandLineUtils.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Logging.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.ObjectPool.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Options.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Primitives.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Net.Http.Headers.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\MySql.Data.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\NCrontab.Advanced.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\NetTopologySuite.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Newtonsoft.Json.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Npgsql.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Oracle.ManagedDataAccess.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Raven.Client.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Raven.Server.deps.json
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Raven.Server.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Raven.Server.runtimeconfig.json
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Raven.Studio.zip
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\SharpSnmpLib.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Sparrow.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Spatial4n.Core.NTS.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Composition.AttributedModel.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Composition.Convention.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Composition.Hosting.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Composition.Runtime.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Composition.TypedParts.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Configuration.ConfigurationManager.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Data.SqlClient.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.IO.Pipelines.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Net.WebSockets.WebSocketProtocol.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Security.Cryptography.ProtectedData.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Security.Permissions.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Text.Encoding.CodePages.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Text.Encodings.Web.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Voron.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\libsodium.arm.so
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\libsodium.x64.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\libsodium.x64.so
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\libsodium.x86.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\libsodium.x86.so
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\linux-arm\native\libuv.so
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\linux-arm64\native\libuv.so
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\linux-armel\native\libuv.so
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\linux-x64\native\libuv.so
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\osx\native\libuv.dylib
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win-arm\native\libuv.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win-arm64\native\sni.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win-x64\native\libuv.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win-x64\native\sni.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win-x86\native\libuv.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win-x86\native\sni.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.pdb
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.Views.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.Views.pdb
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.Views.pdb
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.dll
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.pdb
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.csproj.CopyComplete
+C:\Users\vnqma\source\repos\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Home\Search.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\BouncyCastle.Crypto.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\CsvHelper.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\DasMulli.Win32.ServiceUtils.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Esprima.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\GeoAPI.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Google.Protobuf.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Jint.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Lambda2Js.Signed.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Lucene.Net.Contrib.Spatial.NTS.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Lucene.Net.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Hosting.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Http.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.ResponseCompression.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Https.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.WebSockets.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.CodeAnalysis.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.CommandLineUtils.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Logging.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.ObjectPool.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Options.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Primitives.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Net.Http.Headers.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\MySql.Data.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\NCrontab.Advanced.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\NetTopologySuite.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Newtonsoft.Json.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Npgsql.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Oracle.ManagedDataAccess.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Raven.Client.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Raven.Server.deps.json
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Raven.Server.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Raven.Server.runtimeconfig.json
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Raven.Studio.zip
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\SharpSnmpLib.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Sparrow.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Spatial4n.Core.NTS.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Composition.AttributedModel.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Composition.Convention.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Composition.Hosting.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Composition.Runtime.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Composition.TypedParts.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Configuration.ConfigurationManager.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Data.SqlClient.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.IO.Pipelines.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Net.WebSockets.WebSocketProtocol.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Security.Cryptography.ProtectedData.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Security.Permissions.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Text.Encoding.CodePages.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Text.Encodings.Web.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Voron.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\libsodium.arm.so
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\libsodium.x64.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\libsodium.x64.so
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\libsodium.x86.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\libsodium.x86.so
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\linux-arm\native\libuv.so
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\linux-arm64\native\libuv.so
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\linux-armel\native\libuv.so
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\linux-x64\native\libuv.so
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\osx\native\libuv.dylib
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win-arm\native\libuv.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win-arm64\native\sni.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win-x64\native\libuv.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win-x64\native\sni.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win-x86\native\libuv.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win-x86\native\sni.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.deps.json
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.runtimeconfig.json
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.runtimeconfig.dev.json
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.pdb
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.Views.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.Views.pdb
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.csprojAssemblyReference.cache
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.csproj.CoreCompileInputs.cache
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.RazorAssemblyInfo.cache
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.RazorAssemblyInfo.cs
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.AssemblyInfoInputs.cache
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.AssemblyInfo.cs
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.TagHelpers.input.cache
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.TagHelpers.output.cache
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.RazorCoreGenerate.cache
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Home\Search.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.RazorTargetAssemblyInfo.cache
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.RazorTargetAssemblyInfo.cs
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.Views.pdb
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.dll
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.pdb
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.csproj.CopyComplete
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Home\Add.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Home\Edit.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Home\Delete.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\TestGV.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Máy tính\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\TestSV.g.cshtml.cs
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\BouncyCastle.Crypto.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\CsvHelper.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\DasMulli.Win32.ServiceUtils.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Esprima.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\GeoAPI.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Google.Protobuf.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Jint.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Lambda2Js.Signed.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Lucene.Net.Contrib.Spatial.NTS.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Lucene.Net.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Connections.Abstractions.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Hosting.Abstractions.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Hosting.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Http.Abstractions.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Http.Extensions.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Http.Features.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Http.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.ResponseCompression.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Https.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.WebSockets.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.WebUtilities.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.CodeAnalysis.CSharp.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.CodeAnalysis.Workspaces.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.CodeAnalysis.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.CommandLineUtils.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.Binder.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.CommandLine.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.FileExtensions.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.Json.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.DependencyInjection.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.FileProviders.Abstractions.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.FileProviders.Physical.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.FileSystemGlobbing.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Hosting.Abstractions.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Logging.Abstractions.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Logging.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.ObjectPool.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Options.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Primitives.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Net.Http.Headers.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\MySql.Data.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\NCrontab.Advanced.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\NetTopologySuite.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Newtonsoft.Json.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Npgsql.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Oracle.ManagedDataAccess.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Raven.Client.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Raven.Server.deps.json
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Raven.Server.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Raven.Server.runtimeconfig.json
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Raven.Studio.zip
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\SharpSnmpLib.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Sparrow.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Spatial4n.Core.NTS.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Composition.AttributedModel.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Composition.Convention.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Composition.Hosting.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Composition.Runtime.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Composition.TypedParts.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Configuration.ConfigurationManager.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Data.SqlClient.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.IO.Pipelines.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Net.WebSockets.WebSocketProtocol.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Runtime.CompilerServices.Unsafe.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Security.Cryptography.ProtectedData.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Security.Permissions.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Text.Encoding.CodePages.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Text.Encodings.Web.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Voron.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\cs\Microsoft.CodeAnalysis.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\de\Microsoft.CodeAnalysis.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\es\Microsoft.CodeAnalysis.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\fr\Microsoft.CodeAnalysis.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\it\Microsoft.CodeAnalysis.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ja\Microsoft.CodeAnalysis.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ko\Microsoft.CodeAnalysis.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\libsodium.arm.so
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\libsodium.x64.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\libsodium.x64.so
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\libsodium.x86.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\libsodium.x86.so
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pl\Microsoft.CodeAnalysis.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pt-BR\Microsoft.CodeAnalysis.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ru\Microsoft.CodeAnalysis.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\linux-arm\native\libuv.so
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\linux-arm64\native\libuv.so
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\linux-armel\native\libuv.so
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\linux-x64\native\libuv.so
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\osx\native\libuv.dylib
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win-arm\native\libuv.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win-arm64\native\sni.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win-x64\native\libuv.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win-x64\native\sni.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win-x86\native\libuv.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win-x86\native\sni.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\tr\Microsoft.CodeAnalysis.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.deps.json
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.runtimeconfig.json
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.runtimeconfig.dev.json
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.pdb
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.Views.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.Views.pdb
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.csprojAssemblyReference.cache
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.csproj.CoreCompileInputs.cache
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.RazorAssemblyInfo.cache
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.RazorAssemblyInfo.cs
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.AssemblyInfoInputs.cache
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.AssemblyInfo.cs
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.TagHelpers.input.cache
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.TagHelpers.output.cache
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.RazorCoreGenerate.cache
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Home\Add.g.cshtml.cs
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Home\Delete.g.cshtml.cs
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Home\Edit.g.cshtml.cs
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Home\Search.g.cshtml.cs
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\TestGV.g.cshtml.cs
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\TestSV.g.cshtml.cs
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.RazorTargetAssemblyInfo.cache
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.RazorTargetAssemblyInfo.cs
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.Views.pdb
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.dll
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.pdb
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.csproj.CopyComplete
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\TestAddPMS.g.cshtml.cs
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\SearchSach.g.cshtml.cs
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\ChooseDG.g.cshtml.cs
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\AddPMSItem.g.cshtml.cs
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\Index.g.cshtml.cs
+F:\Hoc Tap\Chuyen Nganh\Nam 3\Co So Du Lieu Nang Cao\CuoiKy_RavenDB\CSDLNC_Demo\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\XemTruocPMS.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\BouncyCastle.Crypto.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\CsvHelper.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\DasMulli.Win32.ServiceUtils.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Esprima.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\GeoAPI.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Google.Protobuf.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Jint.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Lambda2Js.Signed.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Lucene.Net.Contrib.Spatial.NTS.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Lucene.Net.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Hosting.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Http.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.ResponseCompression.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Https.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.WebSockets.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.CodeAnalysis.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.CommandLineUtils.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Logging.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.ObjectPool.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Options.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Primitives.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Net.Http.Headers.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\MySql.Data.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\NCrontab.Advanced.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\NetTopologySuite.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Newtonsoft.Json.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Npgsql.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Oracle.ManagedDataAccess.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Raven.Client.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Raven.Server.deps.json
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Raven.Server.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Raven.Server.runtimeconfig.json
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Raven.Studio.zip
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\SharpSnmpLib.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Sparrow.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Spatial4n.Core.NTS.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Composition.AttributedModel.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Composition.Convention.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Composition.Hosting.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Composition.Runtime.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Composition.TypedParts.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Configuration.ConfigurationManager.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Data.SqlClient.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.IO.Pipelines.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Net.WebSockets.WebSocketProtocol.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Security.Cryptography.ProtectedData.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Security.Permissions.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Text.Encoding.CodePages.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Text.Encodings.Web.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Voron.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\libsodium.arm.so
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\libsodium.x64.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\libsodium.x64.so
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\libsodium.x86.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\libsodium.x86.so
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\linux-arm\native\libuv.so
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\linux-arm64\native\libuv.so
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\linux-armel\native\libuv.so
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\linux-x64\native\libuv.so
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\osx\native\libuv.dylib
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win-arm\native\libuv.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win-arm64\native\sni.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win-x64\native\libuv.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win-x64\native\sni.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win-x86\native\libuv.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win-x86\native\sni.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.deps.json
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.runtimeconfig.json
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.runtimeconfig.dev.json
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.pdb
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.Views.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.Views.pdb
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.csprojAssemblyReference.cache
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.csproj.CoreCompileInputs.cache
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.RazorAssemblyInfo.cache
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.RazorAssemblyInfo.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.AssemblyInfoInputs.cache
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.AssemblyInfo.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.TagHelpers.input.cache
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.TagHelpers.output.cache
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.RazorCoreGenerate.cache
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\AddPMSItem.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\ChooseDG.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\Index.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\SearchSach.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\XemTruocPMS.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.RazorTargetAssemblyInfo.cache
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.RazorTargetAssemblyInfo.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.Views.pdb
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.pdb
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.csproj.CopyComplete
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Home\ChonChiNhanh.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\AddPMSGV.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\AddPMSSV.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\AddPMSThuong.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\BouncyCastle.Crypto.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\CsvHelper.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\DasMulli.Win32.ServiceUtils.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Esprima.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\GeoAPI.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Google.Protobuf.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Jint.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Lambda2Js.Signed.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Lucene.Net.Contrib.Spatial.NTS.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Lucene.Net.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Hosting.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Http.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.ResponseCompression.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Https.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.WebSockets.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.CodeAnalysis.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.CommandLineUtils.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Logging.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.ObjectPool.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Options.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Primitives.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Net.Http.Headers.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\MySql.Data.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\NCrontab.Advanced.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\NetTopologySuite.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Newtonsoft.Json.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Npgsql.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Oracle.ManagedDataAccess.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Raven.Client.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Raven.Server.deps.json
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Raven.Server.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Raven.Server.runtimeconfig.json
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Raven.Studio.zip
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\SharpSnmpLib.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Sparrow.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Spatial4n.Core.NTS.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Composition.AttributedModel.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Composition.Convention.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Composition.Hosting.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Composition.Runtime.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Composition.TypedParts.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Configuration.ConfigurationManager.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Data.SqlClient.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.IO.Pipelines.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Net.WebSockets.WebSocketProtocol.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Security.Cryptography.ProtectedData.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Security.Permissions.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Text.Encoding.CodePages.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Text.Encodings.Web.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Voron.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\libsodium.arm.so
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\libsodium.x64.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\libsodium.x64.so
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\libsodium.x86.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\libsodium.x86.so
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\linux-arm\native\libuv.so
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\linux-arm64\native\libuv.so
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\linux-armel\native\libuv.so
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\linux-x64\native\libuv.so
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\osx\native\libuv.dylib
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win-arm\native\libuv.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win-arm64\native\sni.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win-x64\native\libuv.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win-x64\native\sni.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win-x86\native\libuv.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win-x86\native\sni.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.deps.json
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.runtimeconfig.json
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.runtimeconfig.dev.json
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.pdb
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.Views.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.Views.pdb
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.csprojAssemblyReference.cache
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.csproj.CoreCompileInputs.cache
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.RazorAssemblyInfo.cache
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.RazorAssemblyInfo.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.AssemblyInfoInputs.cache
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.AssemblyInfo.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.TagHelpers.input.cache
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.TagHelpers.output.cache
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.RazorCoreGenerate.cache
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Home\ChonChiNhanh.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\AddPMSGV.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\AddPMSItem.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\AddPMSSV.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\AddPMSThuong.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\ChooseDG.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\Index.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\SearchSach.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\XemTruocPMS.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.RazorTargetAssemblyInfo.cache
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.RazorTargetAssemblyInfo.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.Views.pdb
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.dll
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.pdb
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.csproj.CopyComplete
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Signalr\Index.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\YeuCauMuaSach.g.cshtml.cs
+C:\Users\vnqma\OneDrive\Documents\GitHub\OpenLibraryComplete\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\XemChiTiet.g.cshtml.cs
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\BouncyCastle.Crypto.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\CsvHelper.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\DasMulli.Win32.ServiceUtils.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Esprima.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\GeoAPI.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Google.Protobuf.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Jint.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Lambda2Js.Signed.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Lucene.Net.Contrib.Spatial.NTS.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Lucene.Net.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Hosting.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Http.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.ResponseCompression.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Https.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.WebSockets.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.CodeAnalysis.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.CommandLineUtils.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Configuration.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Logging.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.ObjectPool.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Options.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Extensions.Primitives.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Microsoft.Net.Http.Headers.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\MySql.Data.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\NCrontab.Advanced.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\NetTopologySuite.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Newtonsoft.Json.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Npgsql.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Oracle.ManagedDataAccess.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Raven.Client.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Raven.Server.deps.json
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Raven.Server.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Raven.Server.runtimeconfig.json
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Raven.Studio.zip
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\SharpSnmpLib.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Sparrow.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Spatial4n.Core.NTS.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Composition.AttributedModel.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Composition.Convention.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Composition.Hosting.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Composition.Runtime.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Composition.TypedParts.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Configuration.ConfigurationManager.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Data.SqlClient.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.IO.Pipelines.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Net.WebSockets.WebSocketProtocol.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Security.Permissions.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Text.Encoding.CodePages.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\System.Text.Encodings.Web.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\Voron.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\libsodium.arm.so
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\libsodium.x64.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\libsodium.x64.so
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\libsodium.x86.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\libsodium.x86.so
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\linux-arm\native\libuv.so
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\linux-arm64\native\libuv.so
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\linux-armel\native\libuv.so
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\linux-x64\native\libuv.so
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\osx\native\libuv.dylib
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win-arm\native\libuv.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win-arm64\native\sni.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win-x64\native\libuv.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win-x64\native\sni.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win-x86\native\libuv.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win-x86\native\sni.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.deps.json
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.runtimeconfig.json
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.runtimeconfig.dev.json
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.pdb
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.Views.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\bin\Debug\netcoreapp2.1\RavenDB_Embedded.Views.pdb
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.csprojAssemblyReference.cache
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.csproj.CoreCompileInputs.cache
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.RazorAssemblyInfo.cache
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.RazorAssemblyInfo.cs
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.AssemblyInfoInputs.cache
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.AssemblyInfo.cs
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.TagHelpers.input.cache
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.TagHelpers.output.cache
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.RazorCoreGenerate.cache
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Home\ChonChiNhanh.g.cshtml.cs
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Signalr\Index.g.cshtml.cs
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\AddPMSGV.g.cshtml.cs
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\AddPMSItem.g.cshtml.cs
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\AddPMSSV.g.cshtml.cs
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\AddPMSThuong.g.cshtml.cs
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\ChooseDG.g.cshtml.cs
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\Index.g.cshtml.cs
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\SearchSach.g.cshtml.cs
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\XemChiTiet.g.cshtml.cs
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\XemTruocPMS.g.cshtml.cs
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\YeuCauMuaSach.g.cshtml.cs
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.RazorTargetAssemblyInfo.cache
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.RazorTargetAssemblyInfo.cs
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.Views.pdb
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.dll
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.pdb
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\RavenDB_Embedded.csproj.CopyComplete
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\ViewQT.g.cshtml.cs
+C:\Users\Nhu\Documents\New folder\OpenLibrary\RavenDB_Embedded\RavenDB_Embedded\obj\Debug\netcoreapp2.1\Razor\Views\Test\NhanSachDGTra.g.cshtml.cs

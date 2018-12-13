@@ -1,0 +1,64 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+@{
+    ViewData["Title"] = "ChonChiNhanh";
+}
+
+<h2>Chọn chi nhánh mượn sách</h2>
+<hr />
+
+@{
+    string dg = HttpContextAccessor.HttpContext.Session.GetString("DocGia");
+    PhieuMuonSach pm= RavenDBHelper.ListPhieuMuon(dg, "DangMuon").SingleOrDefault();
+    if (pm != null)
+    {
+        string cn = pm.ChiNhanh;
+        <select class="form-control" id="slcn" style="margin:auto" disabled>
+            @{
+                List<ChiNhanh> cns = RavenDBHelper.ListChiNhanh();
+                foreach (ChiNhanh x in cns)
+                {
+                    if (x.Id == cn)
+                    {
+                        <option value="@x.Id" class="active" selected>@x.TenChiNhanh</option>
+                    }
+                    else
+                    {
+                        <option value="@x.Id">@x.TenChiNhanh</option>
+                    }
+                }
+            }
+        </select>
+    }
+    else
+    {
+        <select class="form-control" id="slcn" style="margin:auto">
+            @{
+                List<ChiNhanh> cns = RavenDBHelper.ListChiNhanh();
+                foreach (ChiNhanh x in cns)
+                {
+                    <option value="@x.Id">@x.TenChiNhanh</option>
+                }
+            }
+        </select>
+    }
+}       
+<div style="text-align:center">
+    <input type="button" value="Chọn" class="btn btn-primary" id="btnChonCN" />
+</div>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script>
+    $(function () {
+        $("#btnChonCN").on("click", function () {
+            $.ajax({
+                        url: "/Home/LuuChiNhanh",
+                data: { chinhanh: $("#slcn").val() },
+                success: function (response) {
+                                if (response == true)
+                                    location.href = "../Test";
+                            }
+                        });
+                    });
+    })
+</script>

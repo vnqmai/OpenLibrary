@@ -1,0 +1,47 @@
+﻿@model RavenDB_Embedded.Models.PhieuMuonSach
+
+@{
+    ViewData["Title"] = "NhanSachDGTra";
+}
+
+
+
+<h4>Trả sách</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="NhanSachDGTra">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"></label>
+                <input asp-for="Id" class="form-control" />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaPhieu" class="control-label"></label>
+                <input asp-for="MaPhieu" class="form-control" value="@ViewBag.MaPhieu"/>
+                <span asp-validation-for="MaPhieu" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DocGia" class="control-label"></label>
+                <input asp-for="DocGia" class="form-control" />
+                <span asp-validation-for="DocGia" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ChiNhanh" class="control-label"></label>
+                <input asp-for="ChiNhanh" class="form-control" />
+                <span asp-validation-for="ChiNhanh" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <input type="submit" value="Trả sách" class="btn btn-default" />
+                <p>@ViewBag.Flat</p>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

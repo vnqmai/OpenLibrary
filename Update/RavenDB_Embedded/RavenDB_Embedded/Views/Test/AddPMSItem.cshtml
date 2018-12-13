@@ -1,0 +1,13 @@
+﻿@model IEnumerable<RavenDB_Embedded.Models.PMSItem>
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@foreach (PMSItem p in Model)
+{
+<tr>
+    <td class="pmsitem_masach">@p.SachId</td>
+    <td><img src="~/images/@p.Hinh" width="80px" height="80px" /></td>
+    <td>@p.TenSach</td>    
+    <td id="soluong">@p.SoLuong</td>
+</tr>
+}
