@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -7,14 +8,18 @@ namespace RavenDB_Embedded.Models
 {
     public class PhieuMuonSach
     {
+         [DisplayName("Id")]
         public string Id { get; set; }
+         [DisplayName("Mã phiếu")]
         public string MaPhieu {
             get
             {
                 return Id;
             }
         }
+         [DisplayName("Độc giả")]
         public string DocGia { get; set; }
+         [DisplayName("Chi nhánh")]
         public string ChiNhanh { get; set; }
         public List<PMSItem> PMSItem { get; set; }
         public int SoLuongMuon {
