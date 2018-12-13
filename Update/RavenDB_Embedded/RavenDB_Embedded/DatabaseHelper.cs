@@ -32,7 +32,7 @@ namespace RavenDB_Embedded
 
         //Mở kết nối chạy bằng server (phải run RavenDB trước)
         static X509Certificate2 clientCertificate = new X509Certificate2("C:\\Users\\vnqma\\Downloads\\Compressed\\nhom85.Cluster.Settings\\Cer\\admin.client.certificate.nhom85.pfx", "vnqmai");
-        public static IDocumentStore store = new DocumentStore { Urls = new[] { "https://doan.nhom85.ravendb.community" }, Certificate = clientCertificate, Database = "QLTHUVIEN" }.Initialize();
+        public static IDocumentStore store = new DocumentStore { Urls = new[] { "https://doan.nhom85.ravendb.community" }, Certificate = clientCertificate, Database = "QLTV" }.Initialize();
 
         //Tìm kiếm
         //public static List<MuonSachView> TimKiemTheoMaPhieu(string p)
