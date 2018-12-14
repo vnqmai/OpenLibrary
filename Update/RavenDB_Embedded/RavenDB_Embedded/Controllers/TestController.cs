@@ -326,6 +326,13 @@ namespace RavenDB_Embedded.Controllers
                 using (var session = Store.OpenSession())
                 {
                     DocGia dg = session.Query<DocGia, DocGias_ByMaDG>().Where(x => x.MaDG == pm.DocGia).SingleOrDefault();
+                    if (dg == null)
+                    {
+                        string flag = "Trả sách thất bại";
+                        ViewBag.Flat = flag;
+                    }
+                    else
+                    {
                     if (dg.MaLoaiDG == "T")
                     {
                         session.Advanced.Patch<PhieuMuonSachThuong, string>(
@@ -449,6 +456,7 @@ namespace RavenDB_Embedded.Controllers
                     }else{
                     string flag = "Trả sách thất bại";
                         ViewBag.Flat = flag;
+                    }
                     }
 
                 }
