@@ -332,7 +332,10 @@ namespace RavenDB_Embedded.Controllers
                          pm.MaPhieu,
                          x => x.TrangThai, "DaTra");
                         session.SaveChanges();
-                        
+                        session.Advanced.Patch<PhieuMuonSachThuong, string>(
+                         pm.MaPhieu,
+                         x => x.NgayTra, DateTime.Now.ToString());
+                        session.SaveChanges();
                         PhieuMuonSachThuong pms = session.Query<PhieuMuonSachThuong>().Where(p => p.Id == pm.Id).SingleOrDefault();
                         int[] sls = new int[100];
                         string[] mss = new string[100];
@@ -369,7 +372,10 @@ namespace RavenDB_Embedded.Controllers
                           pm.MaPhieu,
                           x => x.TrangThai, "DaTra");
                         session.SaveChanges();
-
+                        session.Advanced.Patch<PhieuMuonSachSV, string>(
+                         pm.MaPhieu,
+                         x => x.NgayTra, DateTime.Now.ToString());
+                        session.SaveChanges();
                         PhieuMuonSachSV pms = session.Query<PhieuMuonSachSV>().Where(p => p.MaPhieu == pm.MaPhieu).SingleOrDefault();
                         int[] sls = new int[100];
                         string[] mss = new string[100];
@@ -401,11 +407,15 @@ namespace RavenDB_Embedded.Controllers
                         ViewBag.Flat = flag;
 
                     }
-                    else
+                    else if(dg.MaLoaiDG=="GV")
                     {
                         session.Advanced.Patch<PhieuMuonSachGV, string>(
                             pm.MaPhieu,
                             x => x.TrangThai, "DaTra");
+                        session.SaveChanges();
+                        session.Advanced.Patch<PhieuMuonSachGV, string>(
+                         pm.MaPhieu,
+                         x => x.NgayTra, DateTime.Now.ToString());
                         session.SaveChanges();
 
                         PhieuMuonSachGV pms = session.Query<PhieuMuonSachGV>().Where(p => p.MaPhieu == pm.MaPhieu).SingleOrDefault();
@@ -435,6 +445,9 @@ namespace RavenDB_Embedded.Controllers
                         }
 
                         string flag = "Trả sách thành công";
+                        ViewBag.Flat = flag;
+                    }else{
+                    string flag = "Trả sách thất bại";
                         ViewBag.Flat = flag;
                     }
 
