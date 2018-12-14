@@ -12,7 +12,7 @@ namespace RavenDB_Embedded.Controllers
 {
     public class TestController : Controller
     {
-        string ms;
+   
         public void LayThongTinTuSession(ref string ngay, ref string macn, ref string madg, ref List<PMSItem> pmsitems)
         {
             ngay = DateTime.Now.ToString("dd/MM/yyyy");                         //Lấy ngày hiện tại
@@ -332,21 +332,32 @@ namespace RavenDB_Embedded.Controllers
                          pm.MaPhieu,
                          x => x.TrangThai, "DaTra");
                         session.SaveChanges();
-                        int sl = 0;
+                        
                         PhieuMuonSachThuong pms = session.Query<PhieuMuonSachThuong>().Where(p => p.Id == pm.Id).SingleOrDefault();
+                        int[] sls = new int[100];
+                        string[] mss = new string[100];
+                        int dem = 0;
+
                         foreach (PMSItem item in pms.PMSItem)
                         {
-                            ms = item.SachId;
-                            sl = item.SoLuong;
+                            mss[dem] = item.SachId;
+                            sls[dem] = item.SoLuong;
+                            dem++;
                         }
 
-                        PhanBoSach pt = session.Query<PhanBoSach>().Where(p => p.MaSach == ms && p.MaChiNhanh == pm.ChiNhanh).SingleOrDefault();
-                        int soluong = pt.SoLuongCon;
-                        int cn = soluong + sl;
-                        session.Advanced.Patch<PhanBoSach, int>(
-                             pt.Id,
-                             x => x.SoLuongCon, cn);
-                        session.SaveChanges();
+                      
+                        PhanBoSach[] pb = new PhanBoSach[100];
+                        for (int i = 0; i < dem; i++)
+                        {
+                            string ms = mss[i];
+                            pb[i] = session.Query<PhanBoSach>().Where(p => p.MaSach == ms && p.MaChiNhanh == pm.ChiNhanh).SingleOrDefault();
+                            int soluong = pb[i].SoLuongCon;
+                            int cn = soluong + sls[i];
+                            session.Advanced.Patch<PhanBoSach, int>(
+                                 pb[i].Id,
+                                 x => x.SoLuongCon, cn);
+                            session.SaveChanges();
+                        }
                         string flag = "Trả sách thành công";
                         ViewBag.Flat = flag;
 
@@ -360,25 +371,32 @@ namespace RavenDB_Embedded.Controllers
                         session.SaveChanges();
 
                         PhieuMuonSachSV pms = session.Query<PhieuMuonSachSV>().Where(p => p.MaPhieu == pm.MaPhieu).SingleOrDefault();
-
-
-                        int sl = 0;
+                        int[] sls = new int[100];
+                        string[] mss = new string[100];
+                        int dem = 0;
 
                         foreach (PMSItem item in pms.PMSItem)
                         {
-
-                            ms = item.SachId;
-                            sl = item.SoLuong;
-
+                            mss[dem] = item.SachId;
+                            sls[dem] = item.SoLuong;
+                            dem++;
                         }
 
-                        PhanBoSach pb = session.Query<PhanBoSach>().Where(p => p.MaSach == ms && p.MaChiNhanh == pm.ChiNhanh).SingleOrDefault();
-                        int soluong = pb.SoLuongCon;
-                        int cn = soluong + sl;
-                        session.Advanced.Patch<PhanBoSach, int>(
-                             pb.Id,
-                             x => x.SoLuongCon, cn);
-                        session.SaveChanges();
+                      
+                        PhanBoSach[] pb = new PhanBoSach[100];
+                        for (int i = 0; i < dem; i++)
+                        {
+                            string ms = mss[i];
+                            pb[i] = session.Query<PhanBoSach>().Where(p => p.MaSach == ms && p.MaChiNhanh == pm.ChiNhanh).SingleOrDefault();
+                            int soluong = pb[i].SoLuongCon;
+                            int cn = soluong + sls[i];
+                            session.Advanced.Patch<PhanBoSach, int>(
+                                 pb[i].Id,
+                                 x => x.SoLuongCon, cn);
+                            session.SaveChanges();
+                        }
+
+                       
                         string flag = "Trả sách thành công";
                         ViewBag.Flat = flag;
 
@@ -391,21 +409,30 @@ namespace RavenDB_Embedded.Controllers
                         session.SaveChanges();
 
                         PhieuMuonSachGV pms = session.Query<PhieuMuonSachGV>().Where(p => p.MaPhieu == pm.MaPhieu).SingleOrDefault();
-                        int sl = 0;
+                        int[] sls = new int[100];
+                        string[] mss = new string[100];
+                        int dem = 0;
 
                         foreach (PMSItem item in pms.PMSItem)
                         {
-                            ms = item.SachId;
-                            sl = item.SoLuong;
+                            mss[dem] = item.SachId;
+                            sls[dem] = item.SoLuong;
+                            dem++;
                         }
 
-                        PhanBoSach pb = session.Query<PhanBoSach>().Where(p => p.MaSach == ms && p.MaChiNhanh == pm.ChiNhanh).SingleOrDefault();
-                        int soluong = pb.SoLuongCon;
-                        int cn = soluong + sl;
-                        session.Advanced.Patch<PhanBoSach, int>(
-                             pb.Id,
-                             x => x.SoLuongCon, cn);
-                        session.SaveChanges();
+                      
+                        PhanBoSach[] pb = new PhanBoSach[100];
+                        for (int i = 0; i < dem; i++)
+                        {
+                            string ms = mss[i];
+                            pb[i] = session.Query<PhanBoSach>().Where(p => p.MaSach == ms && p.MaChiNhanh == pm.ChiNhanh).SingleOrDefault();
+                            int soluong = pb[i].SoLuongCon;
+                            int cn = soluong + sls[i];
+                            session.Advanced.Patch<PhanBoSach, int>(
+                                 pb[i].Id,
+                                 x => x.SoLuongCon, cn);
+                            session.SaveChanges();
+                        }
 
                         string flag = "Trả sách thành công";
                         ViewBag.Flat = flag;
