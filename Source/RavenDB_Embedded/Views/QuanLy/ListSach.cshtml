@@ -1,0 +1,91 @@
+﻿@model IEnumerable<RavenDB_Embedded.Models.Sach>
+
+@{
+    ViewData["Title"] = "ListSach";
+}
+
+<h2>List sách trong thư viện</h2>
+
+<p>
+    <a asp-action="AddSach">Thêm sách mới</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MaSach)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TenSach)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Hinh)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TenTacGia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NhaXuatBan)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NamXuatBan)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LoiGioiThieu)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rating)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ChiNhanh)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaSach)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenSach)
+            </td>
+            <td>
+                <img width="80" height="80" src="~/images/@Html.DisplayFor(modelItem => item.Hinh)" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenTacGia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NhaXuatBan)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NamXuatBan)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LoiGioiThieu)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rating)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ChiNhanh)
+            </td>
+            <td>
+                <a asp-action="EditSach" asp-route-id="@item.Id.Replace("/","*")">Edit</a>
+            </td>
+            <td></td>
+            <td>
+                <a asp-action="DeleteSach" asp-route-id="@item.Id.Replace("/","*")">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,77 @@
+﻿@model RavenDB_Embedded.Models.PhieuMuonSach
+<div>
+    <h4>PhieuMuonSach</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.Id)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Id)
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.MaPhieu)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.MaPhieu)
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.DocGia)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.DocGia)
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.ChiNhanh)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.ChiNhanh)
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.SoLuongMuon)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.SoLuongMuon)
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.NgayMuon)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.NgayMuon)
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.NgayTra)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.NgayTra)
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.TrangThai)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.TrangThai)
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.QuanThu)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.QuanThu)
+                </dd>
+            </dl>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+    @{
+            PhieuMuonSach p = Model;
+            if (p.TrangThai != "DaTra")
+            {
+            <div class="row">
+                <a asp-action="NhanSachDGTra" asp-route-id="@Model.Id.Replace("/", "*")">Nhận trả sách</a>
+            </div>
+        }
+    }
+
+</div>

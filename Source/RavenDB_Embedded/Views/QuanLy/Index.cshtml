@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<br />
+<h2>Các chức năng của Quản lý</h2>
+
+<div class="row">
+    <div class="col-md-6">
+        <a href="@Url.Action("ListYeuCau","QuanLy")">Thống kê yêu cầu mua sách</a><br />
+        <a href="@Url.Action("ListSach","QuanLy")">Quản lý sách</a><br />
+        <a href="@Url.Action("ListPhanBo","QuanLy")">Phân bổ sách</a><br />
+        <a href="@Url.Action("ListDocGia","QuanLy")">Quản lý độc giả</a><br />
+    </div>
+</div>
+
+<style>
+    a {
+        font-size: 30px;
+    }
+</style>

@@ -1,0 +1,322 @@
+﻿@model RavenDB_Embedded.Models.Sach
+@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+<script src="~/lib/signalr/dist/browser/signalr.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+@{
+    ViewData["Title"] = "XemChiTiet";
+}
+<div class="popup hidden">
+    <h4 style="text-align: center">Giỏ sách <input value="X" class="btn btn-default" style="float: right; width:30px;height:20px;padding:0px" id="closeGioHang" /></h4>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Mã sách</th>
+                <th></th>
+                <th>Tên sách</th>
+                <th>Số lượng</th>
+
+            </tr>
+        </thead>
+        <tbody id="giosach"></tbody>
+    </table>
+    <div style="text-align:center"><a class="btn btn-primary" href='@Url.Action("XemTruocPMS","Test")' id="btnmuon">Đăng ký mượn</a></div>
+</div>
+<div class="single-product-area">    
+    <div class="container">
+        <div class="row">       
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="product-content-right">                    
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="product-images">
+                                <div class="product-main-img">
+                                    <img src="~/images/@Model.Hinh" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="product-inner">
+                                <h2 class="product-name" id="hienthi"></h2>
+                                <div class="product-inner-price">
+                                    <h2>@Model.TenSach</h2>
+                                </div>
+                                <div role="tabpanel">
+                                    <ul class="product-tab" role="tablist">
+                                        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Mô tả</a></li>
+                                        <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Nhận xét</a></li>
+                                    </ul>
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane fade in active" id="home">
+                                            <h2>Thông tin sách</h2><br />
+                                            <p>Tác giả: @Model.TenTacGia</p>
+                                            <p>Nhà xuất bản: @Model.NhaXuatBan</p>
+                                            <p>Năm xuất bản: @Model.NamXuatBan</p>
+                                            <p>Lời giới thiệu: @Model.LoiGioiThieu</p>
+                                            @{
+                                                for (int i = 0; i < Model.Rating; ++i)
+                                                {
+                                                    <span class="fa fa-star checked"></span>
+                                                }
+                                                for (int i = 0; i < 5 - Model.Rating; ++i)
+                                                {
+                                                    <span class="fa fa-star"></span>
+                                                }
+                                            }
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane fade" id="profile">
+                                            <h4>Bình luận</h4>
+                                            @{
+                                                if (HttpContextAccessor.HttpContext.Session.GetString("TenDN") != null)
+                                                {
+                                                    List<BinhLuan> bl = RavenDBHelper.ListSach_ByMaSach(Model.MaSach).SingleOrDefault().BinhLuan;
+                                                    foreach (BinhLuan b in bl)
+                                                    {
+                                                        DocGia dg = RavenDBHelper.ListDocGia(null, b.MaDG).SingleOrDefault();
+                                                        <div class="commentsList">
+                                                            <hr />
+                                                            <div class="comment">
+                                                                <p class="tendg">@dg.TenDG</p>
+                                                                <p class="nhanxet">@b.NhanXet</p>
+                                                                <p class="rrating">
+                                                                    @{
+                                                                        for (int i = 0; i < b.Rating; ++i)
+                                                                        {
+                                                                            <span class="fa fa-star checked"></span>
+                                                                        }
+                                                                        for (int i = 0; i < 5 - b.Rating; ++i)
+                                                                        {
+                                                                            <span class="fa fa-star"></span>
+                                                                        }
+                                                                    }
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    }
+                                                    <textarea id="inputcomment"></textarea>
+                                                    <form class="rating">
+                                                        <label>
+                                                            <input type="radio" name="stars" value="1" class="starss" />
+                                                            <span class="icon">★</span>
+                                                        </label>
+                                                        <label>
+                                                            <input type="radio" name="stars" value="2" class="starss" />
+                                                            <span class="icon">★</span>
+                                                            <span class="icon">★</span>
+                                                        </label>
+                                                        <label>
+                                                            <input type="radio" name="stars" value="3" class="starss" />
+                                                            <span class="icon">★</span>
+                                                            <span class="icon">★</span>
+                                                            <span class="icon">★</span>
+                                                        </label>
+                                                        <label>
+                                                            <input type="radio" name="stars" value="4" class="starss" />
+                                                            <span class="icon">★</span>
+                                                            <span class="icon">★</span>
+                                                            <span class="icon">★</span>
+                                                            <span class="icon">★</span>
+                                                        </label>
+                                                        <label>
+                                                            <input type="radio" name="stars" value="5" class="starss" />
+                                                            <span class="icon">★</span>
+                                                            <span class="icon">★</span>
+                                                            <span class="icon">★</span>
+                                                            <span class="icon">★</span>
+                                                            <span class="icon">★</span>
+                                                        </label>
+                                                    </form>
+                                                    <input value="Bình luận" type="button" id="btncomment" />
+                                                }
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <input type="button" class="btn btn-default" id="btnMuon" value="Mượn" />
+                                    <a asp-action="Index">Back to List</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <br />
+                <div class="single-sidebar">
+                    <a href="@Url.Action("Index","Test")" class="btn btn-default">Tìm kiếm sách</a>
+                </div>
+            </div>
+            <div class="col-3"></div>
+           
+        </div>
+    </div>
+</div>
+
+<input type="text" value="@Model.Id" id="masach" hidden/>
+@*<div style="text-align:center"><a class="btn btn-primary" href='@Url.Action("XemTruocPMS", "Test")' id="btnmuon">Đăng ký mượn</a></div>*@
+
+
+<script>
+    $.ajax({
+        url: "/Test/AddPMSItem",
+        data: { sach_sl: null },
+        success: function (response) {
+            if (response.message !== "Failed") {
+                $("#giosach").html(response);
+            }
+        }
+    });
+    $("#closeGioHang").on("click", function () {
+        $(".popup").addClass("hidden");
+    });
+
+    $("#xemGioHang").on("click", function () {
+        $(".popup").removeClass("hidden");
+    });
+    $("#btnMuon").on("click", function () {
+        var sl = prompt("Nhập số lượng: ");        
+        $.ajax({
+            url: "/Test/AddPMSItem",
+            data: { sach_sl: $("#masach").val() + "-" + sl },
+            success: function (response) {
+                if (response.message !== "Failed") {
+                    $("#giosach").html(response);
+                }
+            }
+        });
+        $(".popup").removeClass("hidden");
+    });
+
+    var connection = new signalR.HubConnectionBuilder().withUrl("/ChatHub").build();    
+
+    connection.start();
+    var rating = 3;
+    document.getElementById("btncomment").addEventListener("click", function (e) {
+        docgia = "DG03";
+        nhanxet = $("#inputcomment").val();        
+        //rating = 0;
+        $(".starss").click(function () {
+            rating = $(this).val;
+            alert($(this).val);
+        });            
+        connection.invoke("PushBinhLuan", $("#masach").val(), docgia, nhanxet, rating).catch(function (e) {            
+            return console.error(e.toString());
+        });
+
+        connection.on("PullBinhLuan", function (s, docgia, nhanxet, rating) {
+            var pdg = "<p class='tendg'>" + docgia + "</p>";
+            var pnx = "<p class='nhanxet'>" + nhanxet + "</p>";
+            var spstar = "";
+            for (var i = 0; i < $(":radio").val; ++i) {
+                spstar += '<span class="fa fa-star checked"></span>';
+            }
+            for (var i = 0; i < 5 - $(":radio").val; ++i) {
+                spstar += '<span class="fa fa-star"></span>';
+            }
+            var prt = "<p class='rrating'>" + spstar + "</p>";
+            var divcomment ="<hr/>"+ pdg + pnx + prt;
+            $(".commentsList").append(divcomment);
+        });
+        e.preventDefault();
+    });    
+</script>
+
+
+<style>
+    .popup {
+        z-index: 9999999999999;
+        display: block;
+        background: white;
+        width: 500px;
+        height: 500px;
+        position: absolute;
+        border: 3px solid rgba(0,0,0,0.04);
+        border-radius: 10px 11px;
+        box-shadow: 6px 6px 5px grey;
+        padding: 15px;
+        left: 30%;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .checked {
+        color: orange;
+    }
+
+    .rating {
+        display: inline-block;
+        position: relative;
+        height: 50px;
+        line-height: 50px;
+        font-size: 50px;
+    }
+
+        .rating label {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            cursor: pointer;
+        }
+
+            .rating label:last-child {
+                position: static;
+            }
+
+            .rating label:nth-child(1) {
+                z-index: 5;
+            }
+
+            .rating label:nth-child(2) {
+                z-index: 4;
+            }
+
+            .rating label:nth-child(3) {
+                z-index: 3;
+            }
+
+            .rating label:nth-child(4) {
+                z-index: 2;
+            }
+
+            .rating label:nth-child(5) {
+                z-index: 1;
+            }
+
+            .rating label input {
+                position: absolute;
+                top: 0;
+                left: 0;
+                opacity: 0;
+            }
+
+            .rating label .icon {
+                float: left;
+                color: transparent;
+            }
+
+            .rating label:last-child .icon {
+                color: #000;
+            }
+
+        .rating:not(:hover) label input:checked ~ .icon,
+        .rating:hover label:hover input ~ .icon {
+            color: #09f;
+        }
+
+        .rating label input:focus:not(:checked) ~ .icon:last-child {
+            color: #000;
+            text-shadow: 0 0 5px #09f;
+        }
+</style>

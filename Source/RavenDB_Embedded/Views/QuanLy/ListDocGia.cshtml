@@ -1,0 +1,61 @@
+﻿@model IEnumerable<RavenDB_Embedded.Models.DocGia>
+
+@{
+    ViewData["Title"] = "ListDocGia";
+}
+
+<h2>ListDocGia</h2>
+
+<p>
+    <a asp-action="AddDocGia">Thêm độc giả mới</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MaLoaiDG)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MaDG)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TenDG)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SoDienThoai)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaLoaiDG)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaDG)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenDG)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SoDienThoai)
+            </td>
+            <td>
+                <a asp-action="EditDocGia" asp-route-id="@item.Id.Replace("/","*")">Edit</a>
+            </td>
+            <td></td>
+            <td>
+                <a asp-action="DeleteDocGia" asp-route-id="@item.Id.Replace("/","*")">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

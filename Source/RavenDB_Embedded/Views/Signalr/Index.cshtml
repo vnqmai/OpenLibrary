@@ -1,0 +1,70 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+<div class="chat col-md-12 ">
+    <div id="messagesList" class="chatcontent">
+
+    </div>    
+</div>
+<div class="chatcontrol">
+    <textarea id="message" class="chatmess form-control"></textarea>
+    <input type="button" value="Gửi" id="btnsend" class="chatsendbtn" />
+</div>
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/lib/signalr/dist/browser/signalr.js"></script>
+
+<script>
+    var connection = new signalR.HubConnectionBuilder().withUrl("/ChatHub").build();
+
+     
+    connection.on("NhanTinNhan", function (name, mess) {                
+        var p = document.createElement("p");
+        p.textContent = name + " says " + mess;
+        document.getElementById("messagesList").appendChild(p);
+    });
+
+    connection.start();
+
+    document.getElementById("btnsend").addEventListener("click", function (e) {
+         var docgia = '@HttpContextAccessor.HttpContext.Session.GetString("TenDN")';
+            docgia = docgia.replace("&quot;", "").replace("&quot;", "");  
+        var name = docgia;        
+        var message = document.getElementById("message").value;
+        connection.invoke("GuiTinNhan", name, message).catch(function (e) {
+            return console.error(e.toString());
+        });
+        e.preventDefault();
+    });
+</script>
+
+<style>
+    .chat {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 200px;
+        border-radius: 10px 11px;
+        overflow-y: scroll;       
+    }  
+    .chatcontrol{
+        text-align:center;
+    }
+    #message{
+        margin:auto;
+        margin-bottom: 10px;
+    }
+</style>
+
+<script>
+    $(function () {
+        $("#btnsend").on("click", function () {
+            //$("#chatcontrol").attr("bottom")="0px";            
+            $(".chat").animate({ scrollTop: $(".chat")[0].scrollHeight }, 1000);
+        });
+    });
+</script>

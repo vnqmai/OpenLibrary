@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewData["Title"] = "TimPhieuMuon";
+}
+
+<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+@{
+    if (ViewBag.Act == "TraSach")
+    {
+        <h2>Tiếp nhận phiếu mượn sách độc giả trả</h2>
+    }
+    else
+    {
+        <h2>Tìm kiếm phiếu mượn</h2>
+    }
+}
+<div style="text-align:center">
+    <label class="control-label">Mã phiếu mượn sách: </label>
+    <input type="text" placeholder="Nhập mã phiếu mượn sách" class="form-control" id="pmsid" />
+    <input type="button" class="btn btn-default" id="btnSearch" value="Tìm" />
+</div>
+<div id="results"></div>
+
+<script>
+    $(function () {
+        $("#btnSearch").on("click", function () {
+            $.ajax({
+                url: "/QuanThu/KetQuaTimPhieu",
+                data: { id: $("#pmsid").val().replace("/","*") },
+                success: function (response) {
+                    $("#results").html(response);
+                }
+            });
+        });
+    });
+</script>

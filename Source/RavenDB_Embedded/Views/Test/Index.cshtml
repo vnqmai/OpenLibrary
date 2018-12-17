@@ -1,0 +1,99 @@
+﻿@model IEnumerable<RavenDB_Embedded.Models.SearchSachView>
+@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+@{
+    ViewData["Title"] = "Index";
+}
+<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<h2>List sách</h2>
+@*<p>
+        <a asp-action="Create">List sách</a>
+</p>*@
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+<div class="popup hidden">
+    <h4 style="text-align: center">Giỏ sách <input value="X" class="btn btn-default" style="float: right; width:30px;height:20px;padding:0px" id="closeGioHang" /></h4>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Mã sách</th>
+                <th></th>
+                <th>Tên sách</th>
+                <th>Số lượng</th>
+
+            </tr>
+        </thead>
+        <tbody id="giosach"></tbody>
+    </table>
+    <div style="text-align:center"><a class="btn btn-primary" href='@Url.Action("XemTruocPMS","Test")' id="btnmuon">Đăng ký mượn</a></div>
+</div>
+<div>
+    <h3 id="slcn"></h3>
+    <input class="form-control" type="text" id="txtSearch" />
+    <input class="form-control" type="button" value="Tìm" id="btnSearch" />
+    <div id="results">
+
+    </div>
+    <div style="text-align:center">
+        <input value="Xem giỏ hàng" class="btn btn-primary" id="xemGioHang" />
+        <input value="Đăng xuất" class="btn btn-default" id="dangXuat" />
+    </div>    
+</div>
+<script>
+    $(function () {
+        var a = '@HttpContextAccessor.HttpContext.Session.GetString("ChiNhanh")';
+        a = a.replace("&quot;", "").replace("&quot;", "");        
+        //if (a.length > 0) {
+        //    $("#slcn").val(a);
+        //    $("#slcn").prop("hidden");
+        //}
+        $("#btnSearch").on("click", function () {
+            $.ajax({
+                url: "/Test/SearchSach",
+                data: { tensach: $("#txtSearch").val() + '-' +a },
+                success: function (response) {
+                    $("#results").html(response);
+                }
+            });
+        });        
+        $.ajax({
+            url: "/Test/AddPMSItem",
+            data: { sach_sl: null },
+            success: function (response) {
+                if (response.message !== "Failed") {
+                    $("#giosach").html(response);
+                }
+            }
+        });
+        $("#closeGioHang").on("click", function () {
+            $(".popup").addClass("hidden");
+        });
+
+        $("#xemGioHang").on("click", function () {
+            $(".popup").removeClass("hidden");
+        });
+        $("#dangXuat").on("click", function () {
+            location.href = "../Home/Index";
+        });
+    });
+</script>
+<style>
+    .popup {
+        z-index: 9999999999999;
+        display: block;
+        background: white;
+        width: 500px;
+        height: 500px;        
+        position: absolute;
+        border: 3px solid rgba(0,0,0,0.04);
+        border-radius: 10px 11px;
+        box-shadow: 6px 6px 5px grey;
+        padding: 15px;
+        left: 30%;
+    }
+    .hidden{
+        display: none;
+    }
+    #btnmuon{
+        bottom: 0px;        
+    }
+</style>

@@ -1,0 +1,197 @@
+Time,	Thread,	Level,	Source,	Logger,	Message,	Exception
+2018-11-12T07:08:04.6879968Z, 1, Operations, Server, Raven.Server.Program,  Build 41004, Version 4.1, SemVer 4.1.2, Commit 95419d2
+ PID 12652, 64 bits, 4 Cores, Arch: X64
+ 3.936 GBytes Physical Memory, 686.38 MBytes Available Memory, 712.88 MBytes Calculated Available Memory
+ Using GC in server concurrent mode retaining memory from the OS.
+2018-11-12T07:08:12.3526395Z, 1, Operations, Server, Raven.Server.RavenServer, During server initialization, validating that the server can authenticate with itself using https://doan.nhom85.ravendb.community.
+2018-11-12T07:08:12.9584905Z, 1, Operations, Server, Raven.Server.RavenServer, HTTPS is on. Setting up a new web host to redirect incoming HTTP traffic on port 80 to HTTPS on port 443. The new web host is listening to http://doan.nhom85.ravendb.community/
+2018-11-12T07:08:13.1232158Z, 1, Operations, Server, Raven.Server.RavenServer, Failed to create a webhost to redirect HTTP traffic to HTTPS, EXCEPTION: System.Net.Sockets.SocketException (10013): An attempt was made to access a socket in a way forbidden by its access permissions
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransport.BindAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass22_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.AnyIPListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.Start()
+   at Raven.Server.RavenServer.RedirectsHttpTrafficToHttps() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 323
+2018-11-12T07:08:14.8378492Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive C is SSD or HDD
+2018-11-12T07:08:14.8380345Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive D is SSD or HDD
+2018-11-12T07:08:14.8382246Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive E is SSD or HDD
+2018-11-12T07:08:14.8384225Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive F is SSD or HDD
+2018-11-12T07:08:14.8385769Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive G is SSD or HDD
+2018-11-12T07:08:20.3200381Z, 1, Operations, A, Raven.Server.Rachis.RachisConsensus, Took way too much time (00:00:00.1968257) to change the state to LeaderElect in term 24. (Election timeout:00:00:00.3000000)
+2018-11-12T07:13:23.4164582Z, 40, Operations, System, Voron.Impl.Journal.WriteAheadJournal, Compression buffer: compression.0000000000.buffers has reached size 128 KBytes which is more than the initial size of 64 KBytes. Will trim it now to the max size allowed. If this is happen on a regular basis, consider raising the limit (MaxScratchBufferSize option control it), since it can cause performance issues
+2018-11-12T07:25:23.5480895Z, 20, Operations, System, Voron.Impl.Journal.WriteAheadJournal, Compression buffer: compression.0000000001.buffers has reached size 128 KBytes which is more than the initial size of 64 KBytes. Will trim it now to the max size allowed. If this is happen on a regular basis, consider raising the limit (MaxScratchBufferSize option control it), since it can cause performance issues
+2018-11-12T07:25:23.5537147Z, 20, Operations, A, Raven.Server.ServerWide.Maintenance.ClusterObserver, None of 'QLTHUVIEN' database nodes are responding to the supervisor, the database is unreachable.
+2018-11-12T07:25:28.5678349Z, 20, Operations, A, Raven.Server.ServerWide.Maintenance.ClusterObserver, None of 'QLTHUVIEN' database nodes are responding to the supervisor, the database is unreachable.
+2018-11-12T07:25:33.5782781Z, 20, Operations, A, Raven.Server.ServerWide.Maintenance.ClusterObserver, None of 'QLTHUVIEN' database nodes are responding to the supervisor, the database is unreachable.
+2018-11-12T07:25:38.5850273Z, 20, Operations, A, Raven.Server.ServerWide.Maintenance.ClusterObserver, None of 'QLTHUVIEN' database nodes are responding to the supervisor, the database is unreachable.
+2018-11-12T07:25:43.6541321Z, 20, Operations, A, Raven.Server.ServerWide.Maintenance.ClusterObserver, None of 'QLTHUVIEN' database nodes are responding to the supervisor, the database is unreachable.
+2018-11-12T07:25:48.6785786Z, 20, Operations, A, Raven.Server.ServerWide.Maintenance.ClusterObserver, None of 'QLTHUVIEN' database nodes are responding to the supervisor, the database is unreachable.
+2018-11-12T07:25:53.6980518Z, 20, Operations, A, Raven.Server.ServerWide.Maintenance.ClusterObserver, None of 'QLTHUVIEN' database nodes are responding to the supervisor, the database is unreachable.
+2018-11-12T07:25:58.7219818Z, 20, Operations, A, Raven.Server.ServerWide.Maintenance.ClusterObserver, None of 'QLTHUVIEN' database nodes are responding to the supervisor, the database is unreachable.
+2018-11-12T07:26:03.7306815Z, 20, Operations, A, Raven.Server.ServerWide.Maintenance.ClusterObserver, None of 'QLTHUVIEN' database nodes are responding to the supervisor, the database is unreachable.
+2018-11-12T07:26:08.7451405Z, 20, Operations, A, Raven.Server.ServerWide.Maintenance.ClusterObserver, None of 'QLTHUVIEN' database nodes are responding to the supervisor, the database is unreachable.
+2018-11-12T07:26:13.7525174Z, 20, Operations, A, Raven.Server.ServerWide.Maintenance.ClusterObserver, None of 'QLTHUVIEN' database nodes are responding to the supervisor, the database is unreachable.
+2018-11-12T07:26:18.7826067Z, 20, Operations, A, Raven.Server.ServerWide.Maintenance.ClusterObserver, None of 'QLTHUVIEN' database nodes are responding to the supervisor, the database is unreachable.
+2018-11-12T07:26:23.8351905Z, 20, Operations, A, Raven.Server.ServerWide.Maintenance.ClusterObserver, None of 'QLTHUVIEN' database nodes are responding to the supervisor, the database is unreachable.
+2018-11-12T07:26:28.8553563Z, 20, Operations, A, Raven.Server.ServerWide.Maintenance.ClusterObserver, None of 'QLTHUVIEN' database nodes are responding to the supervisor, the database is unreachable.
+2018-11-12T07:26:33.8609366Z, 20, Operations, A, Raven.Server.ServerWide.Maintenance.ClusterObserver, None of 'QLTHUVIEN' database nodes are responding to the supervisor, the database is unreachable.
+2018-11-12T07:26:38.8654187Z, 20, Operations, A, Raven.Server.ServerWide.Maintenance.ClusterObserver, None of 'QLTHUVIEN' database nodes are responding to the supervisor, the database is unreachable.
+2018-11-12T07:26:43.8714886Z, 20, Operations, A, Raven.Server.ServerWide.Maintenance.ClusterObserver, None of 'QLTHUVIEN' database nodes are responding to the supervisor, the database is unreachable.
+2018-11-12T07:26:48.8761672Z, 20, Operations, A, Raven.Server.ServerWide.Maintenance.ClusterObserver, None of 'QLTHUVIEN' database nodes are responding to the supervisor, the database is unreachable.
+2018-11-12T07:26:53.8857359Z, 20, Operations, A, Raven.Server.ServerWide.Maintenance.ClusterObserver, None of 'QLTHUVIEN' database nodes are responding to the supervisor, the database is unreachable.
+2018-11-12T07:26:58.8887529Z, 20, Operations, A, Raven.Server.ServerWide.Maintenance.ClusterObserver, None of 'QLTHUVIEN' database nodes are responding to the supervisor, the database is unreachable.
+2018-11-12T07:27:03.9013122Z, 20, Operations, A, Raven.Server.ServerWide.Maintenance.ClusterObserver, None of 'QLTHUVIEN' database nodes are responding to the supervisor, the database is unreachable.
+2018-11-12T07:27:08.9409130Z, 20, Operations, A, Raven.Server.ServerWide.Maintenance.ClusterObserver, None of 'QLTHUVIEN' database nodes are responding to the supervisor, the database is unreachable.
+2018-11-12T07:27:13.9461859Z, 20, Operations, A, Raven.Server.ServerWide.Maintenance.ClusterObserver, None of 'QLTHUVIEN' database nodes are responding to the supervisor, the database is unreachable.
+2018-11-12T07:27:18.9534244Z, 20, Operations, A, Raven.Server.ServerWide.Maintenance.ClusterObserver, None of 'QLTHUVIEN' database nodes are responding to the supervisor, the database is unreachable.
+Time,	Thread,	Level,	Source,	Logger,	Message,	Exception
+2018-11-12T07:56:10.3604190Z, 1, Operations, Server, Raven.Server.Program,  Build 41004, Version 4.1, SemVer 4.1.2, Commit 95419d2
+ PID 3380, 64 bits, 4 Cores, Arch: X64
+ 3.936 GBytes Physical Memory, 461.29 MBytes Available Memory, 487.66 MBytes Calculated Available Memory
+ Using GC in server concurrent mode retaining memory from the OS.
+2018-11-12T07:56:16.1846192Z, 1, Operations, Server, Raven.Server.RavenServer, During server initialization, validating that the server can authenticate with itself using https://doan.nhom85.ravendb.community.
+2018-11-12T07:56:16.7554732Z, 1, Operations, Server, Raven.Server.RavenServer, HTTPS is on. Setting up a new web host to redirect incoming HTTP traffic on port 80 to HTTPS on port 443. The new web host is listening to http://doan.nhom85.ravendb.community/
+2018-11-12T07:56:17.2240159Z, 1, Operations, Server, Raven.Server.RavenServer, Failed to create a webhost to redirect HTTP traffic to HTTPS, EXCEPTION: System.Net.Sockets.SocketException (10013): An attempt was made to access a socket in a way forbidden by its access permissions
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransport.BindAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass22_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.AnyIPListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.Start()
+   at Raven.Server.RavenServer.RedirectsHttpTrafficToHttps() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 323
+2018-11-12T07:56:19.1072149Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive C is SSD or HDD
+2018-11-12T07:56:19.1076494Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive D is SSD or HDD
+2018-11-12T07:56:19.1079607Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive E is SSD or HDD
+2018-11-12T07:56:19.1082539Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive F is SSD or HDD
+2018-11-12T07:56:19.1085662Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive G is SSD or HDD
+2018-11-12T07:56:29.7394816Z, 1, Operations, A, Raven.Server.Rachis.RachisConsensus, Took way too much time (00:00:00.3148963) to change the state to LeaderElect in term 25. (Election timeout:00:00:00.3000000)
+Time,	Thread,	Level,	Source,	Logger,	Message,	Exception
+2018-11-12T12:37:29.1924962Z, 1, Operations, Server, Raven.Server.Program,  Build 41004, Version 4.1, SemVer 4.1.2, Commit 95419d2
+ PID 3440, 64 bits, 4 Cores, Arch: X64
+ 3.936 GBytes Physical Memory, 930.42 MBytes Available Memory, 956.85 MBytes Calculated Available Memory
+ Using GC in server concurrent mode retaining memory from the OS.
+2018-11-12T12:37:33.8563320Z, 1, Operations, Server, Raven.Server.RavenServer, During server initialization, validating that the server can authenticate with itself using https://doan.nhom85.ravendb.community.
+2018-11-12T12:37:34.2509663Z, 1, Operations, Server, Raven.Server.RavenServer, HTTPS is on. Setting up a new web host to redirect incoming HTTP traffic on port 80 to HTTPS on port 443. The new web host is listening to http://doan.nhom85.ravendb.community/
+2018-11-12T12:37:34.4580635Z, 1, Operations, Server, Raven.Server.RavenServer, Failed to create a webhost to redirect HTTP traffic to HTTPS, EXCEPTION: System.Net.Sockets.SocketException (10013): An attempt was made to access a socket in a way forbidden by its access permissions
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransport.BindAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass22_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.AnyIPListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.Start()
+   at Raven.Server.RavenServer.RedirectsHttpTrafficToHttps() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 323
+2018-11-12T12:37:35.5666269Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive C is SSD or HDD
+2018-11-12T12:37:35.5669080Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive D is SSD or HDD
+2018-11-12T12:37:35.5670742Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive E is SSD or HDD
+2018-11-12T12:37:35.5672501Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive F is SSD or HDD
+2018-11-12T12:37:35.5674177Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive G is SSD or HDD
+Time,	Thread,	Level,	Source,	Logger,	Message,	Exception
+2018-11-12T12:39:38.5209057Z, 1, Operations, Server, Raven.Server.Program,  Build 41004, Version 4.1, SemVer 4.1.2, Commit 95419d2
+ PID 5644, 64 bits, 4 Cores, Arch: X64
+ 3.936 GBytes Physical Memory, 876.98 MBytes Available Memory, 903.39 MBytes Calculated Available Memory
+ Using GC in server concurrent mode retaining memory from the OS.
+2018-11-12T12:39:40.0955468Z, 1, Operations, Server, Raven.Server.RavenServer, During server initialization, validating that the server can authenticate with itself using https://doan.nhom85.ravendb.community.
+2018-11-12T12:39:40.4589720Z, 1, Operations, Server, Raven.Server.RavenServer, HTTPS is on. Setting up a new web host to redirect incoming HTTP traffic on port 80 to HTTPS on port 443. The new web host is listening to http://doan.nhom85.ravendb.community/
+2018-11-12T12:39:40.5171010Z, 1, Operations, Server, Raven.Server.RavenServer, Failed to create a webhost to redirect HTTP traffic to HTTPS, EXCEPTION: System.Net.Sockets.SocketException (10013): An attempt was made to access a socket in a way forbidden by its access permissions
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransport.BindAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass22_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.AnyIPListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.Start()
+   at Raven.Server.RavenServer.RedirectsHttpTrafficToHttps() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 323
+2018-11-12T12:39:40.7627118Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive C is SSD or HDD
+2018-11-12T12:39:40.7629386Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive D is SSD or HDD
+2018-11-12T12:39:40.7630999Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive E is SSD or HDD
+2018-11-12T12:39:40.7632670Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive F is SSD or HDD
+2018-11-12T12:39:40.7634249Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive G is SSD or HDD
+Time,	Thread,	Level,	Source,	Logger,	Message,	Exception
+2018-11-12T12:42:31.5684308Z, 1, Operations, Server, Raven.Server.Program,  Build 41004, Version 4.1, SemVer 4.1.2, Commit 95419d2
+ PID 14104, 64 bits, 4 Cores, Arch: X64
+ 3.936 GBytes Physical Memory, 613.11 MBytes Available Memory, 639.53 MBytes Calculated Available Memory
+ Using GC in server concurrent mode retaining memory from the OS.
+2018-11-12T12:42:33.5184386Z, 1, Operations, Server, Raven.Server.RavenServer, During server initialization, validating that the server can authenticate with itself using https://doan.nhom85.ravendb.community.
+2018-11-12T12:42:33.8644473Z, 1, Operations, Server, Raven.Server.RavenServer, HTTPS is on. Setting up a new web host to redirect incoming HTTP traffic on port 80 to HTTPS on port 443. The new web host is listening to http://doan.nhom85.ravendb.community/
+2018-11-12T12:42:33.9300948Z, 1, Operations, Server, Raven.Server.RavenServer, Failed to create a webhost to redirect HTTP traffic to HTTPS, EXCEPTION: System.Net.Sockets.SocketException (10013): An attempt was made to access a socket in a way forbidden by its access permissions
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransport.BindAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass22_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.AnyIPListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.Start()
+   at Raven.Server.RavenServer.RedirectsHttpTrafficToHttps() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 323
+2018-11-12T12:42:34.2051912Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive C is SSD or HDD
+2018-11-12T12:42:34.2054048Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive D is SSD or HDD
+2018-11-12T12:42:34.2055509Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive E is SSD or HDD
+2018-11-12T12:42:34.2057352Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive F is SSD or HDD
+2018-11-12T12:42:34.2058784Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive G is SSD or HDD
+2018-11-12T12:42:38.3274199Z, 1, Operations, A, Raven.Server.Rachis.RachisConsensus, Took way too much time (00:00:00.2101566) to change the state to LeaderElect in term 28. (Election timeout:00:00:00.3000000)
+Time,	Thread,	Level,	Source,	Logger,	Message,	Exception
+2018-11-12T12:45:37.7751249Z, 1, Operations, Server, Raven.Server.Program,  Build 41004, Version 4.1, SemVer 4.1.2, Commit 95419d2
+ PID 15256, 64 bits, 4 Cores, Arch: X64
+ 3.936 GBytes Physical Memory, 847.43 MBytes Available Memory, 873.8 MBytes Calculated Available Memory
+ Using GC in server concurrent mode retaining memory from the OS.
+2018-11-12T12:45:39.5281031Z, 1, Operations, Server, Raven.Server.RavenServer, During server initialization, validating that the server can authenticate with itself using https://doan.nhom85.ravendb.community.
+2018-11-12T12:45:39.9114792Z, 1, Operations, Server, Raven.Server.RavenServer, HTTPS is on. Setting up a new web host to redirect incoming HTTP traffic on port 80 to HTTPS on port 443. The new web host is listening to http://doan.nhom85.ravendb.community/
+2018-11-12T12:45:39.9669637Z, 1, Operations, Server, Raven.Server.RavenServer, Failed to create a webhost to redirect HTTP traffic to HTTPS, EXCEPTION: System.Net.Sockets.SocketException (10013): An attempt was made to access a socket in a way forbidden by its access permissions
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransport.BindAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass22_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.AnyIPListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.Start()
+   at Raven.Server.RavenServer.RedirectsHttpTrafficToHttps() in C:\Builds\RavenDB-Stable-4.1\src\Raven.Server\RavenServer.cs:line 323
+2018-11-12T12:45:40.2892627Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive C is SSD or HDD
+2018-11-12T12:45:40.2895999Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive D is SSD or HDD
+2018-11-12T12:45:40.2987685Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive E is SSD or HDD
+2018-11-12T12:45:40.2990446Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive F is SSD or HDD
+2018-11-12T12:45:40.2992284Z, 1, Operations, Server, Sparrow.LowMemory.CheckPageFileOnHdd, Failed to determine if drive G is SSD or HDD

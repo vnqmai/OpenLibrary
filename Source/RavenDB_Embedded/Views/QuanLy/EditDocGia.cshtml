@@ -1,0 +1,50 @@
+﻿@model RavenDB_Embedded.Models.DocGia
+
+@{
+    ViewData["Title"] = "EditDocGia";
+}
+
+<h2>EditDocGia</h2>
+
+<h4>DocGia</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="EditDocGia">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"></label>
+                <input asp-for="Id" class="form-control" value="@{if (Model.Id.Contains("*")) { Model.Id.Replace("*", "/"); } else { @Model.Id; }}"/>
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaLoaiDG" class="control-label"></label>
+                <input asp-for="MaLoaiDG" class="form-control" />
+                <span asp-validation-for="MaLoaiDG" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaDG" class="control-label"></label>
+                <input asp-for="MaDG" class="form-control" />
+                <span asp-validation-for="MaDG" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TenDG" class="control-label"></label>
+                <input asp-for="TenDG" class="form-control" />
+                <span asp-validation-for="TenDG" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SoDienThoai" class="control-label"></label>
+                <input asp-for="SoDienThoai" class="form-control" />
+                <span asp-validation-for="SoDienThoai" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

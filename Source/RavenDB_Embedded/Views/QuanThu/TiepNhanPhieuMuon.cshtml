@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewData["Title"] = "TiepNhanPhieuMuon";
+}
+
+<h2>Tiếp nhận yêu cầu trả sách</h2>
+
+<div style="text-align:center">
+    <label class="control-label" id="pmsid">Mã phiếu mượn sách: </label>
+    <input type="text" placeholder="Nhập mã phiếu mượn sách" class="form-control"/>
+    <input type="button" class="btn btn-default" id="btnSearch"/>
+</div>
+<div id="results"></div>
+<script src="~/wwwroot/lib/jquery/dist/jquery.js"></script>
+<script>
+    $(function () {
+        $("#btnSearch").on("click", function () {
+            $.ajax({
+                url: "/QuanThu/TimPhieuMuon",
+                data: { pmsid: $("pmsid").val },
+                success: function (response) {
+                    $("#results").html(response);
+                }
+            });
+        });
+    });
+</script>

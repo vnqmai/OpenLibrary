@@ -1,0 +1,64 @@
+﻿@model IEnumerable<RavenDB_Embedded.Models.PhanBoSach>
+
+@{
+    ViewData["Title"] = "ListPhanBo";
+}
+
+<h2>Danh sách phân bố sách tại các chi nhánh</h2>
+
+<p>
+    <a asp-action="CreatePBSach">Phân bổ sách mới</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MaSach)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MaChiNhanh)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SoLuongGoc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SoLuongCon)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.KiemTra)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaSach)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaChiNhanh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SoLuongGoc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SoLuongCon)
+            </td>
+            <td>
+                <a asp-action="EditPBSach" asp-route-id="@item.Id.Replace("/","*")">Edit</a>
+            </td>
+            <td></td>
+            <td>
+                <a asp-action="DeletePBSach" asp-route-id="@item.Id.Replace("/","*")">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

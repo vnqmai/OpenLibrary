@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>QLTV</title>
+    
+    <!-- Google Fonts 
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>-->
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&amp;subset=vietnamese" rel="stylesheet">
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+     <script
+              src="https://code.jquery.com/jquery-3.3.1.min.js"
+              integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+              crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/timkiem.js"></script>
+    <script type="text/javascript" src="js/effect-sp-bay.js"></script>              
+    <script type="text/javascript" src="js/BaiDangGanDay.js"></script>    
+    <script type="text/javascript" src="js/TopDau.js"></script>    
+    <script type="text/javascript" src="js/Readmore.js"></script>
+  </head>
+  <body>
+   
+    <div class="header-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="user-menu">
+                        <ul>
+                           <li><a href="#"><i class="fa fa-user"></i> Tài khoản </a></li>
+                            <li><a href="cart.html"><i class="fa fa-user"></i>Thẻ thư viện</a></li>
+                            <li><a href="checkout.html"><i class="fa fa-user"></i>Đăng kí loại độc giả </a></li>
+                            <li><a onclick="GetName();"><i class="fa fa-user"></i> Đăng nhập </a></li>    
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- <div class="col-md-4">
+                    <div class="header-right">
+                        <ul class="list-unstyled list-inline">
+                            <li class="dropdown dropdown-small">
+                                <a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" href="#"><span class="key">currency :</span><span class="value">USD </span><b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">USD</a></li>
+                                    <li><a href="#">INR</a></li>
+                                    <li><a href="#">GBP</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="dropdown dropdown-small">
+                                <a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" href="#"><span class="key">language :</span><span class="value">English </span><b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">English</a></li>
+                                    <li><a href="#">French</a></li>
+                                    <li><a href="#">German</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+      <div class="site-branding-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="logo">
+                        <h1><a href="index.html"><span>THƯ VIỆN SÁCH</span></a></h1>
+                    </div>
+                </div>
+                
+                <!--<div class="col-sm-6">
+                    <div class="shopping-item">
+                        <a href="cart.html">Giỏ hàng - <span class="cart-amunt">0 VNĐ</span> <i class="fa fa-shopping-cart"></i> <span class="product-count">0</span></a>
+                        <div class="items">    
+                                                                                                           
+                            <div class="total-gio-hang">
+                                <a class="tong-gio-hang">Tổng tiền: <span>0 VNĐ</span></a>                                
+                            </div>
+                            <hr>
+                            <div class="btn-gio-hang">                                
+                                <a href="cart.html" class="btn-xem-gio-hang">Xem giỏ hàng</a>
+                                <a href="checkout.html" class="btn-thanh-toan">Thanh toán</a><br>
+                            </div>  
+                        </div> 
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </div> <!-- End site branding area -->
+    
+    <div class="mainmenu-area">
+        <div class="container">
+            <div class="row">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div> 
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                          <li class="active"><a href="index.html">Trang chủ</a></li>
+                        <li><a href="shop.html">Các loại Sách</a></li>
+                        <li><a href="chitietsach.html">Chi tiết sách</a></li>
+                        <li><a href="thuviencuaban.html">Thư viện của bạn </a></li>
+                        <li><a href="sachmoi.html">Sách mới</a></li>
+                        <!-- <li><a href="#">Category</a></li> -->
+                        <!-- <li><a href="#">Others</a></li> -->
+                        <li><a href="contact.html">Liên hệ</a></li>
+                    </ul>
+                </div>  
+            </div>
+        </div>
+    </div> <!-- End mainmenu area -->
+    
+    <div class="product-big-title-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="product-bit-title text-center">
+                        <h2>Thư viện của bạn</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- End Page title area -->
+    
+    
+    <div class="single-product-area">
+        <div class="zigzag-bottom"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="single-sidebar">
+                        <h2 class="sidebar-title">Tìm kiếm sách</h2>
+                        <form autocomplete="off" action="">
+                            <div class="autocomplete" style="width:300px;">
+                              <input id="myInput" type="text" name="Tìm kiếm sản phẩm" placeholder="Tìm Kiếm Sách">
+                            </div>                            
+                      </form>
+                  </div>
+                      <input type="submit" value="Tìm kiếm" class="submit-btn">
+            <script>
+            
+            </script>
+
+
+                    </div>
+                    
+                    <div class="single-sidebar">
+                        <h2 class="sidebar-title">Bạn đã mượn</h2>
+                        <div class="thubmnail-recent">
+                            <img src="img/sp8.jpg" class="recent-thumb" alt="">
+                            <h2><a href="nikeblack.html">Sách luyện chữ đẹp</a></h2>
+                                                       
+                        </div>
+                        <div class="thubmnail-recent">
+                            <img src="img/sp5.jpg" class="recent-thumb" alt="">
+                            <h2><a href="AdidasMau.html">Sách luyện nói tiếng anh</a></h2>
+                                                       
+                        </div>
+                       
+                    </div>
+                    
+                    <!--<div class="single-sidebar">
+                        <h2 class="sidebar-title">Bài đã tìm kiếm</h2>
+                        <ul>
+                            
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-md-8">
+                    <div class="product-content-right">
+                        <div class="woocommerce">
+                            <table cellspacing="0" class="shop_table cart">
+                                    <thead>
+                                        <tr>
+                                            <th class="product-remove">&nbsp;</th>
+                                            <th class="product-thumbnail">&nbsp;</th>
+                                            <th class="product-name">Sản phẩm</th>
+                                            
+                                        </tr>
+                                    </thead>
+                                   <!-- <tbody>                                        
+                                        <tr class="action-tr">
+                                            <td class="actions" colspan="6">
+                                                <div class="coupon">
+                                                    <label for="coupon_code">Phiếu mua hàng :</label>
+                                                    <input type="text" placeholder="Mã phiếu mua hàng" value="" id="coupon_code" class="input-text coupon-code" name="coupon_code">
+                                                    <input type="submit" value="Chấp nhận" name="apply_coupon" class="button coupon-btn">
+                                                </div>
+                                                <input type="submit" value="Cập nhật" name="update_cart" class="button up-btn">
+                                                <a href="checkout.html" class="btn-pro"><input type="submit" value="Thanh toán" name="proceed" class="checkout-button button alt wc-forward"></a>
+                                            </td>
+                                        </tr>
+                                    </tbody>-->
+                                </table>
+
+                            <div class="cart-collaterals">
+
+
+                            <div class="cross-sells">
+                                <h2>Bạn có thể quan tâm đến</h2>
+                                <ul class="products">
+                                    <li class="product">
+                                        <a href="ConverseChuck2cocao.html">
+                                            <img width="325" height="325" alt="T_4_front" class="attachment-shop_catalog wp-post-image" src="img/sp1.jpg">
+                                            <h3>Sách văn học Việt Nam</h3>
+                                            </a>
+                                        </li>
+
+</ul>
+</div>
+                                    <!--<li class="product">
+                                        <a href="GiaythethaoVansOldSkoolRetroClassic.html">
+                                            <img width="325" height="325" alt="T_4_front" class="attachment-shop_catalog wp-post-image" src="img/sp9.jpg">
+                                            <h3>Giày thể thao Vans Old Skool Retro Classic</h3>
+                                            <span class="price"><span class="amount">540.000 VNĐ</span></span>
+                                        </a>
+
+                                        <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="22" rel="nofollow" href="GiaythethaoVansOldSkoolRetroClassic.html">Chọn</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+                            <div class="cart_totals ">
+                                <h2>Tổng giỏ hàng</h2>
+
+                                <table cellspacing="0">
+                                    <tbody>
+                                        <tr class="cart-subtotal">
+                                            <th>Tổng phụ</th>
+                                            <td><span class="amount">15.000 VNĐ</span></td>
+                                        </tr>
+
+                                        <tr class="shipping">
+                                            <th>Giao hàng và xử lý</th>
+                                            <td>Miễn phí giao hàng</td>
+                                        </tr>
+
+                                        <tr class="order-total">
+                                            <th>Tổng số đơn đặt tiền</th>
+                                            <td><strong><span class="amount">1.120.000 VNĐ </span></strong> </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+
+                            <form method="post" action="#" class="shipping_calculator">
+                                <h2><a class="shipping-calculator-button" data-toggle="collapse" href="#calcalute-shipping-wrap" aria-expanded="false" aria-controls="calcalute-shipping-wrap">Thanh  toán giao hàng</a></h2>
+
+                                <section id="calcalute-shipping-wrap" class="shipping-calculator-form collapse">
+
+                                <p class="form-row form-row-wide">
+                                <select rel="calc_shipping_state" class="country_to_state" id="calc_shipping_country" name="calc_shipping_country">
+                                    <option value="">Chọn địa chỉ giao hàng</option>
+                                    <option value="Q1">Quận 1</option>
+                                    <option value="Q2">Quận 2</option>
+                                    <option value="Q2">Quận 3</option>
+                                    <option value="Q2">Quận 4</option>
+                                    <option value="Q2">Quận 5</option>
+                                    <option value="Q2">Quận 6</option>
+                                    <option value="Q2">Quận 7</option>
+                                    <option value="Q2">Quận 8</option>
+                                    <option value="Q2">Quận 9</option>
+                                    <option value="Q2">Quận 10</option>
+                                    <option value="Q2">Quận 11</option>
+                                    <option value="Q2">Quận 12</option>
+                                    <option value="Q2">Quận Bình Tân</option>
+                                    <option value="Q2">Quận Tân Bình</option>
+                                    <option value="Q2">Quận Thủ Đức</option>
+                                    <option value="Q2">Quận Bình Thạnh</option>
+                                    <option value="Q2">Quận Tân Phú</option>
+                                    <option value="Q2">Quận Gò Vấp</option>
+                                    <option value="Q2">Quận Phú Nhuận </option>
+                                    <option value="Q2">Huyện Nhà Bè</option>
+                                    <option value="Q2">Huyện Bình Chánh</option>
+                                    <option value="Q2">Huyện Hóc Môn</option>
+                                    <option value="Q2">Huyện Củ Chi</option>
+                                    <option value="Q2">Huyện Cần Giờ</option>
+
+                                <p class="form-row form-row-wide"><input type="text" id="calc_shipping_state" name="calc_shipping_state" placeholder="Địa chỉ chi tiết" value="" class="input-text"> </p>
+
+                                <p class="form-row form-row-wide"><input type="text" id="calc_shipping_postcode" name="calc_shipping_postcode" placeholder="Mã bưu điện" value="" class="input-text"></p>
+
+
+                                <p><button class="button" value="1" name="calc_shipping" type="submit">Cập nhật lại tồng số</button></p>
+
+                                </section>
+                            </form>
+
+
+                            </div>
+                        </div>                        
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+   <div class="footer-top-area">
+        <div class="zigzag-bottom"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="footer-about-us">
+                        <h2 style="font-family:Tahoma">Giày N8</h2>
+                        <p>Chúng tôi luôn luôn đem đến cho khách hàng những trải nghiệm mới nhất từ các thương hiệu giày nổi tiếng trên toàn thế giới. Hãy trải ngiệm cùng với chúng tôi, tại sao không?</p>
+                        <div class="footer-social">
+                            <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="#" target="_blank"><i class="fa fa-youtube"></i></a>
+                            <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+                            <a href="#" target="_blank"><i class="fa fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-3 col-sm-6">
+                    <div class="footer-menu">
+                        <h2 class="footer-wid-title" style="font-family:Tahoma">Người dùng</h2>
+                        <ul>
+                            <li><a href="#">Tài khoản của tôi</a></li>
+                            <li><a href="#">Lịch sử đặt hàng</a></li>
+                            <li><a href="#">Danh sách yêu thích</a></li>
+                            <li><a href="#">Liên hệ nhà cung cấp</a></li>
+                            <li><a href="#">Trang trước</a></li>
+                        </ul>                        
+                    </div>
+                </div>
+                
+                <div class="col-md-3 col-sm-6">
+                    <div class="footer-menu">
+                        <h2 class="footer-wid-title" style="font-family:Tahoma">Loại giày</h2>
+                        <ul>
+                            <li><a href="#">Dành cho nam</a></li>
+                            <li><a href="#">Dành cho nữ</a></li>
+                            <li><a href="#">Dành cho cả nam và nữ</a></li>
+                            
+                        </ul>                        
+                    </div>
+                </div>
+                
+                <div class="col-md-3 col-sm-6">
+                    <div class="footer-newsletter">
+                        <h2 class="footer-wid-title" style="font-family:Tahoma">Bản tin</h2>
+                        <p>Đăng ký nhận bản tin của chúng tôi và nhận các ưu đãi độc quyền mà bạn sẽ không tìm thấy ở bất kỳ nơi nào khác ngay trong hộp thư đến của mình!</p>
+                        <div class="newsletter-form">
+                            <form action="#">
+                                <input type="email" placeholder="Nhập địa chỉ email">
+                                <input type="submit" value="Đăng ký">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+                        </div>
+    <div class="footer-bottom-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="copyright">
+                        <p>&copy; 2018 Thế giới giàyN8.  <i class="fa fa-heart"></i> by <a href="http://wpexpand.com" target="_blank">WP Expand</a></p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="footer-card-icon">
+                        <i class="fa fa-cc-discover"></i>
+                        <i class="fa fa-cc-mastercard"></i>
+                        <i class="fa fa-cc-paypal"></i>
+                        <i class="fa fa-cc-visa"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <!-- Latest jQuery form server -->
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    
+    <!-- Bootstrap JS form CDN -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    
+    <!-- jQuery sticky menu -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script type="text/javascript" src="js/cart.js"></script> 
+    
+    <!-- jQuery easing -->
+    <script src="js/jquery.easing.1.3.min.js"></script>
+    
+    <!-- Main Script -->
+    <script src="js/main.js"></script>        
+  </body>
+</html>

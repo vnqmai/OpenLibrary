@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<br />
+<h2>Các chức năng của Quản thư</h2>
+
+<div class="row">
+    <div class="col-md-6">
+        <a href="@Url.Action("TimPhieuMuon","QuanThu")?act=Tim">Tìm phiếu mượn</a><br />
+        <a href="@Url.Action("TimPhieuMuon","QuanThu")?act=TraSach">Nhận sách độc giả trả</a>
+    </div>    
+</div>
+
+<style>
+    a{
+        font-size: 30px;
+    }
+</style>
